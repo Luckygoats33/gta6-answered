@@ -7,7 +7,7 @@ BASE_URL = "https://callunc.com/"
 CHECKED = "Nov 16, 2026"
 ISO_DATE = "2026-11-16"
 # Fill these in once you have them (Search Console / Bing Webmaster "HTML tag" content value, GA4 "G-..." id).
-GSC_TOKEN = ""
+GSC_TOKEN = "7Uqlpm364e5uHud6JBiS8svQMNmrHAPwAbvBAoTf3oY"
 BING_TOKEN = ""
 GA4_ID = ""
 # Ask Unc bot endpoint (the Cloudflare Worker URL + "/ask"). Empty = no chat widget.
@@ -306,6 +306,7 @@ def head(title, desc, path, prefix, schema):
     <a href="{prefix}facts/">Facts</a>
     <a href="{prefix}rumors/">Rumors</a>
     <a href="{prefix}news/">News</a>
+    <a href="{prefix}blog/">Blog</a>
   </nav>
 </header>
 """
@@ -455,7 +456,7 @@ def index_page():
 {rqs}
     </ul>
   </section>
-{home_news()}  <section class="reveal field hubs" aria-labelledby="hub-h">
+{home_news()}{home_blog()}  <section class="reveal field hubs" aria-labelledby="hub-h">
     <div class="container hub-grid">
       <h2 id="hub-h" class="visually-hidden">More</h2>
       <a class="hub" href="launch-times/"><video class="hub-img" data-lazy muted loop playsinline preload="none" poster="img/clock2.webp" aria-label="A sunset clock tower near midnight over a neon beach boulevard"><source src="img/clock2.mp4" type="video/mp4"></video><span class="hub-n">01</span><span class="hub-t">Launch times</span><span class="hub-d">Every region, in your time zone.</span></a>
@@ -657,6 +658,192 @@ def rumors_page():
 HUBS = {"launch-times": launch_page, "facts": facts_page, "rumors": rumors_page, "news": news_page}
 
 
+# ---------- Blog: posts/*.md, each published on its own date ----------
+# Front matter (between --- lines): title, date (YYYY-MM-DD, the publish day), checked (YYYY-MM-DD, when facts were
+# last verified), description, keyword, category, and one "source: Name | https://url" line per source.
+# A post goes live when its date arrives (UTC); the daily GitHub Action rebuilds the site, so posts drip out by themselves.
+POSTS_DIR = pathlib.Path(__file__).parent / "posts"
+
+
+def today_iso():
+    import os
+    from datetime import datetime, timezone
+    return os.environ.get("BUILD_DATE") or datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+
+def nice_date(iso):
+    from datetime import datetime
+    d = datetime.strptime(iso, "%Y-%m-%d")
+    return d.strftime("%b ") + str(d.day) + d.strftime(", %Y")
+
+
+def load_posts():
+    posts = []
+    if not POSTS_DIR.exists():
+        return posts
+    for f in sorted(POSTS_DIR.glob("*.md")):
+        raw = f.read_text(encoding="utf-8").replace("\r\n", "\n")
+        m = re.match(r"---\n(.*?)\n---\n(.*)", raw, re.S)
+        if not m:
+            raise SystemExit(f"{f.name}: missing front matter")
+        meta, sources = {}, []
+        for line in m.group(1).splitlines():
+            if ":" not in line:
+                continue
+            k, v = line.split(":", 1)
+            k, v = k.strip(), v.strip()
+            if k == "source":
+                name, _, url = v.partition("|")
+                if url.strip().startswith("https://"):
+                    sources.append((name.strip(), url.strip()))
+            else:
+                meta[k] = v
+        for k in ("title", "date", "description"):
+            if not meta.get(k):
+                raise SystemExit(f"{f.name}: missing {k}")
+        meta.update(slug=f.stem, body=m.group(2).strip(), sources=sources)
+        meta.setdefault("checked", meta["date"])
+        posts.append(meta)
+    dates = [p["date"] for p in posts]
+    dupes = {d for d in dates if dates.count(d) > 1}
+    if dupes:
+        raise SystemExit("Two posts share a publish date: " + ", ".join(sorted(dupes)))
+    return sorted(posts, key=lambda p: p["date"], reverse=True)
+
+
+ALL_POSTS = load_posts()
+POSTS = [p for p in ALL_POSTS if p["date"] <= today_iso()]
+
+
+def inline_md(t):
+    t = e(t)
+    t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
+
+    def link(m):
+        label, url = m.group(1), m.group(2)
+        if url.startswith("/"):
+            return f'<a href="{url}">{label}</a>'
+        if url.startswith(BASE_URL):
+            return f'<a href="/{url[len(BASE_URL):]}">{label}</a>'
+        return f'<a href="{url}" rel="noopener">{label}</a>'
+    return re.sub(r"\[([^\]]+)\]\(((?:https://|/)[^)\s]+)\)", link, t)
+
+
+def md_html(body):
+    out, lst = [], None
+    for block in re.split(r"\n\s*\n", body):
+        lines = [l for l in block.strip().splitlines() if l.strip()]
+        if not lines:
+            continue
+        if lines[0].startswith("## "):
+            out.append(f'<h2>{inline_md(lines[0][3:].strip())}</h2>')
+            lines = lines[1:]
+            if not lines:
+                continue
+        if lines[0].startswith("### "):
+            out.append(f'<h3>{inline_md(lines[0][4:].strip())}</h3>')
+            lines = lines[1:]
+            if not lines:
+                continue
+        if all(re.match(r"^(- |\d+\. )", l) for l in lines):
+            tag = "ol" if lines[0][0].isdigit() else "ul"
+            items = "".join(f"<li>{inline_md(re.sub(r'^(- |[0-9]+[.] )', '', l))}</li>" for l in lines)
+            out.append(f"<{tag}>{items}</{tag}>")
+        else:
+            out.append(f"<p>{inline_md(' '.join(l.strip() for l in lines))}</p>")
+    return NL.join(out)
+
+
+def post_card(p, prefix=""):
+    return (f'<li class="post-card"><a href="{prefix}{p["slug"]}/"><time class="post-date" datetime="{p["date"]}">{nice_date(p["date"])}</time>'
+            f'<span class="post-title">{e(p["title"])}</span><span class="post-desc">{e(p["description"])}</span></a></li>')
+
+
+def post_page(p):
+    bc_schema, bc_html = crumbs([("Home", ""), ("Blog", "blog/"), (p["title"] if len(p["title"]) <= 50 else p["title"][:47].rsplit(" ", 1)[0] + "…", f'blog/{p["slug"]}/')])
+    schema = [{"@context": "https://schema.org", "@type": "BlogPosting", "headline": p["title"], "description": p["description"],
+               "datePublished": p["date"], "dateModified": max(p["date"], p["checked"]), "inLanguage": "en",
+               "mainEntityOfPage": f'{BASE_URL}blog/{p["slug"]}/', "image": BASE_URL + "img/og.jpg",
+               "author": {"@type": "Organization", "name": SITE, "url": BASE_URL},
+               "publisher": {"@type": "Organization", "name": SITE, "logo": {"@type": "ImageObject", "url": BASE_URL + "img/og.jpg"}}},
+              bc_schema]
+    out = head(f'{p["title"]} | {SITE}', p["description"][:158], f'blog/{p["slug"]}/', "../../", schema)
+    out = out.replace('<meta property="og:type" content="website">', '<meta property="og:type" content="article">')
+    srcs = NL.join(f'      <li><a href="{e(u)}" rel="noopener">{e(n)}</a></li>' for n, u in p["sources"])
+    related = [o for o in POSTS if o["slug"] != p["slug"] and o.get("category") == p.get("category")][:3]
+    related += [o for o in POSTS if o["slug"] != p["slug"] and o not in related][:4 - len(related)]
+    rel = NL.join("      " + post_card(o, "../") for o in related)
+    checked = f' Facts checked <time datetime="{p["checked"]}">{nice_date(p["checked"])}</time>.' if p["checked"] != p["date"] else ""
+    out += f"""<main id="main">
+  <article>
+  <section class="container q-head">
+    {bc_html}
+    <h1 class="question post-h1">{e(p["title"])}</h1>
+    <p class="updated">Published <time datetime="{p["date"]}">{nice_date(p["date"])}</time>.{checked}</p>
+  </section>
+  <section class="container post-body">
+    <div class="detail-text prose">
+{md_html(p["body"])}
+    </div>
+    <div class="sources">
+      <p class="label-head">Sources</p>
+      <ul>
+{srcs}
+      </ul>
+      <p class="small">Rockstar’s own pages win over anything here. If they change, we update the post.</p>
+    </div>
+  </section>
+  </article>
+  <section class="container more" aria-labelledby="more-h">
+    <h2 id="more-h">Keep reading</h2>
+    <ol class="post-list">
+{rel}
+    </ol>
+    <p><a href="../">All posts</a></p>
+  </section>
+</main>
+"""
+    return out + foot()
+
+
+def blog_index():
+    bc_schema, bc_html = crumbs([("Home", ""), ("Blog", "blog/")])
+    schema = [{"@context": "https://schema.org", "@type": "Blog", "name": f"{SITE} blog", "url": f"{BASE_URL}blog/", "inLanguage": "en",
+               "blogPost": [{"@type": "BlogPosting", "headline": p["title"], "datePublished": p["date"],
+                             "url": f'{BASE_URL}blog/{p["slug"]}/'} for p in POSTS[:20]]}, bc_schema]
+    out = head(f"GTA 6 blog: guides, explainers and buying advice | {SITE}",
+               "Longer GTA 6 reads: buying guides, console and storage explainers, the map, the story so far. Every post sourced.",
+               "blog/", "../", schema)
+    cards = NL.join("      " + post_card(p) for p in POSTS) or '      <li class="post-card">First post lands soon.</li>'
+    out += f"""<main id="main">
+  <section class="container q-head">
+    {bc_html}
+    <h1 class="question">The GTA 6 blog</h1>
+    <p class="lead hub-lead">The longer answers. Buying guides, console and storage explainers, the map and the story so far, each one sourced.</p>
+  </section>
+  <section class="container">
+    <ol class="post-list">
+{cards}
+    </ol>
+  </section>
+</main>
+"""
+    return out + foot()
+
+
+def home_blog():
+    if not POSTS:
+        return ""
+    cards = NL.join("      " + post_card(p, "blog/") for p in POSTS[:3])
+    return f"""  <section class="reveal container blog-home" aria-labelledby="blog-h">
+    <div class="news-home-head"><h2 id="blog-h">From the blog</h2><a class="news-more" href="blog/">All posts</a></div>
+    <ol class="post-list">
+{cards}
+    </ol>
+  </section>
+"""
+
+
 def ask_tag():
     if not ASK_API:
         return ""
@@ -707,10 +894,24 @@ def main():
         d = ROOT / slug
         d.mkdir(exist_ok=True)
         (d / "index.html").write_text(fn(), encoding="utf-8")
-    urls = [BASE_URL] + [f'{BASE_URL}{o["slug"]}/' for o in ANSWERS] + [f"{BASE_URL}{s}/" for s in HUBS]
+    import shutil
+    blog = ROOT / "blog"
+    if blog.exists():
+        shutil.rmtree(blog)
+    blog.mkdir()
+    (blog / "index.html").write_text(blog_index(), encoding="utf-8")
+    for p in POSTS:
+        d = blog / p["slug"]
+        d.mkdir()
+        (d / "index.html").write_text(post_page(p), encoding="utf-8")
+    newest = POSTS[0]["date"] if POSTS else ISO_DATE
+    dated = ([(BASE_URL, max(ISO_DATE, newest))] + [(f'{BASE_URL}{o["slug"]}/', ISO_DATE) for o in ANSWERS]
+             + [(f"{BASE_URL}{s}/", ISO_DATE) for s in HUBS] + [(f"{BASE_URL}blog/", newest)]
+             + [(f'{BASE_URL}blog/{p["slug"]}/', max(p["date"], p["checked"])) for p in POSTS])
+    urls = [u for u, _ in dated]
     (ROOT / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-        + "".join(f"  <url><loc>{u}</loc><lastmod>{ISO_DATE}</lastmod></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
+        + "".join(f"  <url><loc>{u}</loc><lastmod>{d}</lastmod></url>\n" for u, d in dated) + "</urlset>\n", encoding="utf-8")
     (ROOT / f"{INDEXNOW_KEY}.txt").write_text(INDEXNOW_KEY, encoding="utf-8")
     (ROOT / "urls.txt").write_text("\n".join(urls) + "\n", encoding="utf-8")
     (ROOT / "news.json").write_text(json.dumps({"fetched_at": NEWS["fetched_at"], "items": [
@@ -722,7 +923,8 @@ def main():
         (worker_src / "kb.ts").write_text("// Generated by build.py from the site data. Do not edit." + NL + "export const KB = " + json.dumps(kb_text(), ensure_ascii=False) + ";" + NL, encoding="utf-8")
     for f in ("tokens.css", "base.css", "ask.js"):
         (ROOT / f).write_text((ROOT.parent / f).read_text(encoding="utf-8"), encoding="utf-8")
-    print("built", len(ANSWERS) + 1 + len(HUBS), "pages")
+    print("built", len(ANSWERS) + 1 + len(HUBS), "pages,", len(POSTS), "of", len(ALL_POSTS), "posts live (next:",
+          min((p["date"] for p in ALL_POSTS if p["date"] > today_iso()), default="none") + ")")
 
 
 if __name__ == "__main__":

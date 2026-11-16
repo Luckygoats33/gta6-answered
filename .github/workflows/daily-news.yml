@@ -1,4 +1,4 @@
-name: Daily GTA 6 news
+name: Daily GTA 6 news and posts
 
 on:
   schedule:
@@ -33,7 +33,7 @@ jobs:
             echo "No new headlines."
             exit 0
           fi
-          git commit -m "Daily news refresh $(date -u +%Y-%m-%d)"
+          git commit -m "Daily refresh (news and scheduled posts) $(date -u +%Y-%m-%d)"
           git push
           echo "PUSHED=1" >> "$GITHUB_ENV"
       - name: Ping Bing (IndexNow)
