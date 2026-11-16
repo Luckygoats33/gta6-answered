@@ -31,7 +31,7 @@ TRUSTED = {s.lower() for s in [
     "The Hollywood Reporter", "Rolling Stone", "Axios", "Business Insider", "Time", "TIME", "Yahoo Tech", "VICE",
     "Game Rant", "TheGamer", "Dexerto", "Destructoid", "Rock Paper Shotgun", "Shacknews", "Tom's Guide", "TechRadar",
 ]}
-UA = {"User-Agent": "Mozilla/5.0 (compatible; calluncgta-news/1.0; +https://gta.callunc.com/news/)"}
+UA = {"User-Agent": "Mozilla/5.0 (compatible; calluncgta-news/1.0; +https://callunc.com/news/)"}
 
 
 def clean(t):

@@ -25,7 +25,7 @@
   function render(t) {
     var h = esc(t);
     h = h.replace(/\[([^\]]{1,120})\]\((https:\/\/[^\s)]{1,300})\)/g, function (_, label, url) {
-      var internal = url.indexOf("https://gta.callunc.com/") === 0;
+      var internal = url.indexOf("https://callunc.com/") === 0;
       return '<a href="' + url + '"' + (internal ? "" : ' target="_blank" rel="noopener noreferrer"') + ">" + label + "</a>";
     });
     h = h.replace(/\*\*([^*]{1,200})\*\*/g, "<strong>$1</strong>");

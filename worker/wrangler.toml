@@ -6,7 +6,7 @@ compatibility_flags = ["nodejs_compat"]
 [vars]
 # "claude-opus-5-5" gives smarter answers at ~40x the cost.
 MODEL = "claude-haiku-5-5"
-ALLOWED_ORIGINS = "https://gta.callunc.com,http://localhost:8765"
+ALLOWED_ORIGINS = "https://callunc.com,https://www.callunc.com,https://gta.callunc.com,http://localhost:8765"
 
 # Per-visitor limit: 8 questions a minute.
 [[ratelimits]]
