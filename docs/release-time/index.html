@@ -3,22 +3,24 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>What time does GTA 6 come out? | GTA 6 Answered</title>
+<title>What time does GTA 6 come out? | calluncgta</title>
 <meta name="description" content="Midnight, your local time, on November 19. It’s the same rule on PS5 and Xbox Series X|S, in every region.">
 <link rel="canonical" href="https://luckygoats33.github.io/gta6-answered/release-time/">
-<meta property="og:title" content="What time does GTA 6 come out? | GTA 6 Answered">
+<meta property="og:title" content="What time does GTA 6 come out? | calluncgta">
 <meta property="og:description" content="Midnight, your local time, on November 19. It’s the same rule on PS5 and Xbox Series X|S, in every region.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://luckygoats33.github.io/gta6-answered/release-time/">
-<meta name="theme-color" content="#f6f5f1">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:wght@400;700&family=Radio+Canada:wght@400;500&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#0b0b0d">
+<script>document.documentElement.classList.add("js")</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;800&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../styles.css">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What time does GTA 6 come out?", "acceptedAnswer": {"@type": "Answer", "text": "Midnight, your local time, on November 19. It's the same rule on PS5 and Xbox Series X|S, in every region. New Zealand reaches midnight first, so players there start about 19 hours before the US East Coast."}}]}</script>
 </head>
 <body>
+<div class="rain" aria-hidden="true"></div>
 <a class="skip btn btn--primary" href="#main">Skip to the answer</a>
 <header class="masthead container">
-  <a class="wordmark" href="../" aria-label="GTA 6 Answered home"><span>GTA 6</span><span class="wm-2">Answered</span></a>
+  <a class="wordmark" href="../" aria-label="calluncgta home"><span class="wm-1">call</span><span class="wm-2">unc</span><span class="wm-3">gta</span></a>
   <nav class="topnav" aria-label="Main">
     <a href="../#questions">Answers</a>
     <a href="../launch-times/">Launch times</a>
@@ -70,8 +72,19 @@
   </section>
 </main>
 <footer class="footer container">
-  <p class="statement">Every answer here matches Rockstar’s own pages, or says it hasn’t been confirmed yet.</p>
+  <p class="statement">Unc knows. <span class="splash">Just ask.</span></p>
+  <p class="foot-note">Every answer here matches Rockstar’s own pages, or says it hasn’t been confirmed yet.</p>
   <p class="small">Fan-made. Not affiliated with Rockstar Games or Take-Two Interactive. Last checked Nov 15, 2026.</p>
 </footer>
+<script>
+(function () {
+  var els = document.querySelectorAll('.reveal');
+  if (!('IntersectionObserver' in window)) { els.forEach(function (el) { el.classList.add('in'); }); return; }
+  var io = new IntersectionObserver(function (es) {
+    es.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+  }, { rootMargin: '0px 0px -8% 0px' });
+  els.forEach(function (el) { io.observe(el); });
+})();
+</script>
 </body>
 </html>
