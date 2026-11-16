@@ -96,6 +96,115 @@ ANSWERS = [
     },
 ]
 
+S_FORBES = ("Forbes: what the $20 Ultimate upgrade buys you",
+            "https://www.forbes.com/sites/brianmazique/2026/10/30/what-gta-vis-20-ultimate-edition-upgrade-actually-buys-you/")
+S_STEVIVOR = ("Stevivor: PS5 unlock schedule", "https://stevivor.com/news/gta-6-ps5-unlock-schedule-shows-australia-among-the-first-in-hours-before-north/")
+S_WINCENTRAL = ("Windows Central: the New Zealand region switch", "https://www.windowscentral.com/gaming/xbox/grand-theft-auto-6-launch-new-zealand-changing-region")
+S_GAMESPOT = ("GameSpot: GTA 6 buying guide", "https://www.gamespot.com/articles/gta-6-buying-guide-get-ready-for-sticker-shock/")
+S_VICE_ONLINE = ("Vice: GTA 6 Online release window report", "https://www.vice.com/en/article/gta-6-online-release-window-bloomberg/")
+S_MAP = ("Guru3D: Rockstar on the map size", "https://www.guru3d.com/story/gta-vi-map-will-be-twice-the-size-of-gta-v-rockstar-says/")
+S_PC = ("GGRecon: GTA 6 isn’t confirmed for PC", "https://www.ggrecon.com/guides/gta-6-pc/")
+S_ROME = ("TweakTown: Project ROME rumor", "https://www.tweaktown.com/news/107895/rockstar-games-rumored-to-unveil-project-rome-modding-engine-for-gta-6-very-soon/index.html")
+
+ANSWERS += [
+    {"slug": "upgrade-to-ultimate", "short": "Yes, any time", "q": "Can I upgrade GTA 6 to Ultimate later?",
+     "a": "Yes. Standard owners can buy the upgrade any time.",
+     "detail": ["Buy it from the PlayStation Store or Microsoft Store after the game is on your console.",
+                "Xbox lists the upgrade at $20. On PlayStation the price only shows once you own the Standard Edition."],
+     "sources": [R_ED, S_FORBES]},
+    {"slug": "play-early", "short": "No early access", "q": "Can you play GTA 6 early?",
+     "a": "No. There’s no early access.",
+     "detail": ["The game goes live at midnight in your own time zone. Pre-load it now so it’s ready.",
+                "The 'New Zealand trick' isn’t official. On PS5 it needs a separate New Zealand account and a second purchase. The Xbox region switch is unproven, so don’t buy the game twice on a rumor."],
+     "sources": [R_TIMES, S_STEVIVOR, S_WINCENTRAL]},
+    {"slug": "consoles", "short": "Series S yes, PS4 and Xbox One no", "q": "Is GTA 6 on PS4, Xbox One or Series S?",
+     "a": "Series S yes. PS4 and Xbox One no.",
+     "detail": ["Rockstar lists two platforms: PlayStation 5 and Xbox Series X|S. That covers the Series S.",
+                "The Series S has the smallest drive of the three, so check your free space against the 212 GB download first."],
+     "sources": [R_ED, R_NEWS]},
+    {"slug": "price", "short": "$79.99 or $99.99", "status": "reported", "q": "How much is GTA 6?",
+     "a": "$79.99 Standard, $99.99 Ultimate.",
+     "detail": ["Those are US prices, and every major outlet reports the same two.",
+                "Buying digitally before launch adds the Vintage Vice City Pack. Sources differ on whether the cutoff is November 19 or 20."],
+     "sources": [S_FORBES, R_ED]},
+    {"slug": "standard-vs-ultimate", "short": "$20 more, 16 extras", "status": "reported",
+     "q": "What’s the difference between Standard and Ultimate?",
+     "a": "$20 more for 16 extra items.",
+     "detail": ["The extras are vehicles, weapons, clothing, special locations and activities, all in the single-player game.",
+                "Ultimate is digital only. The boxed Standard copy has a download code inside."],
+     "sources": [S_FORBES, R_ED]},
+    {"slug": "online", "short": "Not at launch", "status": "reported", "q": "Does GTA 6 have online?",
+     "a": "Not at launch. It starts single-player.",
+     "detail": ["Rockstar hasn’t announced a date for GTA 6 Online.",
+                "'Late 2027' comes from a Bloomberg report, not from Rockstar."],
+     "sources": [S_VICE_ONLINE]},
+    {"slug": "game-pass", "short": "Not at launch", "status": "reported", "q": "Is GTA 6 on Game Pass?",
+     "a": "Not at launch.",
+     "detail": ["You buy the game outright on Xbox or PlayStation.",
+                "You don’t need Game Pass or PlayStation Plus to play the single-player story."],
+     "sources": [S_GAMESPOT]},
+    {"slug": "map-size", "short": "About twice GTA V", "status": "reported", "q": "How big is the GTA 6 map?",
+     "a": "About twice the size of GTA V.",
+     "detail": ["Rockstar compares the state of Leonida to the maps of GTA IV, GTA V and Red Dead Redemption 2 put together.",
+                "It has six regions: Vice City, the Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia and Mount Kalaga National Park. Rockstar hasn’t published a full map."],
+     "sources": [S_MAP]},
+]
+
+LAUNCH = [  # (place, zone, local unlock, UTC ISO)
+    ("New Zealand", "NZDT, UTC+13", "2026-11-18T11:00:00Z"),
+    ("Sydney", "AEDT, UTC+11", "2026-11-18T13:00:00Z"),
+    ("Tokyo", "JST, UTC+9", "2026-11-18T15:00:00Z"),
+    ("India", "IST, UTC+5:30", "2026-11-18T18:30:00Z"),
+    ("Paris, Berlin, Madrid", "CET, UTC+1", "2026-11-18T23:00:00Z"),
+    ("London", "GMT, UTC+0", "2026-11-19T00:00:00Z"),
+    ("São Paulo", "BRT, UTC−3", "2026-11-19T03:00:00Z"),
+    ("New York", "EST, UTC−5", "2026-11-19T05:00:00Z"),
+    ("Chicago", "CST, UTC−6", "2026-11-19T06:00:00Z"),
+    ("Denver", "MST, UTC−7", "2026-11-19T07:00:00Z"),
+    ("Los Angeles", "PST, UTC−8", "2026-11-19T08:00:00Z"),
+    ("Hawaii", "HST, UTC−10", "2026-11-19T10:00:00Z"),
+]
+
+FACTS = [  # (group, rows of (label, value, status, source))
+    ("Editions", [
+        ("Standard Edition", "$79.99. Digital, or boxed with a download code (no disc).", "Price reported", S_FORBES),
+        ("Ultimate Edition", "$99.99. Digital only. Adds 16 items: vehicles, weapons, clothing, locations, activities.", "Reported", S_FORBES),
+        ("Ultimate upgrade", "Sold separately to Standard owners, any time.", "Confirmed", R_ED),
+        ("Pre-order bonus", "Vintage Vice City Pack for digital orders before launch.", "Cutoff date unclear", S_FORBES),
+    ]),
+    ("Platforms", [
+        ("PlayStation 5", "Yes, including PS5 Pro.", "Confirmed", R_ED),
+        ("Xbox Series X|S", "Yes, both consoles.", "Confirmed", R_ED),
+        ("PC", "Not announced.", "Confirmed", S_PC),
+        ("PS4, Xbox One, mobile", "No.", "Confirmed", R_ED),
+    ]),
+    ("Dates", [
+        ("Pre-load opened", "November 10, 2026.", "Confirmed", R_NEWS),
+        ("Boxed copies in stores", "November 12, 2026.", "Confirmed", R_NEWS),
+        ("Release", "November 19, 2026, midnight local time.", "Confirmed", R_TIMES),
+        ("GTA 6 Online", "No date. Single-player at launch.", "Reported", S_VICE_ONLINE),
+    ]),
+    ("Size and map", [
+        ("Download", "Up to 212 GB depending on console.", "Confirmed", R_NEWS),
+        ("Setting", "Leonida, a fictional state based on Florida, with Vice City.", "Confirmed", S_MAP),
+        ("Map size", "About twice GTA V.", "Reported", S_MAP),
+        ("Regions", "Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia, Mount Kalaga National Park.", "Reported", S_MAP),
+    ]),
+]
+
+RUMORS = [  # (claim, verdict, what we know, source)
+    ("GTA 6 has been delayed again", "False", "Rockstar’s support page still lists November 19 at midnight local time.", R_TIMES),
+    ("GTA 6 comes on a disc", "False", "The boxed copy holds a download code, not a disc.", R_NEWS),
+    ("You can play GTA 6 on Netflix", "False", "Netflix showed a gameplay video. The game is only on PS5 and Xbox Series X|S.", ("Netflix Tudum", "https://www.netflix.com/tudum/articles/grand-theft-auto-6-extended-first-look")),
+    ("GTA 6 is on Android or iPhone", "False", "Not on mobile. 'Mobile downloads' are scams.", R_ED),
+    ("New Zealand players get it first", "True", "Every region goes live at its own midnight, and New Zealand hits midnight first.", R_TIMES),
+    ("Switching your Xbox region gets you in early", "Unproven", "Reported as a trick, but nobody has confirmed it works for GTA 6.", S_WINCENTRAL),
+    ("GTA 6 Online launches in late 2027", "Reported", "From a Bloomberg report. Rockstar hasn’t given a date.", S_VICE_ONLINE),
+    ("GTA 6 is on Game Pass day one", "Reported false", "Reported as not coming to Game Pass at launch.", S_GAMESPOT),
+    ("A PC version arrives in early 2027", "Unconfirmed", "Outlets are guessing. Rockstar hasn’t announced PC.", S_PC),
+    ("Rockstar is launching a mod tool called Project ROME", "Unconfirmed", "From a fan account. No announcement from Rockstar.", S_ROME),
+]
+
 NOT_YET = [
     "When GTA 6 Online launches",
     "PS5 Pro graphics modes and frame rate",
@@ -137,7 +246,12 @@ def head(title, desc, path, prefix, schema):
 <a class="skip btn btn--primary" href="#main">Skip to the answer</a>
 <header class="masthead container">
   <a class="wordmark" href="{prefix}" aria-label="{SITE} home"><span>GTA 6</span><span class="wm-2">Answered</span></a>
-  <a class="btn btn--secondary" href="{prefix}#questions">All questions</a>
+  <nav class="topnav" aria-label="Main">
+    <a href="{prefix}#questions">Answers</a>
+    <a href="{prefix}launch-times/">Launch times</a>
+    <a href="{prefix}facts/">Facts</a>
+    <a href="{prefix}rumors/">Rumors</a>
+  </nav>
 </header>
 """
 
@@ -173,6 +287,7 @@ def answer_page(item):
   <section class="field answer-band">
     <div class="container">
       <p class="answer">{e(item["a"])}</p>
+      {'<p class="status-note">Reported by press. Rockstar hasn’t confirmed this on its own pages.</p>' if item.get("status") == "reported" else ''}
     </div>
   </section>
   <section class="container detail">
@@ -203,9 +318,10 @@ def index_page():
     out = head(f"{SITE}: straight answers for launch week",
                "What time GTA 6 comes out, how big it is, and what it's on. Every answer checked against Rockstar, with sources.",
                "", "", schema)
-    qs = "\n".join(
-        f'      <li><a href="{o["slug"]}/"><span class="q">{e(o["q"])}</span><span class="a">{e(o["short"])}</span></a></li>'
-        for o in ANSWERS)
+    def row(o):
+        return f'      <li><a href="{o["slug"]}/"><span class="q">{e(o["q"])}</span><span class="a">{e(o["short"])}</span></a></li>'
+    qs = "\n".join(row(o) for o in ANSWERS if o.get("status") != "reported")
+    rqs = "\n".join(row(o) for o in ANSWERS if o.get("status") == "reported")
     nots = "\n".join(f"      <li>{e(n)}</li>" for n in NOT_YET)
     out += f"""<main id="main">
   <section class="container hero">
@@ -224,6 +340,20 @@ def index_page():
     <ul class="q-list">
 {qs}
     </ul>
+  </section>
+  <section class="container index index--reported" aria-labelledby="r-h">
+    <h2 id="r-h">Reported, not yet confirmed</h2>
+    <ul class="q-list">
+{rqs}
+    </ul>
+  </section>
+  <section class="field hubs" aria-labelledby="hub-h">
+    <div class="container hub-grid">
+      <h2 id="hub-h" class="visually-hidden">More</h2>
+      <a class="hub" href="launch-times/"><span class="hub-t">Launch times</span><span class="hub-d">Every region, in your time zone.</span></a>
+      <a class="hub" href="facts/"><span class="hub-t">Facts</span><span class="hub-d">Editions, platforms, dates, the map.</span></a>
+      <a class="hub" href="rumors/"><span class="hub-t">Rumors</span><span class="hub-d">What’s true, what’s reported, what’s false.</span></a>
+    </div>
   </section>
   <section class="container storage" aria-labelledby="st-h">
     <p class="storage-num num">212 GB</p>
@@ -263,6 +393,110 @@ def index_page():
     return out + foot()
 
 
+def src_link(s, short=False):
+    label = s[0].split(":")[0] if short else s[0]
+    return f'<a href="{e(s[1])}" rel="noopener">{e(label)}</a>'
+
+
+def hub_head(slug, title, desc, h1, lead, schema_type="WebPage"):
+    schema = {"@context": "https://schema.org", "@type": schema_type, "name": title, "url": f"{BASE_URL}{slug}/"}
+    out = head(f"{title} | {SITE}", desc, f"{slug}/", "../", schema)
+    out += f"""<main id="main">
+  <section class="container q-head">
+    <h1 class="question">{e(h1)}</h1>
+    <p class="lead hub-lead">{e(lead)}</p>
+  </section>
+"""
+    return out
+
+
+def launch_page():
+    out = hub_head("launch-times", "GTA 6 launch times by region",
+                   "GTA 6 goes live at midnight local time on November 19. Every region's unlock time, converted to yours.",
+                   "When does GTA 6 go live where you are?",
+                   "Midnight local time on November 19, everywhere. So New Zealand plays first and Hawaii plays 23 hours later.")
+    rows = "\n".join(
+        f'      <tr><th scope="row">{e(p)}</th><td>{e(z)}</td><td class="num" data-utc="{u}">{u[:10]} {u[11:16]} UTC</td></tr>'
+        for p, z, u in LAUNCH)
+    out += f"""  <section class="field answer-band">
+    <div class="container you-grid">
+      <p class="answer" id="you-time">Midnight, Nov 19</p>
+      <p class="status-note" id="you-note">That’s when it goes live in your own time zone.</p>
+    </div>
+  </section>
+  <section class="container table-wrap" aria-labelledby="t-h">
+    <h2 id="t-h">Every region, in your time</h2>
+    <table class="facts-table">
+      <thead><tr><th scope="col">Region</th><th scope="col">Time zone</th><th scope="col">Goes live (your time)</th></tr></thead>
+      <tbody>
+{rows}
+      </tbody>
+    </table>
+    <p class="small">Rule from {src_link(R_TIMES)}. Times are the rule converted to each zone. Checked {CHECKED}.</p>
+  </section>
+</main>
+<script>
+(function () {{
+  var fmt = {{ weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }};
+  document.querySelectorAll('[data-utc]').forEach(function (td) {{
+    td.textContent = new Date(td.dataset.utc).toLocaleString(undefined, fmt);
+  }});
+  var nz = new Date('2026-11-18T11:00:00Z');
+  var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || 'your time zone';
+  document.getElementById('you-note').textContent = 'Midnight, Nov 19 in ' + tz + '. New Zealand starts at ' + nz.toLocaleString(undefined, fmt) + ' your time.';
+}})();
+</script>
+"""
+    return out + foot()
+
+
+def facts_page():
+    out = hub_head("facts", "GTA 6 facts: editions, platforms, dates, map",
+                   "Every confirmed GTA 6 fact in one place, each with its source and whether Rockstar confirmed it.",
+                   "Everything confirmed about GTA 6",
+                   "One line per fact. Each one is marked as confirmed by Rockstar or reported by the press, with a source.")
+    for group, rows in FACTS:
+        body = "\n".join(
+            f'      <tr><th scope="row">{e(l)}</th><td>{e(v)}</td><td class="st st--{"ok" if s == "Confirmed" else "rep"}">{e(s)}</td><td>{src_link(src, True)}</td></tr>'
+            for l, v, s, src in rows)
+        out += f"""  <section class="container table-wrap" aria-label="{e(group)}">
+    <h2>{e(group)}</h2>
+    <table class="facts-table">
+      <thead><tr><th scope="col">Fact</th><th scope="col">Detail</th><th scope="col">Status</th><th scope="col">Source</th></tr></thead>
+      <tbody>
+{body}
+      </tbody>
+    </table>
+  </section>
+"""
+    out += f'  <section class="container more"><p class="small">Checked {CHECKED}.</p></section>\n</main>\n'
+    return out + foot()
+
+
+def rumors_page():
+    out = hub_head("rumors", "GTA 6 rumor tracker",
+                   "GTA 6 rumors checked: delays, discs, early access, Online, PC, Game Pass, mods. True, false or unconfirmed, with sources.",
+                   "GTA 6 rumors, checked",
+                   "Each rumor gets a plain verdict and the source behind it. Updated as Rockstar confirms things.")
+    def cls(v):
+        return "no" if v.startswith(("False", "Reported false")) else "ok" if v == "True" else "rep"
+    rows = "\n".join(
+        f'      <li class="rumor"><p class="rumor-claim">{e(c)}</p><div class="rumor-body"><p class="st st--{cls(v)} rumor-verdict">{e(v)}</p><p>{e(w)} {src_link(s, True)}</p></div></li>'
+        for c, v, w, s in RUMORS)
+    out += f"""  <section class="container">
+    <ol class="rumor-list">
+{rows}
+    </ol>
+    <p class="small">Checked {CHECKED}.</p>
+  </section>
+</main>
+"""
+    return out + foot()
+
+
+HUBS = {"launch-times": launch_page, "facts": facts_page, "rumors": rumors_page}
+
+
 def main():
     ROOT.mkdir(exist_ok=True)
     (ROOT / "index.html").write_text(index_page(), encoding="utf-8")
@@ -270,7 +504,11 @@ def main():
         d = ROOT / item["slug"]
         d.mkdir(exist_ok=True)
         (d / "index.html").write_text(answer_page(item), encoding="utf-8")
-    urls = [BASE_URL] + [f'{BASE_URL}{o["slug"]}/' for o in ANSWERS]
+    for slug, fn in HUBS.items():
+        d = ROOT / slug
+        d.mkdir(exist_ok=True)
+        (d / "index.html").write_text(fn(), encoding="utf-8")
+    urls = [BASE_URL] + [f'{BASE_URL}{o["slug"]}/' for o in ANSWERS] + [f"{BASE_URL}{s}/" for s in HUBS]
     (ROOT / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
@@ -278,7 +516,7 @@ def main():
     (ROOT / ".nojekyll").write_text("", encoding="utf-8")
     for f in ("tokens.css", "base.css"):
         (ROOT / f).write_text((ROOT.parent / f).read_text(encoding="utf-8"), encoding="utf-8")
-    print("built", len(ANSWERS) + 1, "pages")
+    print("built", len(ANSWERS) + 1 + len(HUBS), "pages")
 
 
 if __name__ == "__main__":

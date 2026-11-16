@@ -97,3 +97,47 @@
 .detail, .more { padding-block: var(--section-gap-s); }
 .answer-band { padding-block: var(--space-3xl); }
 @media (max-width: 60rem) { .storage-num, .storage-text, .ny-grid h2, .ny-grid > div { grid-column: 1 / -1; } .hero { min-height: auto; } }
+
+/* build-out: nav, hubs, tables, status */
+.topnav { display: flex; flex-wrap: wrap; gap: var(--space-xs) var(--space-lg); font-weight: 500; font-size: var(--text-sm); }
+.topnav a { display: inline-flex; align-items: center; min-height: 44px; text-decoration: underline var(--rule-hair); text-underline-offset: 0.32em; transition: color var(--dur-short) var(--ease-out); }
+.topnav a:hover { color: var(--color-mark); }
+.masthead { flex-wrap: wrap; }
+.status-note { margin-top: var(--space-md); font-weight: 500; font-size: var(--text-md); max-width: 52ch; }
+.hub-lead { margin-top: var(--space-md); color: var(--color-ink-2); }
+.hubs { padding-block: var(--section-gap-s); }
+.hub-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--gap-columns); }
+.hub { display: grid; gap: var(--space-xs); padding-block: var(--space-md); text-decoration: none; color: var(--color-field-ink); }
+.hub-t { font: var(--display-weight) var(--text-2xl)/1.05 var(--font-display); letter-spacing: var(--tracking-display); text-decoration: underline var(--rule-hair); text-underline-offset: 0.18em; }
+.hub-d { font-size: var(--text-md); }
+.hub:hover .hub-t { text-decoration-thickness: 3px; }
+.you-grid { display: grid; gap: var(--space-sm); }
+.table-wrap { padding-block: var(--space-xl); overflow-x: auto; }
+.table-wrap h2 { font-size: var(--text-title); margin-bottom: var(--space-md); }
+.facts-table { width: 100%; border-collapse: collapse; font-size: var(--text-md); }
+.facts-table th, .facts-table td { text-align: start; vertical-align: top; padding: var(--space-sm) var(--space-md) var(--space-sm) 0; border-bottom: var(--rule-hair) solid var(--color-rule); }
+.facts-table thead th { font-weight: 500; font-size: var(--text-sm); color: var(--color-muted); }
+.facts-table tbody th { font-weight: 500; min-width: 10ch; }
+.facts-table a:hover { color: var(--color-mark); }
+.st { font-weight: 500; white-space: nowrap; }
+.st--ok { color: var(--color-ink); }
+.st--rep { color: var(--color-muted); }
+.st--no { color: var(--color-mark); }
+.index--reported { padding-top: 0; }
+.index--reported h2 { color: var(--color-ink-2); }
+@media (max-width: 60rem) { .hub-grid { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 40rem) { .facts-table, .facts-table tbody, .facts-table tr, .facts-table th, .facts-table td { display: block; } .facts-table thead { display: none; } .facts-table tr { padding-block: var(--space-sm); border-bottom: var(--rule-hair) solid var(--color-rule); } .facts-table th, .facts-table td { border: 0; padding: var(--space-3xs) 0; } }
+/* density: reference tables breathe so a screen holds a handful of rows */
+.facts-table th, .facts-table td { padding-block: var(--space-lg); }
+.facts-table tbody th { font: var(--display-weight) var(--text-xl)/1.15 var(--font-display); letter-spacing: var(--tracking-display); }
+.facts-table td { font-size: var(--text-lg); line-height: 1.4; }
+.table-wrap { padding-block: var(--section-gap-s); }
+.index .q-list a { padding-block: var(--space-lg); }
+.rumor-list { list-style: none; margin: 0; padding: 0 0 var(--space-xl); }
+.rumor { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); column-gap: var(--gap-columns); row-gap: var(--space-sm); padding-block: var(--space-2xl); }
+.rumor + .rumor { border-top: var(--rule-hair) solid var(--color-rule); }
+.rumor-claim { font: var(--display-weight) var(--text-2xl)/1.08 var(--font-display); letter-spacing: var(--tracking-display); overflow-wrap: break-word; min-width: 0; }
+.rumor-body { display: grid; gap: var(--space-2xs); font-size: var(--text-lg); line-height: 1.4; }
+.rumor-verdict { font-size: var(--text-xl); }
+.rumor-body a:hover { color: var(--color-mark); }
+@media (max-width: 60rem) { .rumor { grid-template-columns: minmax(0, 1fr); } }

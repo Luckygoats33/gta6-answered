@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GTA 6 launch times by region | GTA 6 Answered</title>
+<meta name="description" content="GTA 6 goes live at midnight local time on November 19. Every region’s unlock time, converted to yours.">
+<link rel="canonical" href="https://luckygoats33.github.io/gta6-answered/launch-times/">
+<meta property="og:title" content="GTA 6 launch times by region | GTA 6 Answered">
+<meta property="og:description" content="GTA 6 goes live at midnight local time on November 19. Every region’s unlock time, converted to yours.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://luckygoats33.github.io/gta6-answered/launch-times/">
+<meta name="theme-color" content="#f6f5f1">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:wght@400;700&family=Radio+Canada:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "GTA 6 launch times by region", "url": "https://luckygoats33.github.io/gta6-answered/launch-times/"}</script>
+</head>
+<body>
+<a class="skip btn btn--primary" href="#main">Skip to the answer</a>
+<header class="masthead container">
+  <a class="wordmark" href="../" aria-label="GTA 6 Answered home"><span>GTA 6</span><span class="wm-2">Answered</span></a>
+  <nav class="topnav" aria-label="Main">
+    <a href="../#questions">Answers</a>
+    <a href="../launch-times/">Launch times</a>
+    <a href="../facts/">Facts</a>
+    <a href="../rumors/">Rumors</a>
+  </nav>
+</header>
+<main id="main">
+  <section class="container q-head">
+    <h1 class="question">When does GTA 6 go live where you are?</h1>
+    <p class="lead hub-lead">Midnight local time on November 19, everywhere. So New Zealand plays first and Hawaii plays 23 hours later.</p>
+  </section>
+  <section class="field answer-band">
+    <div class="container you-grid">
+      <p class="answer" id="you-time">Midnight, Nov 19</p>
+      <p class="status-note" id="you-note">That’s when it goes live in your own time zone.</p>
+    </div>
+  </section>
+  <section class="container table-wrap" aria-labelledby="t-h">
+    <h2 id="t-h">Every region, in your time</h2>
+    <table class="facts-table">
+      <thead><tr><th scope="col">Region</th><th scope="col">Time zone</th><th scope="col">Goes live (your time)</th></tr></thead>
+      <tbody>
+      <tr><th scope="row">New Zealand</th><td>NZDT, UTC+13</td><td class="num" data-utc="2026-11-18T11:00:00Z">2026-11-18 11:00 UTC</td></tr>
+      <tr><th scope="row">Sydney</th><td>AEDT, UTC+11</td><td class="num" data-utc="2026-11-18T13:00:00Z">2026-11-18 13:00 UTC</td></tr>
+      <tr><th scope="row">Tokyo</th><td>JST, UTC+9</td><td class="num" data-utc="2026-11-18T15:00:00Z">2026-11-18 15:00 UTC</td></tr>
+      <tr><th scope="row">India</th><td>IST, UTC+5:30</td><td class="num" data-utc="2026-11-18T18:30:00Z">2026-11-18 18:30 UTC</td></tr>
+      <tr><th scope="row">Paris, Berlin, Madrid</th><td>CET, UTC+1</td><td class="num" data-utc="2026-11-18T23:00:00Z">2026-11-18 23:00 UTC</td></tr>
+      <tr><th scope="row">London</th><td>GMT, UTC+0</td><td class="num" data-utc="2026-11-19T00:00:00Z">2026-11-19 00:00 UTC</td></tr>
+      <tr><th scope="row">São Paulo</th><td>BRT, UTC−3</td><td class="num" data-utc="2026-11-19T03:00:00Z">2026-11-19 03:00 UTC</td></tr>
+      <tr><th scope="row">New York</th><td>EST, UTC−5</td><td class="num" data-utc="2026-11-19T05:00:00Z">2026-11-19 05:00 UTC</td></tr>
+      <tr><th scope="row">Chicago</th><td>CST, UTC−6</td><td class="num" data-utc="2026-11-19T06:00:00Z">2026-11-19 06:00 UTC</td></tr>
+      <tr><th scope="row">Denver</th><td>MST, UTC−7</td><td class="num" data-utc="2026-11-19T07:00:00Z">2026-11-19 07:00 UTC</td></tr>
+      <tr><th scope="row">Los Angeles</th><td>PST, UTC−8</td><td class="num" data-utc="2026-11-19T08:00:00Z">2026-11-19 08:00 UTC</td></tr>
+      <tr><th scope="row">Hawaii</th><td>HST, UTC−10</td><td class="num" data-utc="2026-11-19T10:00:00Z">2026-11-19 10:00 UTC</td></tr>
+      </tbody>
+    </table>
+    <p class="small">Rule from <a href="https://support.rockstargames.com/articles/29jV3Cv2cCgvwM1XgtMO5o/grand-theft-auto-vi-regional-pre-load-and-release-times-on-playstation-5-and-xbox-series-x-or-s" rel="noopener">Rockstar Support: regional pre-load and release times</a>. Times are the rule converted to each zone. Checked Nov 15, 2026.</p>
+  </section>
+</main>
+<script>
+(function () {
+  var fmt = { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' };
+  document.querySelectorAll('[data-utc]').forEach(function (td) {
+    td.textContent = new Date(td.dataset.utc).toLocaleString(undefined, fmt);
+  });
+  var nz = new Date('2026-11-18T11:00:00Z');
+  var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || 'your time zone';
+  document.getElementById('you-note').textContent = 'Midnight, Nov 19 in ' + tz + '. New Zealand starts at ' + nz.toLocaleString(undefined, fmt) + ' your time.';
+})();
+</script>
+<footer class="footer container">
+  <p class="statement">Every answer here matches Rockstar’s own pages, or says it hasn’t been confirmed yet.</p>
+  <p class="small">Fan-made. Not affiliated with Rockstar Games or Take-Two Interactive. Last checked Nov 15, 2026.</p>
+</footer>
+</body>
+</html>
