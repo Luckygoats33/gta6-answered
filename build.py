@@ -3,7 +3,7 @@ import json, html, pathlib, re
 
 ROOT = pathlib.Path(__file__).parent / "docs"
 SITE = "calluncgta"
-BASE_URL = "https://luckygoats33.github.io/gta6-answered/"
+BASE_URL = "https://gta.callunc.com/"
 CHECKED = "Nov 16, 2026"
 ISO_DATE = "2026-11-16"
 # Fill these in once you have them (Search Console / Bing Webmaster "HTML tag" content value, GA4 "G-..." id).
