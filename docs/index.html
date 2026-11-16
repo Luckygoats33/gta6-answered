@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GTA 6 Answered: straight answers for launch week</title>
+<meta name="description" content="What time GTA 6 comes out, how big it is, and what it’s on. Every answer checked against Rockstar, with sources.">
+<link rel="canonical" href="https://luckygoats33.github.io/gta6-answered/">
+<meta property="og:title" content="GTA 6 Answered: straight answers for launch week">
+<meta property="og:description" content="What time GTA 6 comes out, how big it is, and what it’s on. Every answer checked against Rockstar, with sources.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://luckygoats33.github.io/gta6-answered/">
+<meta name="theme-color" content="#f6f5f1">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:wght@400;700&family=Radio+Canada:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "GTA 6 Answered", "url": "https://luckygoats33.github.io/gta6-answered/"}</script>
+</head>
+<body>
+<a class="skip btn btn--primary" href="#main">Skip to the answer</a>
+<header class="masthead container">
+  <a class="wordmark" href="" aria-label="GTA 6 Answered home"><span>GTA 6</span><span class="wm-2">Answered</span></a>
+  <a class="btn btn--secondary" href="#questions">All questions</a>
+</header>
+<main id="main">
+  <section class="container hero">
+    <div class="hero-text">
+      <h1>GTA 6 questions, answered straight.</h1>
+      <p class="lead">One question per page, each answer checked against Rockstar’s own pages.</p>
+      <a class="btn btn--primary" href="release-time/">See the launch time</a>
+    </div>
+    <div class="counter" aria-live="polite">
+      <p class="counter-num num" id="count">Nov 19</p>
+      <p class="counter-label" id="count-label">Midnight your local time, on PS5 and Xbox Series X|S.</p>
+    </div>
+  </section>
+  <section class="container index" id="questions" aria-labelledby="q-h">
+    <h2 id="q-h">Confirmed answers</h2>
+    <ul class="q-list">
+      <li><a href="release-time/"><span class="q">What time does GTA 6 come out?</span><span class="a">Midnight local, Nov 19</span></a></li>
+      <li><a href="pre-load/"><span class="q">Can I pre-load GTA 6?</span><span class="a">Yes, since Nov 10</span></a></li>
+      <li><a href="file-size/"><span class="q">How many GB is GTA 6?</span><span class="a">Up to 212 GB</span></a></li>
+      <li><a href="pc/"><span class="q">Is GTA 6 on PC?</span><span class="a">No</span></a></li>
+      <li><a href="mobile/"><span class="q">Can you play GTA 6 on mobile?</span><span class="a">No, scams only</span></a></li>
+      <li><a href="disc/"><span class="q">Does GTA 6 come on a disc?</span><span class="a">No, a download code</span></a></li>
+      <li><a href="netflix/"><span class="q">Can you play GTA 6 on Netflix?</span><span class="a">No, only a video</span></a></li>
+    </ul>
+  </section>
+  <section class="container storage" aria-labelledby="st-h">
+    <p class="storage-num num">212 GB</p>
+    <div class="storage-text">
+      <h2 id="st-h">Check your free space tonight.</h2>
+      <p>That’s how much GTA 6 can take, depending on your console.</p>
+      <a class="btn btn--secondary" href="file-size/">How to check on PS5 and Xbox</a>
+    </div>
+  </section>
+  <section class="field not-yet" aria-labelledby="ny-h">
+    <div class="container ny-grid">
+      <h2 id="ny-h">Not confirmed yet</h2>
+      <div>
+        <ul class="ny-list">
+      <li>When GTA 6 Online launches</li>
+      <li>PS5 Pro graphics modes and frame rate</li>
+      <li>A PC release date</li>
+        </ul>
+        <p class="small">We’ll post these once Rockstar does, not before.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<script>
+(function () {
+  var target = new Date(2026, 10, 19, 0, 0, 0); // local midnight Nov 19
+  var num = document.getElementById('count'), lab = document.getElementById('count-label');
+  function tick() {
+    var ms = target - new Date();
+    if (ms <= 0) { num.textContent = 'It\'s out'; lab.textContent = 'GTA 6 is live where you are.'; return; }
+    var h = Math.floor(ms / 3.6e6), d = Math.floor(h / 24);
+    num.textContent = d > 0 ? d + 'd ' + (h % 24) + 'h' : h + 'h ' + Math.floor(ms / 6e4) % 60 + 'm';
+    lab.textContent = 'until GTA 6 goes live at your local midnight, Nov 19.';
+  }
+  tick(); setInterval(tick, 30000);
+})();
+</script>
+<footer class="footer container">
+  <p class="statement">Every answer here matches Rockstar’s own pages, or says it hasn’t been confirmed yet.</p>
+  <p class="small">Fan-made. Not affiliated with Rockstar Games or Take-Two Interactive. Last checked Nov 15, 2026.</p>
+</footer>
+</body>
+</html>
