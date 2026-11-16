@@ -5,10 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>GTA 6 launch times by region | calluncgta</title>
 <meta name="description" content="GTA 6 goes live at midnight local time on November 19. Every region’s unlock time, converted to yours.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <link rel="canonical" href="https://luckygoats33.github.io/gta6-answered/launch-times/">
 <meta property="og:title" content="GTA 6 launch times by region | calluncgta">
 <meta property="og:description" content="GTA 6 goes live at midnight local time on November 19. Every region’s unlock time, converted to yours.">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="calluncgta">
 <meta property="og:image" content="https://luckygoats33.github.io/gta6-answered/img/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta property="og:url" content="https://luckygoats33.github.io/gta6-answered/launch-times/">
@@ -16,7 +18,7 @@
 <script>document.documentElement.classList.add("js")</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;800&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../styles.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "GTA 6 launch times by region", "url": "https://luckygoats33.github.io/gta6-answered/launch-times/"}</script>
+<script type="application/ld+json">[{"@context": "https://schema.org", "@type": "WebPage", "name": "GTA 6 launch times by region", "url": "https://luckygoats33.github.io/gta6-answered/launch-times/", "dateModified": "2026-11-16", "inLanguage": "en"}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://luckygoats33.github.io/gta6-answered/"}, {"@type": "ListItem", "position": 2, "name": "Launch times by region", "item": "https://luckygoats33.github.io/gta6-answered/launch-times/"}]}]</script>
 </head>
 <body>
 <div class="rain" aria-hidden="true"></div>
@@ -32,10 +34,12 @@
 </header>
 <main id="main">
   <section class="container q-head">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a> <span aria-hidden="true">/</span> <span aria-current="page">Launch times by region</span></nav>
     <h1 class="question">When does GTA 6 go live where you are?</h1>
+    <p class="updated">Updated <time datetime="2026-11-16">Nov 16, 2026</time></p>
     <p class="lead hub-lead">Midnight local time on November 19, everywhere. So New Zealand plays first and Hawaii plays 23 hours later.</p>
   </section>
-  <figure class="container hub-banner"><img src="../img/clock.webp" alt="A neon clock tower striking midnight in the rain" width="1200" height="904"></figure>
+  <figure class="container hub-banner"><video data-lazy muted loop playsinline preload="none" poster="../img/clock2.webp" aria-label="A sunset clock tower near midnight over a neon beach boulevard"><source src="../img/clock2.mp4" type="video/mp4"></video></figure>
   <section class="field answer-band">
     <div class="container you-grid">
       <p class="answer" id="you-time">Midnight, Nov 19</p>
@@ -61,7 +65,7 @@
       <tr><th scope="row">Hawaii</th><td>HST, UTC−10</td><td class="num" data-utc="2026-11-19T10:00:00Z">2026-11-19 10:00 UTC</td></tr>
       </tbody>
     </table>
-    <p class="small">Rule from <a href="https://support.rockstargames.com/articles/29jV3Cv2cCgvwM1XgtMO5o/grand-theft-auto-vi-regional-pre-load-and-release-times-on-playstation-5-and-xbox-series-x-or-s" rel="noopener">Rockstar Support: regional pre-load and release times</a>. Times are the rule converted to each zone. Checked Nov 15, 2026.</p>
+    <p class="small">Rule from <a href="https://support.rockstargames.com/articles/29jV3Cv2cCgvwM1XgtMO5o/grand-theft-auto-vi-regional-pre-load-and-release-times-on-playstation-5-and-xbox-series-x-or-s" rel="noopener">Rockstar Support: regional pre-load and release times</a>. Times are the rule converted to each zone. Checked Nov 16, 2026.</p>
   </section>
 </main>
 <script>
@@ -78,10 +82,23 @@
 <footer class="footer container">
   <p class="statement">Unc knows. <span class="splash">Just ask.</span></p>
   <p class="foot-note">Every answer here matches Rockstar’s own pages, or says it hasn’t been confirmed yet.</p>
-  <p class="small">Fan-made. Not affiliated with Rockstar Games or Take-Two Interactive. Last checked Nov 15, 2026.</p>
+  <p class="small">Fan-made. Not affiliated with Rockstar Games or Take-Two Interactive. Last checked Nov 16, 2026.</p>
 </footer>
 <script>
 (function () {
+  if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    document.querySelectorAll('video').forEach(function (v) { v.removeAttribute('autoplay'); v.pause(); });
+  }
+  var hv = document.querySelector('.stage-video');
+  var slow = navigator.connection && (navigator.connection.saveData || /2g/.test(navigator.connection.effectiveType || ''));
+  if (hv && (window.innerWidth < 700 || slow)) { hv.remove(); }
+  var lazy = document.querySelectorAll('video[data-lazy]');
+  if ('IntersectionObserver' in window && !(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches)) {
+    var vo = new IntersectionObserver(function (es) {
+      es.forEach(function (en) { var v = en.target; if (en.isIntersecting) { v.preload = 'auto'; var pr = v.play(); if (pr && pr.catch) pr.catch(function () {}); } else { v.pause(); } });
+    }, { rootMargin: '200px 0px' });
+    lazy.forEach(function (v) { vo.observe(v); });
+  }
   var els = document.querySelectorAll('.reveal');
   if (!('IntersectionObserver' in window)) { els.forEach(function (el) { el.classList.add('in'); }); return; }
   var io = new IntersectionObserver(function (es) {

@@ -5,10 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>calluncgta: straight answers for launch week</title>
 <meta name="description" content="What time GTA 6 comes out, how big it is, and what it’s on. Every answer checked against Rockstar, with sources.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <link rel="canonical" href="https://luckygoats33.github.io/gta6-answered/">
 <meta property="og:title" content="calluncgta: straight answers for launch week">
 <meta property="og:description" content="What time GTA 6 comes out, how big it is, and what it’s on. Every answer checked against Rockstar, with sources.">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="calluncgta">
 <meta property="og:image" content="https://luckygoats33.github.io/gta6-answered/img/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta property="og:url" content="https://luckygoats33.github.io/gta6-answered/">
@@ -16,7 +18,7 @@
 <script>document.documentElement.classList.add("js")</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;800&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "calluncgta", "url": "https://luckygoats33.github.io/gta6-answered/"}</script>
+<script type="application/ld+json">[{"@context": "https://schema.org", "@type": "WebSite", "name": "calluncgta", "url": "https://luckygoats33.github.io/gta6-answered/", "inLanguage": "en", "description": "Straight, sourced answers to GTA 6 questions for launch week."}, {"@context": "https://schema.org", "@type": "Organization", "name": "calluncgta", "url": "https://luckygoats33.github.io/gta6-answered/", "logo": "https://luckygoats33.github.io/gta6-answered/img/og.jpg"}]</script>
 </head>
 <body>
 <div class="rain" aria-hidden="true"></div>
@@ -79,9 +81,9 @@
   <section class="reveal field hubs" aria-labelledby="hub-h">
     <div class="container hub-grid">
       <h2 id="hub-h" class="visually-hidden">More</h2>
-      <a class="hub" href="launch-times/"><img class="hub-img" src="img/clock.webp" alt="A neon clock tower striking midnight in the rain" loading="lazy" width="1200" height="904"><span class="hub-n">01</span><span class="hub-t">Launch times</span><span class="hub-d">Every region, in your time zone.</span></a>
-      <a class="hub" href="facts/"><img class="hub-img" src="img/desk.webp" alt="A detective's desk with case files under cyan light" loading="lazy" width="1200" height="904"><span class="hub-n">02</span><span class="hub-t">Facts</span><span class="hub-d">Editions, platforms, dates, the map.</span></a>
-      <a class="hub" href="rumors/"><img class="hub-img" src="img/alley.webp" alt="Two figures whispering in a rainy alley" loading="lazy" width="1200" height="904"><span class="hub-n">03</span><span class="hub-t">Rumors</span><span class="hub-d">What’s true, what’s reported, what’s false.</span></a>
+      <a class="hub" href="launch-times/"><video class="hub-img" data-lazy muted loop playsinline preload="none" poster="img/clock2.webp" aria-label="A sunset clock tower near midnight over a neon beach boulevard"><source src="img/clock2.mp4" type="video/mp4"></video><span class="hub-n">01</span><span class="hub-t">Launch times</span><span class="hub-d">Every region, in your time zone.</span></a>
+      <a class="hub" href="facts/"><video class="hub-img" data-lazy muted loop playsinline preload="none" poster="img/shop2.webp" aria-label="A neon game and electronics shop on a Florida strip at dusk"><source src="img/shop2.mp4" type="video/mp4"></video><span class="hub-n">02</span><span class="hub-t">Facts</span><span class="hub-d">Editions, platforms, dates, the map.</span></a>
+      <a class="hub" href="rumors/"><video class="hub-img" data-lazy muted loop playsinline preload="none" poster="img/cruise2.webp" aria-label="A convertible cruising a causeway toward a glowing skyline"><source src="img/cruise2.mp4" type="video/mp4"></video><span class="hub-n">03</span><span class="hub-t">Rumors</span><span class="hub-d">What’s true, what’s reported, what’s false.</span></a>
     </div>
   </section>
   <section class="reveal container storage" aria-labelledby="st-h">
@@ -123,10 +125,23 @@
 <footer class="footer container">
   <p class="statement">Unc knows. <span class="splash">Just ask.</span></p>
   <p class="foot-note">Every answer here matches Rockstar’s own pages, or says it hasn’t been confirmed yet.</p>
-  <p class="small">Fan-made. Not affiliated with Rockstar Games or Take-Two Interactive. Last checked Nov 15, 2026.</p>
+  <p class="small">Fan-made. Not affiliated with Rockstar Games or Take-Two Interactive. Last checked Nov 16, 2026.</p>
 </footer>
 <script>
 (function () {
+  if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    document.querySelectorAll('video').forEach(function (v) { v.removeAttribute('autoplay'); v.pause(); });
+  }
+  var hv = document.querySelector('.stage-video');
+  var slow = navigator.connection && (navigator.connection.saveData || /2g/.test(navigator.connection.effectiveType || ''));
+  if (hv && (window.innerWidth < 700 || slow)) { hv.remove(); }
+  var lazy = document.querySelectorAll('video[data-lazy]');
+  if ('IntersectionObserver' in window && !(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches)) {
+    var vo = new IntersectionObserver(function (es) {
+      es.forEach(function (en) { var v = en.target; if (en.isIntersecting) { v.preload = 'auto'; var pr = v.play(); if (pr && pr.catch) pr.catch(function () {}); } else { v.pause(); } });
+    }, { rootMargin: '200px 0px' });
+    lazy.forEach(function (v) { vo.observe(v); });
+  }
   var els = document.querySelectorAll('.reveal');
   if (!('IntersectionObserver' in window)) { els.forEach(function (el) { el.classList.add('in'); }); return; }
   var io = new IntersectionObserver(function (es) {

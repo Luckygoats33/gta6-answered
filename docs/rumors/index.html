@@ -5,10 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>GTA 6 rumor tracker | calluncgta</title>
 <meta name="description" content="GTA 6 rumors checked: delays, discs, early access, Online, PC, Game Pass, mods. True, false or unconfirmed, with sources.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <link rel="canonical" href="https://luckygoats33.github.io/gta6-answered/rumors/">
 <meta property="og:title" content="GTA 6 rumor tracker | calluncgta">
 <meta property="og:description" content="GTA 6 rumors checked: delays, discs, early access, Online, PC, Game Pass, mods. True, false or unconfirmed, with sources.">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="calluncgta">
 <meta property="og:image" content="https://luckygoats33.github.io/gta6-answered/img/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta property="og:url" content="https://luckygoats33.github.io/gta6-answered/rumors/">
@@ -16,7 +18,7 @@
 <script>document.documentElement.classList.add("js")</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;800&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../styles.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "GTA 6 rumor tracker", "url": "https://luckygoats33.github.io/gta6-answered/rumors/"}</script>
+<script type="application/ld+json">[{"@context": "https://schema.org", "@type": "WebPage", "name": "GTA 6 rumor tracker", "url": "https://luckygoats33.github.io/gta6-answered/rumors/", "dateModified": "2026-11-16", "inLanguage": "en"}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://luckygoats33.github.io/gta6-answered/"}, {"@type": "ListItem", "position": 2, "name": "Rumor tracker", "item": "https://luckygoats33.github.io/gta6-answered/rumors/"}]}]</script>
 </head>
 <body>
 <div class="rain" aria-hidden="true"></div>
@@ -32,10 +34,12 @@
 </header>
 <main id="main">
   <section class="container q-head">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a> <span aria-hidden="true">/</span> <span aria-current="page">Rumor tracker</span></nav>
     <h1 class="question">GTA 6 rumors, checked</h1>
+    <p class="updated">Updated <time datetime="2026-11-16">Nov 16, 2026</time></p>
     <p class="lead hub-lead">Each rumor gets a plain verdict and the source behind it. Updated as Rockstar confirms things.</p>
   </section>
-  <figure class="container hub-banner"><img src="../img/alley.webp" alt="Two figures whispering in a rainy alley" width="1200" height="904"></figure>
+  <figure class="container hub-banner"><video data-lazy muted loop playsinline preload="none" poster="../img/cruise2.webp" aria-label="A convertible cruising a causeway toward a glowing skyline"><source src="../img/cruise2.mp4" type="video/mp4"></video></figure>
   <section class="container">
     <ol class="rumor-list">
       <li class="rumor"><p class="rumor-claim">GTA 6 has been delayed again</p><div class="rumor-body"><p class="st st--no rumor-verdict">False</p><p>Rockstar’s support page still lists November 19 at midnight local time. <a href="https://support.rockstargames.com/articles/29jV3Cv2cCgvwM1XgtMO5o/grand-theft-auto-vi-regional-pre-load-and-release-times-on-playstation-5-and-xbox-series-x-or-s" rel="noopener">Rockstar Support</a></p></div></li>
@@ -49,16 +53,29 @@
       <li class="rumor"><p class="rumor-claim">A PC version arrives in early 2027</p><div class="rumor-body"><p class="st st--rep rumor-verdict">Unconfirmed</p><p>Outlets are guessing. Rockstar hasn’t announced PC. <a href="https://www.ggrecon.com/guides/gta-6-pc/" rel="noopener">GGRecon</a></p></div></li>
       <li class="rumor"><p class="rumor-claim">Rockstar is launching a mod tool called Project ROME</p><div class="rumor-body"><p class="st st--rep rumor-verdict">Unconfirmed</p><p>From a fan account. No announcement from Rockstar. <a href="https://www.tweaktown.com/news/107895/rockstar-games-rumored-to-unveil-project-rome-modding-engine-for-gta-6-very-soon/index.html" rel="noopener">TweakTown</a></p></div></li>
     </ol>
-    <p class="small">Checked Nov 15, 2026.</p>
+    <p class="small">Checked Nov 16, 2026.</p>
   </section>
 </main>
 <footer class="footer container">
   <p class="statement">Unc knows. <span class="splash">Just ask.</span></p>
   <p class="foot-note">Every answer here matches Rockstar’s own pages, or says it hasn’t been confirmed yet.</p>
-  <p class="small">Fan-made. Not affiliated with Rockstar Games or Take-Two Interactive. Last checked Nov 15, 2026.</p>
+  <p class="small">Fan-made. Not affiliated with Rockstar Games or Take-Two Interactive. Last checked Nov 16, 2026.</p>
 </footer>
 <script>
 (function () {
+  if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    document.querySelectorAll('video').forEach(function (v) { v.removeAttribute('autoplay'); v.pause(); });
+  }
+  var hv = document.querySelector('.stage-video');
+  var slow = navigator.connection && (navigator.connection.saveData || /2g/.test(navigator.connection.effectiveType || ''));
+  if (hv && (window.innerWidth < 700 || slow)) { hv.remove(); }
+  var lazy = document.querySelectorAll('video[data-lazy]');
+  if ('IntersectionObserver' in window && !(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches)) {
+    var vo = new IntersectionObserver(function (es) {
+      es.forEach(function (en) { var v = en.target; if (en.isIntersecting) { v.preload = 'auto'; var pr = v.play(); if (pr && pr.catch) pr.catch(function () {}); } else { v.pause(); } });
+    }, { rootMargin: '200px 0px' });
+    lazy.forEach(function (v) { vo.observe(v); });
+  }
   var els = document.querySelectorAll('.reveal');
   if (!('IntersectionObserver' in window)) { els.forEach(function (el) { el.classList.add('in'); }); return; }
   var io = new IntersectionObserver(function (es) {

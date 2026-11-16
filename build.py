@@ -4,7 +4,13 @@ import json, html, pathlib, re
 ROOT = pathlib.Path(__file__).parent / "docs"
 SITE = "calluncgta"
 BASE_URL = "https://luckygoats33.github.io/gta6-answered/"
-CHECKED = "Nov 15, 2026"
+CHECKED = "Nov 16, 2026"
+ISO_DATE = "2026-11-16"
+# Fill these in once you have them (Search Console / Bing Webmaster "HTML tag" content value, GA4 "G-..." id).
+GSC_TOKEN = ""
+BING_TOKEN = ""
+GA4_ID = ""
+INDEXNOW_KEY = "2e328537071e6178a684d7abb373f4eb"
 
 R_TIMES = ("Rockstar Support: regional pre-load and release times",
            "https://support.rockstargames.com/articles/29jV3Cv2cCgvwM1XgtMO5o/grand-theft-auto-vi-regional-pre-load-and-release-times-on-playstation-5-and-xbox-series-x-or-s")
@@ -224,6 +230,36 @@ def e(t):
     return html.escape(smart(t), quote=True)
 
 
+def verify_tags():
+    out = ""
+    if GSC_TOKEN:
+        out += f'\n<meta name="google-site-verification" content="{GSC_TOKEN}">'
+    if BING_TOKEN:
+        out += f'\n<meta name="msvalidate.01" content="{BING_TOKEN}">'
+    return out
+
+
+def ga4_tag():
+    if not GA4_ID:
+        return ""
+    return (f'\n<script async src="https://www.googletagmanager.com/gtag/js?id={GA4_ID}"></script>'
+            f"\n<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','{GA4_ID}');</script>")
+
+
+def crumbs(trail):
+    """trail: list of (name, path) from home; returns (schema dict, visible html)."""
+    items = [{"@type": "ListItem", "position": i + 1, "name": n, "item": BASE_URL + pth} for i, (n, pth) in enumerate(trail)]
+    links = " <span aria-hidden=\"true\">/</span> ".join(
+        f'<a href="../{pth}">{e(n)}</a>' if i < len(trail) - 1 else f'<span aria-current="page">{e(n)}</span>'
+        for i, (n, pth) in enumerate(trail))
+    return ({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": items},
+            f'<nav class="crumbs" aria-label="Breadcrumb">{links}</nav>')
+
+
+def updated_line():
+    return f'<p class="updated">Updated <time datetime="{ISO_DATE}">{CHECKED}</time></p>'
+
+
 def head(title, desc, path, prefix, schema):
     return f"""<!doctype html>
 <html lang="en">
@@ -232,10 +268,12 @@ def head(title, desc, path, prefix, schema):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">{verify_tags()}
 <link rel="canonical" href="{BASE_URL}{path}">
 <meta property="og:title" content="{e(title)}">
 <meta property="og:description" content="{e(desc)}">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="{SITE}">
 <meta property="og:image" content="{BASE_URL}img/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta property="og:url" content="{BASE_URL}{path}">
@@ -243,7 +281,7 @@ def head(title, desc, path, prefix, schema):
 <script>document.documentElement.classList.add("js")</script>
 {FONTS}
 <link rel="stylesheet" href="{prefix}styles.css">
-<script type="application/ld+json">{json.dumps(schema)}</script>
+<script type="application/ld+json">{json.dumps(schema)}</script>{ga4_tag()}
 </head>
 <body>
 <div class="rain" aria-hidden="true"></div>
@@ -268,6 +306,19 @@ def foot():
 </footer>
 <script>
 (function () {{
+  if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) {{
+    document.querySelectorAll('video').forEach(function (v) {{ v.removeAttribute('autoplay'); v.pause(); }});
+  }}
+  var hv = document.querySelector('.stage-video');
+  var slow = navigator.connection && (navigator.connection.saveData || /2g/.test(navigator.connection.effectiveType || ''));
+  if (hv && (window.innerWidth < 700 || slow)) {{ hv.remove(); }}
+  var lazy = document.querySelectorAll('video[data-lazy]');
+  if ('IntersectionObserver' in window && !(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches)) {{
+    var vo = new IntersectionObserver(function (es) {{
+      es.forEach(function (en) {{ var v = en.target; if (en.isIntersecting) {{ v.preload = 'auto'; var pr = v.play(); if (pr && pr.catch) pr.catch(function () {{}}); }} else {{ v.pause(); }} }});
+    }}, {{ rootMargin: '200px 0px' }});
+    lazy.forEach(function (v) {{ vo.observe(v); }});
+  }}
   var els = document.querySelectorAll('.reveal');
   if (!('IntersectionObserver' in window)) {{ els.forEach(function (el) {{ el.classList.add('in'); }}); return; }}
   var io = new IntersectionObserver(function (es) {{
@@ -283,12 +334,13 @@ def foot():
 
 def answer_page(item):
     prefix = "../"
-    schema = {
-        "@context": "https://schema.org", "@type": "FAQPage",
+    bc_schema, bc_html = crumbs([("Home", ""), (item["short"] if len(item["q"]) > 60 else item["q"], item["slug"] + "/")])
+    schema = [{
+        "@context": "https://schema.org", "@type": "FAQPage", "dateModified": ISO_DATE, "inLanguage": "en",
         "mainEntity": [{"@type": "Question", "name": item["q"],
                         "acceptedAnswer": {"@type": "Answer",
                                            "text": item["a"] + " " + " ".join(item["detail"])}}],
-    }
+    }, bc_schema]
     desc = item["a"] + " " + item["detail"][0]
     out = head(f'{item["q"]} | {SITE}', desc[:155], f'{item["slug"]}/', prefix, schema)
     detail = "\n".join(f"    <p>{e(d)}</p>" for d in item["detail"])
@@ -297,7 +349,9 @@ def answer_page(item):
         f'      <li><a href="../{o["slug"]}/">{e(o["q"])}</a></li>' for o in ANSWERS if o["slug"] != item["slug"])
     out += f"""<main id="main">
   <section class="container q-head">
+    {bc_html}
     <h1 class="question">{e(item["q"])}</h1>
+    {updated_line()}
   </section>
   <section class="field answer-band">
     <div class="container">
@@ -329,7 +383,10 @@ def answer_page(item):
 
 
 def index_page():
-    schema = {"@context": "https://schema.org", "@type": "WebSite", "name": SITE, "url": BASE_URL}
+    schema = [{"@context": "https://schema.org", "@type": "WebSite", "name": SITE, "url": BASE_URL, "inLanguage": "en",
+               "description": "Straight, sourced answers to GTA 6 questions for launch week."},
+              {"@context": "https://schema.org", "@type": "Organization", "name": SITE, "url": BASE_URL,
+               "logo": BASE_URL + "img/og.jpg"}]
     out = head(f"{SITE}: straight answers for launch week",
                "What time GTA 6 comes out, how big it is, and what it's on. Every answer checked against Rockstar, with sources.",
                "", "", schema)
@@ -374,9 +431,9 @@ def index_page():
   <section class="reveal field hubs" aria-labelledby="hub-h">
     <div class="container hub-grid">
       <h2 id="hub-h" class="visually-hidden">More</h2>
-      <a class="hub" href="launch-times/"><img class="hub-img" src="img/clock.webp" alt="A neon clock tower striking midnight in the rain" loading="lazy" width="1200" height="904"><span class="hub-n">01</span><span class="hub-t">Launch times</span><span class="hub-d">Every region, in your time zone.</span></a>
-      <a class="hub" href="facts/"><img class="hub-img" src="img/desk.webp" alt="A detective's desk with case files under cyan light" loading="lazy" width="1200" height="904"><span class="hub-n">02</span><span class="hub-t">Facts</span><span class="hub-d">Editions, platforms, dates, the map.</span></a>
-      <a class="hub" href="rumors/"><img class="hub-img" src="img/alley.webp" alt="Two figures whispering in a rainy alley" loading="lazy" width="1200" height="904"><span class="hub-n">03</span><span class="hub-t">Rumors</span><span class="hub-d">What’s true, what’s reported, what’s false.</span></a>
+      <a class="hub" href="launch-times/"><video class="hub-img" data-lazy muted loop playsinline preload="none" poster="img/clock2.webp" aria-label="A sunset clock tower near midnight over a neon beach boulevard"><source src="img/clock2.mp4" type="video/mp4"></video><span class="hub-n">01</span><span class="hub-t">Launch times</span><span class="hub-d">Every region, in your time zone.</span></a>
+      <a class="hub" href="facts/"><video class="hub-img" data-lazy muted loop playsinline preload="none" poster="img/shop2.webp" aria-label="A neon game and electronics shop on a Florida strip at dusk"><source src="img/shop2.mp4" type="video/mp4"></video><span class="hub-n">02</span><span class="hub-t">Facts</span><span class="hub-d">Editions, platforms, dates, the map.</span></a>
+      <a class="hub" href="rumors/"><video class="hub-img" data-lazy muted loop playsinline preload="none" poster="img/cruise2.webp" aria-label="A convertible cruising a causeway toward a glowing skyline"><source src="img/cruise2.mp4" type="video/mp4"></video><span class="hub-n">03</span><span class="hub-t">Rumors</span><span class="hub-d">What’s true, what’s reported, what’s false.</span></a>
     </div>
   </section>
   <section class="reveal container storage" aria-labelledby="st-h">
@@ -423,18 +480,22 @@ def src_link(s, short=False):
 
 
 NL = chr(10)
-HUB_ART = {"launch-times": ("clock", "A neon clock tower striking midnight in the rain"), "facts": ("desk", "A detective’s desk with case files under cyan light"), "rumors": ("alley", "Two figures whispering in a rainy alley")}
+HUB_ART = {"launch-times": ("clock2", "A sunset clock tower near midnight over a neon beach boulevard"), "facts": ("shop2", "A neon game and electronics shop on a Florida strip at dusk"), "rumors": ("cruise2", "A convertible cruising a causeway toward a glowing skyline")}
 
 
 def hub_head(slug, title, desc, h1, lead, schema_type="WebPage"):
-    schema = {"@context": "https://schema.org", "@type": schema_type, "name": title, "url": f"{BASE_URL}{slug}/"}
+    bc_schema, bc_html = crumbs([("Home", ""), (title.split(":")[0].replace("GTA 6 ", "").capitalize(), slug + "/")])
+    schema = [{"@context": "https://schema.org", "@type": schema_type, "name": title, "url": f"{BASE_URL}{slug}/",
+               "dateModified": ISO_DATE, "inLanguage": "en"}, bc_schema]
     out = head(f"{title} | {SITE}", desc, f"{slug}/", "../", schema)
     out += f"""<main id="main">
   <section class="container q-head">
+    {bc_html}
     <h1 class="question">{e(h1)}</h1>
+    {updated_line()}
     <p class="lead hub-lead">{e(lead)}</p>
   </section>
-""" + (f'  <figure class="container hub-banner"><img src="../img/{HUB_ART[slug][0]}.webp" alt="{e(HUB_ART[slug][1])}" width="1200" height="904"></figure>' + NL if slug in HUB_ART else "")
+""" + (f'  <figure class="container hub-banner"><video data-lazy muted loop playsinline preload="none" poster="../img/{HUB_ART[slug][0]}.webp" aria-label="{e(HUB_ART[slug][1])}"><source src="../img/{HUB_ART[slug][0]}.mp4" type="video/mp4"></video></figure>' + NL if slug in HUB_ART else "")
     return out
 
 
@@ -539,7 +600,9 @@ def main():
     urls = [BASE_URL] + [f'{BASE_URL}{o["slug"]}/' for o in ANSWERS] + [f"{BASE_URL}{s}/" for s in HUBS]
     (ROOT / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-        + "".join(f"  <url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
+        + "".join(f"  <url><loc>{u}</loc><lastmod>{ISO_DATE}</lastmod></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
+    (ROOT / f"{INDEXNOW_KEY}.txt").write_text(INDEXNOW_KEY, encoding="utf-8")
+    (ROOT / "urls.txt").write_text("\n".join(urls) + "\n", encoding="utf-8")
     (ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}sitemap.xml\n", encoding="utf-8")
     (ROOT / ".nojekyll").write_text("", encoding="utf-8")
     for f in ("tokens.css", "base.css"):
