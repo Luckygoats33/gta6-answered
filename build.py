@@ -11,7 +11,7 @@ GSC_TOKEN = ""
 BING_TOKEN = ""
 GA4_ID = ""
 # Ask Unc bot endpoint (the Cloudflare Worker URL + "/ask"). Empty = no chat widget.
-ASK_API = ""
+ASK_API = ""  # live bot: https://calluncgta-ask.calluncgta-ask.workers.dev/ask (turn on once API credits are added)
 INDEXNOW_KEY = "2e328537071e6178a684d7abb373f4eb"
 
 R_TIMES = ("Rockstar Support: regional pre-load and release times",
