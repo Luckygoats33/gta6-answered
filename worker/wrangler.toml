@@ -4,8 +4,8 @@ compatibility_date = "2026-11-01"
 compatibility_flags = ["nodejs_compat"]
 
 [vars]
-# Swap to "claude-haiku-5-5" to cut cost roughly 40x (answers get simpler).
-MODEL = "claude-opus-5-5"
+# "claude-opus-5-5" gives smarter answers at ~40x the cost.
+MODEL = "claude-haiku-5-5"
 ALLOWED_ORIGINS = "https://gta.callunc.com,http://localhost:8765"
 
 # Per-visitor limit: 8 questions a minute.

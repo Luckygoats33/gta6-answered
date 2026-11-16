@@ -41,26 +41,36 @@ Site knowledge (checked by the site team; treat it as the most reliable source y
 
 ${KB}`;
 
-const SEARCH_TOOL: Anthropic.Beta.BetaWebSearchTool20260209 = {
-  type: "web_search_20260209",
-  name: "web_search",
-  max_uses: 2,
-  allowed_domains: [
-    "rockstargames.com",
-    "support.rockstargames.com",
-    "playstation.com",
-    "xbox.com",
-    "ign.com",
-    "gamespot.com",
-    "polygon.com",
-    "eurogamer.net",
-    "theverge.com",
-    "videogameschronicle.com",
-    "pcgamer.com",
-    "gamesradar.com",
-    "bloomberg.com",
-  ],
-};
+const SEARCH_DOMAINS = [
+  "rockstargames.com",
+  "support.rockstargames.com",
+  "playstation.com",
+  "xbox.com",
+  "ign.com",
+  "gamespot.com",
+  "polygon.com",
+  "eurogamer.net",
+  "theverge.com",
+  "videogameschronicle.com",
+  "pcgamer.com",
+  "gamesradar.com",
+  "bloomberg.com",
+];
+
+// Haiku takes the basic web search tool and has no server-side refusal fallback;
+// Opus/Sonnet take the newer search tool plus the fallback beta.
+function modelOptions(model: string) {
+  if (model.startsWith("claude-haiku")) {
+    const tool: Anthropic.Beta.BetaWebSearchTool20250305 = {
+      type: "web_search_20250305", name: "web_search", max_uses: 2, allowed_domains: SEARCH_DOMAINS,
+    };
+    return { tools: [tool] };
+  }
+  const tool: Anthropic.Beta.BetaWebSearchTool20260209 = {
+    type: "web_search_20260209", name: "web_search", max_uses: 2, allowed_domains: SEARCH_DOMAINS,
+  };
+  return { tools: [tool], betas: ["server-side-fallback-2026-07-01"], fallbacks: "default" as const };
+}
 
 function corsHeaders(origin: string | null, env: Env): Record<string, string> {
   const allowed = env.ALLOWED_ORIGINS.split(",").map((s) => s.trim());
@@ -134,10 +144,8 @@ async function answer(env: Env, history: Turn[], send: (o: Record<string, unknow
       // Persona + site knowledge is cached; the daily headlines are a second cached block.
       // The date sits after both breakpoints so it doesn't break the cache.
       system,
-      tools: [SEARCH_TOOL],
+      ...modelOptions(env.MODEL),
       output_config: { effort: "low" },
-      betas: ["server-side-fallback-2026-07-01"],
-      fallbacks: "default",
       messages,
     });
 
