@@ -112,6 +112,9 @@ S_GAMESPOT = ("GameSpot: GTA 6 buying guide", "https://www.gamespot.com/articles
 S_VICE_ONLINE = ("Vice: GTA 6 Online release window report", "https://www.vice.com/en/article/gta-6-online-release-window-bloomberg/")
 S_MAP = ("Guru3D: Rockstar on the map size", "https://www.guru3d.com/story/gta-vi-map-will-be-twice-the-size-of-gta-v-rockstar-says/")
 S_PC = ("GGRecon: GTA 6 isn’t confirmed for PC", "https://www.ggrecon.com/guides/gta-6-pc/")
+S_PRICE = ("MP1st: pre-load, bonuses and the $79.99 Standard price", "https://mp1st.com/news/gta-6-pre-load-pre-order-bonuses-new-screenshots-revealed-standard-edition-costs-80")
+S_CLOUD = ("Windows Central: GTA 6 on Xbox Cloud Gaming", "https://www.windowscentral.com/gaming/xbox/grand-theft-auto-6-will-be-playable-on-xbox-cloud-gaming-but-there-are-a-few-catches")
+S_PRO = ("TweakTown: Rockstar confirms 30 fps target and PS5 Pro features", "https://www.tweaktown.com/news/114598/rockstar-confirms-gta-6-targets-30-fps-on-ps5-pro-with-pssr-and-ray-traced-shadows/index.html")
 S_ROME = ("TweakTown: Project ROME rumor", "https://www.tweaktown.com/news/107895/rockstar-games-rumored-to-unveil-project-rome-modding-engine-for-gta-6-very-soon/index.html")
 
 ANSWERS += [
@@ -125,22 +128,23 @@ ANSWERS += [
      "detail": ["The game goes live at midnight in your own time zone. Pre-load it now so it’s ready.",
                 "The 'New Zealand trick' isn’t official. On PS5 it needs a separate New Zealand account and a second purchase. The Xbox region switch is unproven, so don’t buy the game twice on a rumor."],
      "sources": [R_TIMES, S_STEVIVOR, S_WINCENTRAL]},
-    {"slug": "consoles", "short": "Series S yes, PS4 and Xbox One no", "q": "Is GTA 6 on PS4, Xbox One or Series S?",
-     "a": "Series S yes. PS4 and Xbox One no.",
+    {"slug": "consoles", "short": "Series S yes, PS4 no, Xbox One by cloud only", "q": "Is GTA 6 on PS4, Xbox One or Series S?",
+     "a": "Series S yes. PS4 no. Xbox One only by cloud streaming.",
      "detail": ["Rockstar lists two platforms: PlayStation 5 and Xbox Series X|S. That covers the Series S.",
+                "There's no Xbox One version, but if you own the game you can stream it to an Xbox One through Xbox Cloud Gaming, at Series S settings. There's nothing at all for PS4.",
                 "The Series S has the smallest drive of the three, so check your free space against the 212 GB download first."],
-     "sources": [R_ED, R_NEWS]},
-    {"slug": "price", "short": "$79.99 or $99.99", "status": "reported", "q": "How much is GTA 6?",
+     "sources": [R_ED, S_CLOUD, R_NEWS]},
+    {"slug": "price", "short": "$79.99 or $99.99", "q": "How much is GTA 6?",
      "a": "$79.99 Standard, $99.99 Ultimate.",
-     "detail": ["Those are US prices, and every major outlet reports the same two.",
-                "Buying digitally before launch adds the Vintage Vice City Pack. Sources differ on whether the cutoff is November 19 or 20."],
-     "sources": [S_FORBES, R_ED]},
-    {"slug": "standard-vs-ultimate", "short": "$20 more, 16 extras", "status": "reported",
+     "detail": ["Those are the US prices Take-Two and Rockstar announced. Prices in other countries vary.",
+                "Buying digitally before November 20 adds the Vintage Vice City Pack, as reported by the press."],
+     "sources": [S_PRICE, R_ED]},
+    {"slug": "standard-vs-ultimate", "short": "$20 more, 16 extras",
      "q": "What’s the difference between Standard and Ultimate?",
      "a": "$20 more for 16 extra items.",
      "detail": ["The extras are vehicles, weapons, clothing, special locations and activities, all in the single-player game.",
                 "Ultimate is digital only. The boxed Standard copy has a download code inside."],
-     "sources": [S_FORBES, R_ED]},
+     "sources": [S_PRICE, S_FORBES, R_ED]},
     {"slug": "online", "short": "Not at launch", "status": "reported", "q": "Does GTA 6 have online?",
      "a": "Not at launch. It starts single-player.",
      "detail": ["Rockstar hasn’t announced a date for GTA 6 Online.",
@@ -175,16 +179,18 @@ LAUNCH = [  # (place, zone, local unlock, UTC ISO)
 
 FACTS = [  # (group, rows of (label, value, status, source))
     ("Editions", [
-        ("Standard Edition", "$79.99. Digital, or boxed with a download code (no disc).", "Price reported", S_FORBES),
-        ("Ultimate Edition", "$99.99. Digital only. Adds 16 items: vehicles, weapons, clothing, locations, activities.", "Reported", S_FORBES),
+        ("Standard Edition", "$79.99. Digital, or boxed with a download code (no disc).", "Confirmed", S_PRICE),
+        ("Ultimate Edition", "$99.99. Digital only. Adds 16 items: vehicles, weapons, clothing, locations, activities.", "Confirmed", S_PRICE),
         ("Ultimate upgrade", "Sold separately to Standard owners, any time.", "Confirmed", R_ED),
-        ("Pre-order bonus", "Vintage Vice City Pack for digital orders before launch.", "Cutoff date unclear", S_FORBES),
+        ("Pre-order bonus", "Vintage Vice City Pack for digital purchases before November 20.", "Reported", S_PRICE),
     ]),
     ("Platforms", [
         ("PlayStation 5", "Yes, including PS5 Pro.", "Confirmed", R_ED),
         ("Xbox Series X|S", "Yes, both consoles.", "Confirmed", R_ED),
         ("PC", "Not announced.", "Confirmed", S_PC),
-        ("PS4, Xbox One, mobile", "No.", "Confirmed", R_ED),
+        ("Xbox One", "No native version. Streams through Xbox Cloud Gaming at Series S settings if you own the game.", "Confirmed", S_CLOUD),
+        ("PS4, mobile", "No.", "Confirmed", R_ED),
+        ("Frame rate", "30 fps target on PS5, PS5 Pro and Xbox Series X|S. PS5 Pro adds PSSR upscaling and ray-traced shadows.", "Confirmed", S_PRO),
     ]),
     ("Dates", [
         ("Pre-load opened", "November 10, 2026.", "Confirmed", R_NEWS),
@@ -206,6 +212,7 @@ RUMORS = [  # (claim, verdict, what we know, source)
     ("You can play GTA 6 on Netflix", "False", "Netflix showed a gameplay video. The game is only on PS5 and Xbox Series X|S.", ("Netflix Tudum", "https://www.netflix.com/tudum/articles/grand-theft-auto-6-extended-first-look")),
     ("GTA 6 is on Android or iPhone", "False", "Not on mobile. 'Mobile downloads' are scams.", R_ED),
     ("New Zealand players get it first", "True", "Every region goes live at its own midnight, and New Zealand hits midnight first.", R_TIMES),
+    ("GTA 6 runs at 60 fps on PS5 Pro", "False", "Rockstar's target is 30 fps on every console, PS5 Pro included. The Pro gets PSSR and ray-traced shadows.", S_PRO),
     ("Switching your Xbox region gets you in early", "Unproven", "Reported as a trick, but nobody has confirmed it works for GTA 6.", S_WINCENTRAL),
     ("GTA 6 Online launches in late 2027", "Reported", "From a Bloomberg report. Rockstar hasn’t given a date.", S_VICE_ONLINE),
     ("GTA 6 is on Game Pass day one", "Reported false", "Reported as not coming to Game Pass at launch.", S_GAMESPOT),
@@ -215,7 +222,7 @@ RUMORS = [  # (claim, verdict, what we know, source)
 
 NOT_YET = [
     "When GTA 6 Online launches",
-    "PS5 Pro graphics modes and frame rate",
+    "Rendering resolution, and whether a performance mode comes later",
     "A PC release date",
 ]
 
