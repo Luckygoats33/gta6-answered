@@ -1,0 +1,15 @@
+name = "calluncgta-ask"
+main = "src/index.ts"
+compatibility_date = "2026-11-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+# Swap to "claude-haiku-5-5" to cut cost roughly 40x (answers get simpler).
+MODEL = "claude-opus-5-5"
+ALLOWED_ORIGINS = "https://gta.callunc.com,http://localhost:8765"
+
+# Per-visitor limit: 8 questions a minute.
+[[ratelimits]]
+name = "CHAT_LIMITER"
+namespace_id = "1001"
+simple = { limit = 8, period = 60 }

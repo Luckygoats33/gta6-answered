@@ -10,6 +10,8 @@ ISO_DATE = "2026-11-16"
 GSC_TOKEN = ""
 BING_TOKEN = ""
 GA4_ID = ""
+# Ask Unc bot endpoint (the Cloudflare Worker URL + "/ask"). Empty = no chat widget.
+ASK_API = ""
 INDEXNOW_KEY = "2e328537071e6178a684d7abb373f4eb"
 
 R_TIMES = ("Rockstar Support: regional pre-load and release times",
@@ -260,6 +262,13 @@ def updated_line():
     return f'<p class="updated">Updated <time datetime="{ISO_DATE}">{CHECKED}</time></p>'
 
 
+UNC_MARK = re.sub(r'^<svg[^>]*>|</svg>\s*$', '', (pathlib.Path(__file__).parent / "unc.svg").read_text(encoding="utf-8").strip()).replace('"#000"', '"currentColor"')
+
+
+def unc_svg(cls="wm-mark-svg"):
+    return f'<svg class="{cls}" viewBox="0 0 256 256" aria-hidden="true" focusable="false">{UNC_MARK}</svg>'
+
+
 def head(title, desc, path, prefix, schema):
     return f"""<!doctype html>
 <html lang="en">
@@ -278,6 +287,9 @@ def head(title, desc, path, prefix, schema):
 <meta name="twitter:card" content="summary_large_image">
 <meta property="og:url" content="{BASE_URL}{path}">
 <meta name="theme-color" content="#0b0b0d">
+<link rel="icon" href="{prefix}img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="{prefix}img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="{prefix}img/apple-touch-icon.png">
 <script>document.documentElement.classList.add("js")</script>
 {FONTS}
 <link rel="stylesheet" href="{prefix}styles.css">
@@ -287,12 +299,13 @@ def head(title, desc, path, prefix, schema):
 <div class="rain" aria-hidden="true"></div>
 <a class="skip btn btn--primary" href="#main">Skip to the answer</a>
 <header class="masthead container">
-  <a class="wordmark" href="{prefix}" aria-label="{SITE} home"><span class="wm-1">call</span><span class="wm-2">unc</span><span class="wm-3">gta</span></a>
+  <a class="wordmark" href="{prefix}" aria-label="{SITE} home"><span class="wm-mark">{unc_svg()}</span><span class="wm-1">call</span><span class="wm-2">unc</span><span class="wm-3">gta</span></a>
   <nav class="topnav" aria-label="Main">
     <a href="{prefix}#questions">Answers</a>
     <a href="{prefix}launch-times/">Launch times</a>
     <a href="{prefix}facts/">Facts</a>
     <a href="{prefix}rumors/">Rumors</a>
+    <a href="{prefix}news/">News</a>
   </nav>
 </header>
 """
@@ -326,7 +339,7 @@ def foot():
   }}, {{ rootMargin: '0px 0px -8% 0px' }});
   els.forEach(function (el) {{ io.observe(el); }});
 }})();
-</script>
+</script>{ask_tag()}
 </body>
 </html>
 """
@@ -382,6 +395,20 @@ def answer_page(item):
     return out + foot()
 
 
+def home_news():
+    items = NEWS["items"][:5]
+    if not items:
+        return ""
+    rows = NL.join("      " + news_item(o) for o in items)
+    return f"""  <section class="reveal container news-home" aria-labelledby="news-h">
+    <div class="news-home-head"><h2 id="news-h">Latest news</h2><a class="news-more" href="news/">All headlines</a></div>
+    <ol class="news-list">
+{rows}
+    </ol>
+  </section>
+"""
+
+
 def index_page():
     schema = [{"@context": "https://schema.org", "@type": "WebSite", "name": SITE, "url": BASE_URL, "inLanguage": "en",
                "description": "Straight, sourced answers to GTA 6 questions for launch week."},
@@ -428,7 +455,7 @@ def index_page():
 {rqs}
     </ul>
   </section>
-  <section class="reveal field hubs" aria-labelledby="hub-h">
+{home_news()}  <section class="reveal field hubs" aria-labelledby="hub-h">
     <div class="container hub-grid">
       <h2 id="hub-h" class="visually-hidden">More</h2>
       <a class="hub" href="launch-times/"><video class="hub-img" data-lazy muted loop playsinline preload="none" poster="img/clock2.webp" aria-label="A sunset clock tower near midnight over a neon beach boulevard"><source src="img/clock2.mp4" type="video/mp4"></video><span class="hub-n">01</span><span class="hub-t">Launch times</span><span class="hub-d">Every region, in your time zone.</span></a>
@@ -481,6 +508,50 @@ def src_link(s, short=False):
 
 NL = chr(10)
 HUB_ART = {"launch-times": ("clock2", "A sunset clock tower near midnight over a neon beach boulevard"), "facts": ("shop2", "A neon game and electronics shop on a Florida strip at dusk"), "rumors": ("cruise2", "A convertible cruising a causeway toward a glowing skyline")}
+
+
+def load_news():
+    f = pathlib.Path(__file__).parent / "data" / "news.json"
+    if not f.exists():
+        return {"fetched_at": "", "items": []}
+    return json.loads(f.read_text(encoding="utf-8"))
+
+
+NEWS = load_news()
+
+
+def news_source(name):
+    return re.sub(r"\.(com|net|org)$", "", name)
+
+
+def news_when(iso, with_time=False):
+    from datetime import datetime
+    d = datetime.strptime(iso, "%Y-%m-%dT%H:%M:%SZ")
+    out = d.strftime("%b ") + str(d.day)
+    return out + d.strftime(", %H:%M UTC") if with_time else out
+
+
+def news_item(o):
+    return (f'<li class="news-item"><time class="news-date" datetime="{e(o["date"])}">{news_when(o["date"])}</time>'
+            f'<span class="news-src">{e(news_source(o["source"]))}</span>'
+            f'<a class="news-link" href="{e(o["url"])}" target="_blank" rel="noopener nofollow">{e(o["title"])}</a></li>')
+
+
+def news_page():
+    out = hub_head("news", "GTA 6 news: latest headlines",
+                   "The latest GTA 6 headlines from Rockstar and the gaming press, refreshed every day. Click through to read each story at its source.",
+                   "Latest GTA 6 news",
+                   "Headlines from Rockstar, the gaming press and major news outlets, refreshed every day. Each one links to the full story at its source.")
+    items = NEWS["items"]
+    if not items:
+        out += '  <section class="container more"><p>No headlines yet. Check back tomorrow.</p></section>' + NL
+    else:
+        out += '  <section class="container news-wrap" aria-label="Headlines">' + NL + '    <ol class="news-list">' + NL
+        out += NL.join("      " + news_item(o) for o in items) + NL + "    </ol>" + NL + "  </section>" + NL
+    stamp = news_when(NEWS["fetched_at"], True) if NEWS["fetched_at"] else CHECKED
+    out += (f'  <section class="container more"><p class="small">Headlines last pulled {stamp}. Reports and leaks are the outlets’ claims, not Rockstar’s. '
+            'For what Rockstar has actually confirmed, see <a href="../facts/">Facts</a>.</p></section>' + NL + "</main>" + NL)
+    return out + foot()
 
 
 def hub_head(slug, title, desc, h1, lead, schema_type="WebPage"):
@@ -583,7 +654,46 @@ def rumors_page():
     return out + foot()
 
 
-HUBS = {"launch-times": launch_page, "facts": facts_page, "rumors": rumors_page}
+HUBS = {"launch-times": launch_page, "facts": facts_page, "rumors": rumors_page, "news": news_page}
+
+
+def ask_tag():
+    if not ASK_API:
+        return ""
+    return NL + f'<script src="/ask.js" data-api="{e(ASK_API)}" defer></script>'
+
+
+def src_text(s):
+    return f"{s[0]} ({s[1]})"
+
+
+def kb_text():
+    """Plain-text knowledge base for the Ask Unc bot, built from the same data as the pages."""
+    out = [f"Last checked: {CHECKED}.", "", "## Answer pages"]
+    for a in ANSWERS:
+        status = a.get("status", "confirmed")
+        out.append(f"Q: {a['q']}")
+        out.append(f"A ({status}): {a['a']} " + " ".join(a["detail"]))
+        out.append(f"Page: {BASE_URL}{a['slug']}/")
+        out.append("Sources: " + "; ".join(src_text(x) for x in a["sources"]))
+        out.append("")
+    out.append(f"## Launch unlock times (page: {BASE_URL}launch-times/)")
+    out.append("Every region unlocks at midnight local time on November 19, 2026. In UTC:")
+    for place, zone, utc in LAUNCH:
+        out.append(f"- {place} ({zone}): {utc}")
+    out.append("")
+    out.append(f"## Facts sheet (page: {BASE_URL}facts/)")
+    for group, rows in FACTS:
+        for label, value, status, src in rows:
+            out.append(f"- {group} / {label}: {value} [{status}; {src_text(src)}]")
+    out.append("")
+    out.append(f"## Rumor checks (page: {BASE_URL}rumors/)")
+    for claim, verdict, know, src in RUMORS:
+        out.append(f'- "{claim}": {verdict}. {know} [{src_text(src)}]')
+    out.append("")
+    out.append("## Not announced yet")
+    out.extend(f"- {x}" for x in NOT_YET)
+    return NL.join(out)
 
 
 def main():
@@ -603,9 +713,14 @@ def main():
         + "".join(f"  <url><loc>{u}</loc><lastmod>{ISO_DATE}</lastmod></url>\n" for u in urls) + "</urlset>\n", encoding="utf-8")
     (ROOT / f"{INDEXNOW_KEY}.txt").write_text(INDEXNOW_KEY, encoding="utf-8")
     (ROOT / "urls.txt").write_text("\n".join(urls) + "\n", encoding="utf-8")
+    (ROOT / "news.json").write_text(json.dumps({"fetched_at": NEWS["fetched_at"], "items": [
+        {k: o[k] for k in ("title", "source", "date", "url")} for o in NEWS["items"][:20]]}, ensure_ascii=False), encoding="utf-8")
     (ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}sitemap.xml\n", encoding="utf-8")
     (ROOT / ".nojekyll").write_text("", encoding="utf-8")
-    for f in ("tokens.css", "base.css"):
+    worker_src = ROOT.parent / "worker" / "src"
+    if worker_src.exists():
+        (worker_src / "kb.ts").write_text("// Generated by build.py from the site data. Do not edit." + NL + "export const KB = " + json.dumps(kb_text(), ensure_ascii=False) + ";" + NL, encoding="utf-8")
+    for f in ("tokens.css", "base.css", "ask.js"):
         (ROOT / f).write_text((ROOT.parent / f).read_text(encoding="utf-8"), encoding="utf-8")
     print("built", len(ANSWERS) + 1 + len(HUBS), "pages")
 
