@@ -31,7 +31,7 @@ ANSWERS = [
         "a": "Midnight, your local time, on November 19.",
         "detail": [
             "It's the same rule on PS5 and Xbox Series X|S, in every region.",
-            "New Zealand reaches midnight first, so players there start about 19 hours before the US East Coast.",
+            "New Zealand reaches midnight first, so players there start about 18 hours before the US East Coast.",
         ],
         "sources": [R_TIMES],
     },
