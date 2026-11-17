@@ -1,7 +1,7 @@
 ---
 title: GTA 6 Update 1.002.001: Second Pre-Launch Patch, Size and Rollout
 date: 2026-11-17
-time: 05:20
+time: 04:45
 checked: 2026-11-17
 description: GTA 6 update 1.002.001 landed on November 16. Here is the download size on PS5 and Xbox, why you might not see it yet, and what Rockstar has said.
 keyword: gta 6 update 1.002.001

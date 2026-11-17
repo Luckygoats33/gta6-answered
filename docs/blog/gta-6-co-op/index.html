@@ -29,7 +29,8 @@
 <a class="skip btn btn--primary" href="#main">Skip to the answer</a>
 <header class="masthead container">
   <a class="wordmark" href="../../" aria-label="calluncgta home"><span class="wm-mark"><svg class="wm-mark-svg" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><g fill="currentColor"><path fill-rule="evenodd" d="M56 72 C56 30 90 8 128 8 C166 8 200 30 200 72 Z M100 62 C100 46 114 40 128 40 C142 40 156 46 156 62 Z"/><path d="M48 70 L208 70 Q215 70 215 77 Q215 84 208 84 L48 84 Q41 84 41 77 Q41 70 48 70 Z"/><path transform="translate(0 -36)" d="M36 126 L124 134 Q128 135 127 141 L121 172 Q119 182 108 182 L66 182 Q56 182 52 174 L33 134 Q31 126 36 126 Z M220 126 L132 134 Q128 135 129 141 L135 172 Q137 182 148 182 L190 182 Q200 182 204 174 L223 134 Q225 126 220 126 Z"/><path transform="translate(0 -36)" d="M118 132 L138 132 L138 146 L118 146 Z"/><path transform="translate(0 -44)" d="M58 224 Q90 192 128 206 Q166 192 198 224 Q162 216 128 224 Q94 216 58 224 Z"/><path fill-rule="evenodd" d="M44 152 Q60 168 84 168 L172 168 Q196 168 212 152 L205 228 Q203 251 178 251 L78 251 Q53 251 51 228 Z M104 188 L104 197 L152 197 L152 188 Z"/></g></svg></span><span class="wm-1">call</span><span class="wm-2">unc</span><span class="wm-3">gta</span></a>
-  <nav class="topnav" aria-label="Main">
+  <button class="navtoggle" type="button" aria-expanded="false" aria-controls="topnav" aria-label="Menu"><span></span><span></span><span></span></button>
+  <nav class="topnav" id="topnav" aria-label="Main">
     <a href="../../#questions">Answers</a>
     <a href="../../launch-times/">Launch times</a>
     <a href="../../facts/">Facts</a>
@@ -38,6 +39,33 @@
     <a href="../../blog/">Blog</a>
   </nav>
 </header>
+<script>
+document.documentElement.classList.add('js');
+document.addEventListener('DOMContentLoaded', function () {
+  var now = Date.now();
+  document.querySelectorAll('time[data-local]').forEach(function (t) {
+    var d = new Date(t.getAttribute('datetime'));
+    if (isNaN(d)) return;
+    var o = { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' };
+    if (d.getFullYear() !== new Date().getFullYear()) o.year = 'numeric';
+    var s = d.toLocaleString(undefined, o);
+    if (t.hasAttribute('data-ago')) {
+      var m = Math.round((now - d) / 60000);
+      if (m >= 0 && m < 1440) s += ' (' + (m < 1 ? 'just now' : m < 60 ? m + ' min ago' : Math.round(m / 60) + ' hr ago') + ')';
+    }
+    t.textContent = s;
+    t.title = d.toUTCString();
+  });
+});
+(function () {
+  var b = document.querySelector('.navtoggle'), n = document.getElementById('topnav');
+  if (!b || !n) return;
+  function set(open) { n.classList.toggle('open', open); b.setAttribute('aria-expanded', open ? 'true' : 'false'); b.setAttribute('aria-label', open ? 'Close menu' : 'Menu'); }
+  b.addEventListener('click', function () { set(!n.classList.contains('open')); });
+  n.addEventListener('click', function (e) { if (e.target.closest('a')) set(false); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && n.classList.contains('open')) { set(false); b.focus(); } });
+})();
+</script>
 <main id="main">
   <article>
   <section class="container q-head">
@@ -83,10 +111,10 @@
   <section class="container more" aria-labelledby="more-h">
     <h2 id="more-h">Keep reading</h2>
     <ol class="post-list">
-      <li class="post-card"><a href="../gta-6-ps-plus-needed/"><time class="post-date" datetime="2026-11-15">Nov 15, 2026</time><span class="post-title">Do You Need PS Plus or an Xbox Subscription to Play GTA 6?</span><span class="post-desc">GTA 6 PS Plus and Xbox subscription questions answered: what single-player needs, what online play usually requires, and which current plans include it.</span></a></li>
-      <li class="post-card"><a href="../gta-6-online-everything-we-know/"><time class="post-date" datetime="2026-11-13">Nov 13, 2026</time><span class="post-title">GTA 6 Online News: Everything We Know So Far</span><span class="post-desc">GTA 6 online news, sorted: what Rockstar has and hasn’t announced, the Bloomberg late 2027 report, crossplay and PC, and what GTA Online’s history suggests.</span></a></li>
-      <li class="post-card"><a href="../gta-6-single-player/"><time class="post-date" datetime="2026-11-13">Nov 13, 2026</time><span class="post-title">Is GTA 6 Single-Player Only? What Launches on Day One</span><span class="post-desc">Yes, GTA 6 is single player only for now. What launches on day one, why there’s no Online date, and whether you need PS Plus or Game Pass to play.</span></a></li>
-      <li class="post-card"><a href="../gta-6-update-1-002-001/"><time class="post-date" datetime="2026-11-17">Nov 17, 2026</time><span class="post-title">GTA 6 Update 1.002.001: Second Pre-Launch Patch, Size and Rollout</span><span class="post-desc">GTA 6 update 1.002.001 landed on November 16. Here is the download size on PS5 and Xbox, why you might not see it yet, and what Rockstar has said.</span></a></li>
+      <li class="post-card"><a href="../gta-6-ps-plus-needed/"><time class="post-date" data-local datetime="2026-11-15T15:42:00Z">Nov 15, 2026, 15:42 UTC</time><span class="post-title">Do You Need PS Plus or an Xbox Subscription to Play GTA 6?</span><span class="post-desc">GTA 6 PS Plus and Xbox subscription questions answered: what single-player needs, what online play usually requires, and which current plans include it.</span></a></li>
+      <li class="post-card"><a href="../gta-6-online-everything-we-know/"><time class="post-date" data-local datetime="2026-11-13T14:32:00Z">Nov 13, 2026, 14:32 UTC</time><span class="post-title">GTA 6 Online News: Everything We Know So Far</span><span class="post-desc">GTA 6 online news, sorted: what Rockstar has and hasn’t announced, the Bloomberg late 2027 report, crossplay and PC, and what GTA Online’s history suggests.</span></a></li>
+      <li class="post-card"><a href="../gta-6-single-player/"><time class="post-date" data-local datetime="2026-11-13T12:09:00Z">Nov 13, 2026, 12:09 UTC</time><span class="post-title">Is GTA 6 Single-Player Only? What Launches on Day One</span><span class="post-desc">Yes, GTA 6 is single player only for now. What launches on day one, why there’s no Online date, and whether you need PS Plus or Game Pass to play.</span></a></li>
+      <li class="post-card"><a href="../gta-6-update-1-002-001/"><time class="post-date" data-local datetime="2026-11-17T04:45:00Z">Nov 17, 2026, 04:45 UTC</time><span class="post-title">GTA 6 Update 1.002.001: Second Pre-Launch Patch, Size and Rollout</span><span class="post-desc">GTA 6 update 1.002.001 landed on November 16. Here is the download size on PS5 and Xbox, why you might not see it yet, and what Rockstar has said.</span></a></li>
     </ol>
     <p><a href="../">All posts</a></p>
   </section>

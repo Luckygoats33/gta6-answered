@@ -307,7 +307,8 @@ def head(title, desc, path, prefix, schema):
 <a class="skip btn btn--primary" href="#main">Skip to the answer</a>
 <header class="masthead container">
   <a class="wordmark" href="{prefix}" aria-label="{SITE} home"><span class="wm-mark">{unc_svg()}</span><span class="wm-1">call</span><span class="wm-2">unc</span><span class="wm-3">gta</span></a>
-  <nav class="topnav" aria-label="Main">
+  <button class="navtoggle" type="button" aria-expanded="false" aria-controls="topnav" aria-label="Menu"><span></span><span></span><span></span></button>
+  <nav class="topnav" id="topnav" aria-label="Main">
     <a href="{prefix}#questions">Answers</a>
     <a href="{prefix}launch-times/">Launch times</a>
     <a href="{prefix}facts/">Facts</a>
@@ -316,6 +317,33 @@ def head(title, desc, path, prefix, schema):
     <a href="{prefix}blog/">Blog</a>
   </nav>
 </header>
+<script>
+document.documentElement.classList.add('js');
+document.addEventListener('DOMContentLoaded', function () {{
+  var now = Date.now();
+  document.querySelectorAll('time[data-local]').forEach(function (t) {{
+    var d = new Date(t.getAttribute('datetime'));
+    if (isNaN(d)) return;
+    var o = {{ month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }};
+    if (d.getFullYear() !== new Date().getFullYear()) o.year = 'numeric';
+    var s = d.toLocaleString(undefined, o);
+    if (t.hasAttribute('data-ago')) {{
+      var m = Math.round((now - d) / 60000);
+      if (m >= 0 && m < 1440) s += ' (' + (m < 1 ? 'just now' : m < 60 ? m + ' min ago' : Math.round(m / 60) + ' hr ago') + ')';
+    }}
+    t.textContent = s;
+    t.title = d.toUTCString();
+  }});
+}});
+(function () {{
+  var b = document.querySelector('.navtoggle'), n = document.getElementById('topnav');
+  if (!b || !n) return;
+  function set(open) {{ n.classList.toggle('open', open); b.setAttribute('aria-expanded', open ? 'true' : 'false'); b.setAttribute('aria-label', open ? 'Close menu' : 'Menu'); }}
+  b.addEventListener('click', function () {{ set(!n.classList.contains('open')); }});
+  n.addEventListener('click', function (e) {{ if (e.target.closest('a')) set(false); }});
+  document.addEventListener('keydown', function (e) {{ if (e.key === 'Escape' && n.classList.contains('open')) {{ set(false); b.focus(); }} }});
+}})();
+</script>
 """
 
 
@@ -416,6 +444,7 @@ def home_news():
     rows = NL.join("      " + news_item(o) for o in items)
     return f"""  <section class="reveal container news-home" aria-labelledby="news-h">
     <div class="news-home-head"><h2 id="news-h">Latest news</h2><a class="news-more" href="news/">All headlines</a></div>
+    {news_updated()}
     <ol class="news-list">
 {rows}
     </ol>
@@ -545,25 +574,31 @@ def news_when(iso, with_time=False):
     return out + d.strftime(", %H:%M UTC") if with_time else out
 
 
+def news_updated():
+    if not NEWS["fetched_at"]:
+        return ""
+    return (f'<p class="news-updated">Last updated <time data-local data-ago datetime="{e(NEWS["fetched_at"])}">'
+            f'{news_when(NEWS["fetched_at"], True)}</time>. Checked every 30 minutes.</p>')
+
+
 def news_item(o):
-    return (f'<li class="news-item"><time class="news-date" datetime="{e(o["date"])}">{news_when(o["date"])}</time>'
+    return (f'<li class="news-item"><time class="news-date" data-local datetime="{e(o["date"])}">{news_when(o["date"], True)}</time>'
             f'<span class="news-src">{e(news_source(o["source"]))}</span>'
             f'<a class="news-link" href="{e(o["url"])}" target="_blank" rel="noopener nofollow">{e(o["title"])}</a></li>')
 
 
 def news_page():
     out = hub_head("news", "GTA 6 news: latest headlines",
-                   "The latest GTA 6 headlines from Rockstar and the gaming press, refreshed every day. Click through to read each story at its source.",
+                   "The latest GTA 6 headlines from Rockstar and the gaming press, checked every 30 minutes, each with its date and time. Click through to read each story at its source.",
                    "Latest GTA 6 news",
-                   "Headlines from Rockstar, the gaming press and major news outlets, refreshed every day. Each one links to the full story at its source.")
+                   "Headlines from Rockstar, the gaming press and major news outlets, checked every 30 minutes. Each one links to the full story at its source.")
     items = NEWS["items"]
     if not items:
-        out += '  <section class="container more"><p>No headlines yet. Check back tomorrow.</p></section>' + NL
+        out += '  <section class="container more"><p>No headlines yet. Check back soon.</p></section>' + NL
     else:
-        out += '  <section class="container news-wrap" aria-label="Headlines">' + NL + '    <ol class="news-list">' + NL
+        out += '  <section class="container news-wrap" aria-label="Headlines">' + NL + "    " + news_updated() + NL + '    <ol class="news-list">' + NL
         out += NL.join("      " + news_item(o) for o in items) + NL + "    </ol>" + NL + "  </section>" + NL
-    stamp = news_when(NEWS["fetched_at"], True) if NEWS["fetched_at"] else CHECKED
-    out += (f'  <section class="container more"><p class="small">Headlines last pulled {stamp}. Reports and leaks are the outlets’ claims, not Rockstar’s. '
+    out += (f'  <section class="container more"><p class="small">Times show in your local time. Reports and leaks are the outlets’ claims, not Rockstar’s. '
             'For what Rockstar has actually confirmed, see <a href="../facts/">Facts</a>.</p></section>' + NL + "</main>" + NL)
     return out + foot()
 
@@ -772,7 +807,7 @@ def md_html(body):
 
 
 def post_card(p, prefix=""):
-    return (f'<li class="post-card"><a href="{prefix}{p["slug"]}/"><time class="post-date" datetime="{p["date"]}">{nice_date(p["date"])}</time>'
+    return (f'<li class="post-card"><a href="{prefix}{p["slug"]}/"><time class="post-date" {"data-local " if p.get("time") else ""}datetime="{p["published"]}">{nice_date(p["date"])}{(", " + p["time"] + " UTC") if p.get("time") else ""}</time>'
             f'<span class="post-title">{e(p["title"])}</span><span class="post-desc">{e(p["description"])}</span></a></li>')
 
 

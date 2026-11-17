@@ -1,8 +1,8 @@
-name: GTA 6 news refresh (every 2 hours)
+name: GTA 6 news refresh (every 30 minutes)
 
 on:
   schedule:
-    - cron: "7 */2 * * *"   # every 2 hours, at 7 minutes past (UTC)
+    - cron: "7,37 * * * *"   # every 30 minutes (UTC)
   workflow_dispatch: {}      # "Run workflow" button for a manual refresh
 
 permissions:
@@ -33,7 +33,7 @@ jobs:
             echo "No new headlines."
             exit 0
           fi
-          git commit -m "Daily refresh (news and scheduled posts) $(date -u +%Y-%m-%d)"
+          git commit -m "News refresh $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
           echo "PUSHED=1" >> "$GITHUB_ENV"
       - name: Ping Bing (IndexNow)
