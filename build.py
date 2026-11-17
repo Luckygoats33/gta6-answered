@@ -10,7 +10,7 @@ ISO_DATE = "2026-11-16"
 # Fill these in once you have them (Search Console / Bing Webmaster "HTML tag" content value, GA4 "G-..." id).
 GSC_TOKEN = "7Uqlpm364e5uHud6JBiS8svQMNmrHAPwAbvBAoTf3oY"
 BING_TOKEN = ""
-GA4_ID = ""
+GA4_ID = "G-8MHGGXE6HZ"
 # Ask Unc bot endpoint (the Cloudflare Worker URL + "/ask"). Empty = no chat widget.
 ASK_API = ""  # live bot: https://calluncgta-ask.calluncgta-ask.workers.dev/ask (turn on once API credits are added)
 INDEXNOW_KEY = "2e328537071e6178a684d7abb373f4eb"
