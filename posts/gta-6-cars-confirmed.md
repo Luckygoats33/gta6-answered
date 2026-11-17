@@ -1,6 +1,7 @@
 ---
 title: Every GTA 6 Car Confirmed Before Launch
-date: 2026-12-29
+date: 2026-11-13
+time: 18:10
 checked: 2026-11-16
 description: GTA 6 cars confirmed by Rockstar before launch, the ones spotted in trailers and the Extended Look, their real-world lookalikes, and the Ultimate Edition rides.
 keyword: gta 6 cars confirmed
@@ -10,7 +11,7 @@ source: Jalopnik: cars in the Extended Look and their real-life counterparts | h
 source: PakWheels: real-life cars from Trailer 2 | https://www.pakwheels.com/blog/real-life-cars-from-gta-vi-trailer-2/
 source: Engadget: breaking down the Extended Look | https://engadget.com/2245942/guns-cars-and-chihuahuas-breaking-down-the-gta-6-extended-look/
 ---
-Rockstar never published a full vehicle list before launch, so the only GTA 6 cars confirmed by name come from Rockstar's own edition descriptions: the '95 Grotti Cheetah, Jason's Vapid Ganado pickup, the '67 Vapid Dominator Buggy, a Dinka Enduro motorcycle, a Shitzu Squalo boat and a Crest kayak. Everything else people list was spotted in trailers and gameplay footage, and the real-world matches are car fans' educated reads, not Rockstar statements. Here's what each source actually shows.
+Rockstar hasn't published a full vehicle list ahead of launch, so the only GTA 6 cars confirmed by name come from Rockstar's own edition descriptions: the '95 Grotti Cheetah, Jason's Vapid Ganado pickup, the '67 Vapid Dominator Buggy, a Dinka Enduro motorcycle, a Shitzu Squalo boat and a Crest kayak. Everything else people list was spotted in trailers and gameplay footage, and the real-world matches are car fans' educated reads, not Rockstar statements. Here's what each source actually shows.
 
 ## Cars Rockstar named before launch
 
@@ -55,10 +56,10 @@ The same goes for the giant "GTA 6 cars list with pictures" posts. Some count ev
 
 ## Boats, bikes and aircraft
 
-Leonida is a coastal state, and the footage shows it. Beyond the Squalo and the kayak, the official videos showed jet skis, fan boats in the Grassrivers, speedboats and yachts. Motorcycles turn up in traffic and chases, and police helicopters appear during wanted levels. Rockstar didn't publish a list of flyable aircraft before launch.
+Leonida is a coastal state, and the footage shows it. Beyond the Squalo and the kayak, the official videos showed jet skis, fan boats in the Grassrivers, speedboats and yachts. Motorcycles turn up in traffic and chases, and police helicopters appear during wanted levels. Rockstar hasn't published a list of flyable aircraft.
 
-## Now that the game is out
+## Once the game is out
 
-GTA 6 came out on November 19, 2026, so the real list is in the game itself. If you want to know whether a specific car exists, the most reliable sources are the game's own garages and mod shops, and anything Rockstar posts on the Newswire. Be wary of "secret car" videos that promise a location for something nobody has actually found.
+GTA 6 comes out on November 19, 2026, and from then the real list will be in the game itself. If you want to know whether a specific car exists, the most reliable sources will be the game's own garages and mod shops, and anything Rockstar posts on the Newswire. Be wary of "secret car" videos that promise a location for something nobody has actually found.
 
 For the official videos these cars came from, see our [trailers post](https://callunc.com/blog/gta-6-trailers/). For the map those cars drive on, see [how big the GTA 6 map is](https://callunc.com/blog/gta-6-biggest-map/).

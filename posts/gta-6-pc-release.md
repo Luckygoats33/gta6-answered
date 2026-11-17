@@ -1,8 +1,9 @@
 ---
 title: GTA 6 PC Release Date: What Rockstar Has and Hasn't Said
-date: 2027-01-07
+date: 2026-11-14
+time: 09:19
 checked: 2026-11-16
-description: There's no GTA 6 release date for PC yet. What Rockstar and Take-Two have said, how GTA V and RDR2 reached PC, and legit ways to play on a PC now.
+description: There's no GTA 6 release date for PC yet. What Rockstar and Take-Two have said, how GTA V and RDR2 reached PC, and legit ways to play on a PC at launch.
 keyword: gta 6 release date pc
 category: platforms-tech
 source: Wccftech: Zelnick to Bloomberg on console first | https://wccftech.com/take-two-boss-why-gta-6-comes-to-consoles-first-pc-second/amp/
@@ -12,7 +13,7 @@ source: PlayStation Store: Grand Theft Auto VI (Remote Play supported) | https:/
 source: Xbox Wire: GTA VI on Xbox Cloud Gaming at launch | https://news.xbox.com/en-us/2026/11/13/next-week-on-xbox-new-games-for-november-16-to-20/
 source: Windows Central: GTA 6 on Xbox Cloud Gaming | https://www.windowscentral.com/gaming/xbox/grand-theft-auto-6-will-be-playable-on-xbox-cloud-gaming-but-there-are-a-few-catches
 ---
-There is no GTA 6 release date for PC. Rockstar hasn't announced a PC version at all as of November 16, 2026. GTA 6 came out on November 19, 2026, on PS5 and Xbox Series X|S only, and that's the whole platform list. Anything you've read with a specific PC month attached, including the popular "early 2027," is a guess. Our [PC page](https://callunc.com/pc/) has the one-line answer. This is the longer one.
+There is no GTA 6 release date for PC. Rockstar hasn't announced a PC version at all as of November 16, 2026. GTA 6 comes out on November 19, 2026, on PS5 and Xbox Series X|S only, and that's the whole platform list. Anything you've read with a specific PC month attached, including the popular "early 2027," is a guess. Our [PC page](https://callunc.com/pc/) has the one-line answer. This is the longer one.
 
 ## The short answer: no PC version announced
 

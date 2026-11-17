@@ -1,6 +1,7 @@
 ---
 title: Is GTA 6 Down? How to Check PSN, Xbox Live and Rockstar Status
-date: 2026-11-23
+date: 2026-11-11
+time: 02:27
 checked: 2026-11-16
 description: GTA 6 servers down or not working? Here's how to check PlayStation, Xbox and Rockstar service status, and what to try before you panic.
 keyword: gta 6 servers
@@ -11,7 +12,7 @@ source: VGC: Rockstar on platforms, cloud streaming and Remote Play | https://ww
 source: Dexerto: GTA 6 on Xbox Cloud Gaming | https://www.dexerto.com/gta/gta-6-confirms-xbox-cloud-gaming-support-but-pc-players-face-a-catch-3427015/
 source: Vice: GTA 6 Online release window report | https://www.vice.com/en/article/gta-6-online-release-window-bloomberg/
 ---
-When GTA 6 seems down, the problem is rarely "GTA 6 servers" in the way it was with GTA Online. The game launched on November 19, 2026 as a single-player experience, so the services that can actually stop you are PlayStation Network, Xbox network, Rockstar's account services and your own internet connection. Check those three status pages first, then work through your own setup.
+If GTA 6 seems down on launch day, the problem is rarely "GTA 6 servers" in the way it was with GTA Online. The game launches on November 19, 2026 as a single-player experience, so the services that can actually stop you are PlayStation Network, Xbox network, Rockstar's account services and your own internet connection. Check those three status pages first, then work through your own setup.
 
 ## Why GTA 6 servers matter less than you think
 
@@ -42,7 +43,7 @@ Most "GTA 6 not working" problems aren't outages at all. Work down this list bef
 1. **Restart properly.** Close the game, then fully restart the console. On PS5 that means Restart, not Rest Mode. On Xbox, hold the power button until it shuts off, then turn it back on.
 2. **Test your connection.** Both consoles have a connection test in network settings. If it fails, restart your router too.
 3. **Check for an update.** Rockstar can push patches at any point. A game that's waiting on an update may not start until it installs. Check Rockstar's patch notes for what changed.
-4. **Check your storage.** The download was up to 212 GB, and patches add to that. A nearly full drive can stop an update from installing. Our [file size page](https://callunc.com/file-size/) has the numbers.
+4. **Check your storage.** The download is up to 212 GB, and patches add to that. A nearly full drive can stop an update from installing. Our [file size page](https://callunc.com/file-size/) has the numbers.
 5. **Check your sign-in.** Make sure you're signed in to the same PlayStation or Xbox account that bought the game. A family member's account won't do.
 6. **Boxed copy?** The physical Standard Edition holds a download code, not a disc. If the code redeemed on a different account, the game won't show as yours. See our [disc page](https://callunc.com/disc/).
 

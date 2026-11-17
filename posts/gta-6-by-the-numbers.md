@@ -1,6 +1,7 @@
 ---
 title: GTA 6 by the Numbers: Price, Size, Map and Launch Time
-date: 2027-02-10
+date: 2026-11-16
+time: 21:43
 checked: 2026-11-16
 description: GTA 6 price and size in one place: $79.99 and $99.99, up to 212 GB, a map about twice GTA V, six regions, 16 Ultimate extras and more numbers that matter.
 keyword: gta 6 price and size
@@ -47,7 +48,7 @@ The [file size answer](https://callunc.com/file-size/) shows how to check your f
 
 - **November 19, 2026:** launch day, on PS5 and Xbox Series X|S.
 - **12:00 am:** the unlock time, in your own time zone.
-- **18 hours:** how far ahead New Zealand (11:00 UTC on November 18) was of New York (05:00 UTC on November 19).
+- **18 hours:** how far ahead New Zealand (11:00 UTC on November 18) is of New York (05:00 UTC on November 19).
 - **November 10:** pre-load opened. **November 12:** boxed copies hit stores.
 - **2:** platforms. No PC version announced, no PS4 and no phones. There's no Xbox One version either, but if you own GTA 6 you can stream it to an Xbox One through Xbox Cloud Gaming.
 
@@ -57,7 +58,7 @@ The [file size answer](https://callunc.com/file-size/) shows how to check your f
 
 ## A few more numbers
 
-- **30fps:** Rockstar's frame-rate target on PS5, PS5 Pro and Xbox Series X|S. The Pro adds PSSR upscaling and ray-traced shadows. No 60 fps or performance mode was announced.
+- **30fps:** Rockstar's frame-rate target on PS5, PS5 Pro and Xbox Series X|S. The Pro adds PSSR upscaling and ray-traced shadows. No 60 fps or performance mode has been announced.
 - **2:** playable leads, Jason Duval and Lucia Caminos.
 - **90,421,491:** Trailer 1's YouTube views in its first 24 hours in December 2023, a Guinness record for a non-music video.
 - **2015:** the year development started, per Rockstar North's Rob Nelson. Most of the team joined after 2018.
@@ -67,10 +68,10 @@ The [file size answer](https://callunc.com/file-size/) shows how to check your f
 
 ## Numbers we don't have
 
-Some numbers get quoted everywhere without a source. As of November 16, 2026, Rockstar hadn't published any of these, so treat them with suspicion:
+Some numbers get quoted everywhere without a source. As of November 16, 2026, Rockstar hasn't published any of these, so treat them with suspicion:
 
 - **Sales figures.** Take-Two reports sales in its earnings, not Rockstar's Newswire. Wait for the official report rather than a viral screenshot.
-- **Budget.** You'll see billion-dollar figures. Neither Rockstar nor Take-Two confirmed one.
+- **Budget.** You'll see billion-dollar figures. Neither Rockstar nor Take-Two has confirmed one.
 - **Hours to finish.** Estimates of story length are guesses until players log them.
 - **Resolution.** Rockstar gave a frame-rate target, not pixel counts, for any console.
 - **A PC date.** Not announced.

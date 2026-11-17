@@ -1,6 +1,7 @@
 ---
 title: What's in GTA 6: How It Looks and Plays, Per Rockstar
-date: 2026-12-28
+date: 2026-11-13
+time: 16:01
 checked: 2026-11-16
 description: What will be in GTA 6, based on what Rockstar showed: PS5 graphics, the Leonida open world, two protagonists, wanted levels, activities, and the unknowns.
 keyword: what will be in gta 6
@@ -12,7 +13,7 @@ source: VGC: Rob Nelson on 30 fps | https://www.videogameschronicle.com/news/gta
 source: Rockstar Games: Only in Leonida | https://www.rockstargames.com/VI/only-in-leonida
 source: TweakTown: Rockstar confirms 30 fps target and PS5 Pro features | https://www.tweaktown.com/news/114598/rockstar-confirms-gta-6-targets-30-fps-on-ps5-pro-with-pssr-and-ray-traced-shadows/index.html
 ---
-If you're wondering what will be in GTA 6, the most reliable answer is what Rockstar itself showed before release: two playable leads, Jason and Lucia, a Florida-style state called Leonida, a six-star wanted system, and a long list of side activities, all captured on PS5. The game came out on November 19, 2026. This is a guide to what Rockstar put on the record before launch, not a review, so you know what was promised and what's still an open question.
+If you're wondering what will be in GTA 6, the most reliable answer is what Rockstar itself has shown before release: two playable leads, Jason and Lucia, a Florida-style state called Leonida, a six-star wanted system, and a long list of side activities, all captured on PS5. The game comes out on November 19, 2026. This is a guide to what Rockstar has put on the record before launch, not a review, so you know what has been promised and what's still an open question.
 
 ## Graphics from the PS5 footage
 
@@ -56,11 +57,11 @@ From the Extended Look and the coverage around it:
 
 ## What's still unknown
 
-Some of the biggest questions weren't answered before launch. As of November 16, 2026, Rockstar hadn't announced:
+Some of the biggest questions haven't been answered before launch. As of November 16, 2026, Rockstar hasn't announced:
 
-- **A date for GTA 6 Online.** The game launched single-player. Late 2027 comes from a Bloomberg report, not from Rockstar. See the [online page](https://callunc.com/online/).
+- **A date for GTA 6 Online.** The game launches single-player. Late 2027 comes from a Bloomberg report, not from Rockstar. See the [online page](https://callunc.com/online/).
 - **A PC version.** It's PS5 and Xbox Series X|S only. The [PC page](https://callunc.com/pc/) tracks this.
 - **Resolution.** Rockstar hasn't disclosed rendering resolution for any console, the PS5 Pro included.
 - **Story expansions.** Nothing announced.
 
-Now that the game is out, you'll find out a lot of this by playing. Just be careful with what you read online in the meantime. Clips claiming "hidden features" are often fan edits or rumors, and nothing beats Rockstar's own patch notes for what's officially changed. Our earlier post on [GTA 6 crash physics](https://callunc.com/blog/gta-6-crash-physics/) goes deeper on how driving was described.
+Once the game is out on November 19, you'll find out a lot of this by playing. Just be careful with what you read online in the meantime. Clips claiming "hidden features" are often fan edits or rumors, and nothing beats Rockstar's own patch notes for what's officially changed. Our earlier post on [GTA 6 crash physics](https://callunc.com/blog/gta-6-crash-physics/) goes deeper on how driving was described.

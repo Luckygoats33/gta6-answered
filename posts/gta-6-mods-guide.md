@@ -1,6 +1,7 @@
 ---
 title: GTA 6 Mods: What Rockstar's New Rules Allow
-date: 2027-01-12
+date: 2026-11-14
+time: 18:28
 checked: 2026-11-16
 description: Will GTA 6 have mods? Rockstar hasn't announced mod support, but its updated mod rules, its ownership of FiveM and the console reality tell you a lot.
 keyword: will gta 6 have mods
@@ -9,7 +10,7 @@ source: MP1st: Rockstar updates its modding guidelines ahead of GTA 6 | https://
 source: Club386: Rockstar acquires Cfx.re | https://www.club386.com/rockstar-acquires-gta-v-and-rdr-roleplaying-mod-maker-cfx-re/
 source: Vice: the Project ROME rumor | https://www.vice.com/en/article/new-gta-6-modding-feature-leaked-and-it-sounds-like-roblox/
 ---
-Will GTA 6 have mods? Rockstar hasn't announced mod support for GTA 6 as of November 16, 2026, and the game came out on November 19, 2026, only on PS5 and Xbox Series X|S, where traditional mods don't run. What Rockstar has done is rewrite its mod rules for all its games just before launch, and it has owned the team behind FiveM since 2023. So the honest answer is "not now, and if it happens, on Rockstar's terms."
+Will GTA 6 have mods? Rockstar hasn't announced mod support for GTA 6 as of November 16, 2026, and the game comes out on November 19, 2026, only on PS5 and Xbox Series X|S, where traditional mods don't run. What Rockstar has done is rewrite its mod rules for all its games just before launch, and it has owned the team behind FiveM since 2023. So the honest answer is "not now, and if it happens, on Rockstar's terms."
 
 Here's what each piece actually says.
 

@@ -1,6 +1,7 @@
 ---
 title: GTA 6 Locations vs Real Florida, Including Jason's House
-date: 2026-12-22
+date: 2026-11-13
+time: 05:23
 checked: 2026-11-16
 description: Where is GTA 6 Jason's house in real life? How Leonida's Vice City, Keys and Grassrivers line up with real Florida, and what's official vs fan mapping.
 keyword: gta 6 jason house in real life
@@ -53,6 +54,6 @@ Rockstar's Leonida page links each of these to characters but doesn't describe t
 
 ## Comparing GTA 6 to real life yourself
 
-Rockstar said it would post a free printable Leonida map on its website on release day, giving you an official look at the whole state. If you want to do your own GTA 6 vs real life comparison, put that next to a real Florida map and look at the shape of the coastline and the Keys. You'll see what Rockstar kept and what it rearranged.
+Rockstar said it would post a free printable Leonida map on its website on release day, giving you an official look at the whole state. If you want to do your own GTA 6 vs real life comparison, put that next to a real Florida map once it's up and look at the shape of the coastline and the Keys. You'll see what Rockstar kept and what it rearranged.
 
 For the size of it all, the [map size page](https://callunc.com/map-size/) has what Rockstar has said. For everything confirmed about the game in one place, see the [facts page](https://callunc.com/facts/), and our earlier post on [GTA 6 crash physics](https://callunc.com/blog/gta-6-crash-physics/) covers how getting around Leonida is meant to feel.

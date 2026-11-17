@@ -1,6 +1,7 @@
 ---
 title: GTA 6 on PS4: Why It Isn't Coming and Your Upgrade Options
-date: 2027-01-03
+date: 2026-11-14
+time: 02:17
 checked: 2026-11-16
 description: Can you play GTA 6 on PS4? No. Why there's no PS4 version, how the PS5 models compare, what PS5 Pro Enhanced means, and whether upgrading is worth it.
 keyword: gta 6 can you play on ps4
@@ -11,7 +12,7 @@ source: TweakTown: Rockstar confirms 30 fps target and PS5 Pro features | https:
 source: Windows Central: GTA 6 on Xbox Cloud Gaming | https://www.windowscentral.com/gaming/xbox/grand-theft-auto-6-will-be-playable-on-xbox-cloud-gaming-but-there-are-a-few-catches
 source: PlayStation Support: PS5 USB extended storage | https://www.playstation.com/en-us/support/hardware/ps5-extended-storage/
 ---
-Can you play GTA 6 on PS4? No. Rockstar released GTA 6 on November 19, 2026, for PS5 and Xbox Series X|S only, and there's no PS4 version, no PS4 disc, and no download that runs on a PS4. If you're on a PS4, the only official way to play is a PS5 (or an Xbox Series X or S). Here's why, and how to pick the right upgrade without overspending.
+Can you play GTA 6 on PS4? No. Rockstar is releasing GTA 6 on November 19, 2026, for PS5 and Xbox Series X|S only, and there's no PS4 version, no PS4 disc, and no download that runs on a PS4. If you're on a PS4, the only official way to play is a PS5 (or an Xbox Series X or S). Here's why, and how to pick the right upgrade without overspending.
 
 ## The short answer: no
 

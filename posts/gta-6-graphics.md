@@ -1,6 +1,7 @@
 ---
 title: GTA 6 Graphics: What the PS5 Footage Shows
-date: 2026-12-17
+date: 2026-11-12
+time: 20:48
 checked: 2026-11-16
 description: GTA 6 quality and graphics, from the PS5-captured Extended Look to Rockstar's own console details: lighting, weather, crowds, faces and the 30 fps target.
 keyword: gta 6 quality
@@ -11,11 +12,11 @@ source: VGC: Rockstar confirms 30 FPS target and PS5 Pro features | https://www.
 source: Dexerto: Rockstar on the map, weather and wildlife | https://www.dexerto.com/gta/rockstar-says-gta-6s-map-is-so-big-you-wont-see-it-all-just-by-playing-story-missions-3414118/
 source: Windows Central: GTA 6 on Xbox Cloud Gaming | https://www.windowscentral.com/gaming/xbox/grand-theft-auto-6-will-be-playable-on-xbox-cloud-gaming-but-there-are-a-few-catches
 ---
-The best pre-launch evidence of GTA 6 quality on a console is the 27-minute Extended Look, which Netflix says was captured entirely in-game on PlayStation 5, and Engadget notes it was a standard PS5, not a Pro. It showed detailed lighting, faces and crowds at what looked like about 30 frames per second. Rockstar's own numbers line up with that: every console targets 30 fps, and only the PS5 Pro gets extra image features. Here's what the official footage showed, and what Rockstar did and didn't say about the graphics.
+The best pre-launch evidence of GTA 6 quality on a console is the 27-minute Extended Look, which Netflix says was captured entirely in-game on PlayStation 5, and Engadget notes it was a standard PS5, not a Pro. It showed detailed lighting, faces and crowds at what looked like about 30 frames per second. Rockstar's own numbers line up with that: every console targets 30 fps, and only the PS5 Pro gets extra image features. Here's what the official footage showed, and what Rockstar has and hasn't said about the graphics.
 
 ## What the Extended Look showed on PS5
 
-The Extended Look premiered on Netflix on August 27, 2026, then went up on Rockstar's YouTube channel. It's the longest stretch of real gameplay Rockstar released before launch, so it's the fairest source for judging the graphics, with two caveats.
+The Extended Look premiered on Netflix on August 27, 2026, then went up on Rockstar's YouTube channel. It's the longest stretch of real gameplay Rockstar has released before launch, so it's the fairest source for judging the graphics, with two caveats.
 
 First, the Netflix stream was low bitrate. Engadget pointed out that this made fine detail hard to judge. Second, Rockstar chose what to show. Any studio's showcase is the game on its best behavior.
 
@@ -48,7 +49,7 @@ Rockstar's November 10 announcement settled the main questions:
 - **Xbox One:** there's no Xbox One version, but if you own the game you can stream it to an Xbox One through Xbox Cloud Gaming, at Series S settings.
 - **Resolution:** Rockstar hasn't given targets for any console.
 
-The game came out on November 19, 2026. For how it actually looks and runs on each machine, look for side-by-side tests from outlets that measure performance, and check Rockstar's patch notes for any graphics changes after launch. Before launch, Rockstar didn't announce a performance mode or a 60 fps option.
+The game comes out on November 19, 2026. For how it actually looks and runs on each machine, wait for side-by-side tests from outlets that measure performance, and check Rockstar's patch notes for any graphics changes after launch. Rockstar hasn't announced a performance mode or a 60 fps option.
 
 ## Do you need a PS5 Pro or a big TV?
 

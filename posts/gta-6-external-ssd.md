@@ -1,6 +1,7 @@
 ---
 title: Can You Play GTA 6 Off an External Hard Drive? PS5 and Xbox Rules
-date: 2026-12-03
+date: 2026-11-11
+time: 19:53
 checked: 2026-11-16
 description: Can GTA 6 run from an external hard drive? On PS5 and Xbox Series X|S, USB drives only store it. Here's what does let you play it, and how to set it up.
 keyword: gta 6 external hard drive

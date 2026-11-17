@@ -1,6 +1,7 @@
 ---
 title: How Long Will GTA 6 Take to Download? Speeds and Times Worked Out
-date: 2026-11-19
+date: 2026-11-10
+time: 18:52
 checked: 2026-11-16
 description: GTA 6 download time worked out for the full 212 GB at common internet speeds, plus why real downloads run slower and how to speed yours up.
 keyword: gta 6 download time
@@ -10,7 +11,7 @@ source: Shacknews: GTA 6 price and the code in a box | https://www.shacknews.com
 ---
 Your GTA 6 download time depends almost entirely on your internet speed. At 100 Mbps the full 212 GB takes a little under five hours in a perfect world, and closer to six or seven in the real one. At 25 Mbps you are looking at most of a day, so start it before bed and let the console work.
 
-GTA 6 came out on November 19, 2026, on PS5 and Xbox Series X|S. Rockstar said the download is up to 212 GB depending on your console, and that's the only size figure Rockstar has given. The math below uses that maximum, so your console may finish a bit sooner.
+GTA 6 comes out on November 19, 2026, on PS5 and Xbox Series X|S. Rockstar said the download is up to 212 GB depending on your console, and that's the only size figure Rockstar has given. The math below uses that maximum, so your console may finish a bit sooner.
 
 ## The GTA 6 download size, in hours
 
@@ -54,7 +55,7 @@ None of this is magic, but each one helps.
 
 ## The GTA 6 install size after the download
 
-Downloading and installing happen together on PS5 and Xbox. When the bar hits 100 percent there may still be a short "installing" or "copying" step, so don't panic if it sits there for a few minutes. If you pre-loaded before launch, you already did the heavy lifting. Our [pre-load page](https://callunc.com/pre-load/) covers how that worked.
+Downloading and installing happen together on PS5 and Xbox. When the bar hits 100 percent there may still be a short "installing" or "copying" step, so don't panic if it sits there for a few minutes. If you pre-load before launch, you've already done the heavy lifting. Our [pre-load page](https://callunc.com/pre-load/) covers how that works.
 
 Leave some room on top of the game itself. Updates almost always make big games bigger over time, and a full drive is the most common reason an update refuses to install.
 

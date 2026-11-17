@@ -1,6 +1,7 @@
 ---
 title: How to Download GTA 6 Fast on Launch Night (PS5 and Xbox)
-date: 2026-11-18
+date: 2026-11-10
+time: 17:45
 checked: 2026-11-16
 description: The GTA 6 Xbox download and PS5 download, step by step: pre-load, redeem a boxed code, and get the game installed before your midnight unlock.
 keyword: gta 6 xbox download

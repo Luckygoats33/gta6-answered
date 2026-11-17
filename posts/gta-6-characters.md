@@ -1,6 +1,7 @@
 ---
 title: GTA 6 Characters: Jason, Lucia and Everyone Rockstar Has Named
-date: 2026-12-18
+date: 2026-11-12
+time: 22:49
 checked: 2026-11-16
 description: Every GTA 6 character Rockstar profiled before launch: Jason Duval, Lucia Caminos and the supporting cast, with what the official bios say about each.
 keyword: gta 6 characters
@@ -9,9 +10,9 @@ source: Rockstar Games: Only in Leonida character profiles | https://www.rocksta
 source: Rockstar Games: Grand Theft Auto VI official page | https://www.rockstargames.com/VI
 source: Engadget: breaking down the Extended Look | https://www.engadget.com/2245942/guns-cars-and-chihuahuas-breaking-down-the-gta-6-extended-look/
 ---
-The GTA 6 characters Rockstar introduced before launch come down to two leads, Jason Duval and Lucia Caminos, plus a supporting cast of about a dozen named people on Rockstar's official "Only in Leonida" pages. Those profiles went up with Trailer 2 in May 2025. Everything below comes from that official material, so there are no story spoilers past what Rockstar chose to show.
+The GTA 6 characters Rockstar has introduced before launch come down to two leads, Jason Duval and Lucia Caminos, plus a supporting cast of about a dozen named people on Rockstar's official "Only in Leonida" pages. Those profiles went up with Trailer 2 in May 2025. Everything below comes from that official material, so there are no story spoilers past what Rockstar chose to show.
 
-If you're playing already, you know more than this page does. If you're not, this is who you'll be spending time with.
+Once you're playing, you'll know more than this page does. Until then, this is who you'll be spending time with.
 
 ## The GTA 6 main characters
 
@@ -47,7 +48,7 @@ Rockstar hasn't published an official voice cast for GTA 6 as of November 16, 20
 
 ## Can you switch between Jason and Lucia?
 
-GTA V let you swap between three leads. Rockstar has shown both Jason and Lucia playable in GTA 6 footage, and the game's marketing is built around the two of them. How and when the game lets you switch is something you'll learn by playing; Rockstar didn't spell it out before launch.
+GTA V let you swap between three leads. Rockstar has shown both Jason and Lucia playable in GTA 6 footage, and the game's marketing is built around the two of them. How and when the game lets you switch is something you'll learn by playing; Rockstar hasn't spelled it out.
 
 ## Where to meet them
 

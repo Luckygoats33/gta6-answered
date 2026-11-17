@@ -1,6 +1,7 @@
 ---
 title: Best TV Settings for GTA 6: Game Mode, HDR and More
-date: 2026-12-02
+date: 2026-11-11
+time: 18:38
 checked: 2026-11-16
 description: The best settings for GTA 6 start with your TV and console: Game Mode, HDR calibration, VRR, ALLM and 120Hz on PS5 and Xbox Series X|S, step by step.
 keyword: gta 6 best settings
@@ -11,9 +12,9 @@ source: PlayStation Store: Grand Theft Auto VI (PS5 Pro Enhanced) | https://www.
 source: Xbox Store: Grand Theft Auto VI (Optimized for Series X and S) | https://www.xbox.com/en-us/games/store/grand-theft-auto-vi/9p3h4968grsm
 source: TweakTown: Rockstar confirms 30 fps target and PS5 Pro features | https://www.tweaktown.com/news/114598/rockstar-confirms-gta-6-targets-30-fps-on-ps5-pro-with-pssr-and-ray-traced-shadows/index.html
 ---
-The best settings for GTA 6 mostly live outside the game: put your TV in Game Mode, calibrate HDR once at the console level, turn on VRR and ALLM if your TV supports them, and make sure the console is plugged into the right HDMI port. Those four steps matter more than any slider you'll find in a pause menu. GTA 6 came out on November 19, 2026, on PS5 and Xbox Series X|S, and a game this bright and busy shows off a badly set TV fast. Neon at night and Leonida sun at noon will either look great or look like a smeared mess.
+The best settings for GTA 6 mostly live outside the game: put your TV in Game Mode, calibrate HDR once at the console level, turn on VRR and ALLM if your TV supports them, and make sure the console is plugged into the right HDMI port. Those four steps matter more than any slider you'll find in a pause menu. GTA 6 comes out on November 19, 2026, on PS5 and Xbox Series X|S, and a game this bright and busy will show off a badly set TV fast. Neon at night and Leonida sun at noon will either look great or look like a smeared mess.
 
-A note on what we won't do here: we won't invent in-game menus or performance modes. Before launch, Rockstar confirmed a 30 fps target on PS5, PS5 Pro and Xbox Series X|S, and announced no 60 fps or performance mode. The store pages say the game is "PS5 Pro Enhanced" on PlayStation and "Optimized for Xbox Series X|S" on Xbox. So this guide covers the parts that are documented by Sony and Microsoft, which are also the parts that make the biggest difference.
+A note on what we won't do here: we won't invent in-game menus or performance modes. Rockstar has confirmed a 30 fps target on PS5, PS5 Pro and Xbox Series X|S, and has announced no 60 fps or performance mode. The store pages say the game is "PS5 Pro Enhanced" on PlayStation and "Optimized for Xbox Series X|S" on Xbox. So this guide covers the parts that are documented by Sony and Microsoft, which are also the parts that make the biggest difference.
 
 ## Step 1: GTA 6 TV settings start with Game Mode
 
@@ -63,7 +64,7 @@ If you see flicker or a black screen after changing these, Sony suggests trying 
 
 ## What about PS5 Pro and graphics modes?
 
-PlayStation lists GTA 6 as PS5 Pro Enhanced, and Rockstar explained what that means on November 10: Rockstar's target is 30 fps on every console, PS5 Pro included, and the Pro adds PSSR upscaling and ray-traced shadows. Rockstar didn't disclose rendering resolution, and no 60 fps or performance mode was announced (a 40 fps mode is only a datamine rumor). Check the game's own settings menu and Rockstar's patch notes for anything newer, and see our [consoles page](https://callunc.com/consoles/) and [facts page](https://callunc.com/facts/) for what's confirmed. If someone online is quoting a 60 fps mode, ask where they got it.
+PlayStation lists GTA 6 as PS5 Pro Enhanced, and Rockstar explained what that means on November 10: Rockstar's target is 30 fps on every console, PS5 Pro included, and the Pro adds PSSR upscaling and ray-traced shadows. Rockstar didn't disclose rendering resolution, and no 60 fps or performance mode was announced (a 40 fps mode is only a datamine rumor). From November 19, check the game's own settings menu and Rockstar's patch notes for anything newer, and see our [consoles page](https://callunc.com/consoles/) and [facts page](https://callunc.com/facts/) for what's confirmed. If someone online is quoting a 60 fps mode, ask where they got it.
 
 ## The short checklist
 

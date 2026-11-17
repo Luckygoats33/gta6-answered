@@ -1,6 +1,7 @@
 ---
 title: GTA 6 PS5 and Xbox Bundles: What Exists and Is It a Good Buy?
-date: 2027-02-04
+date: 2026-11-16
+time: 11:05
 checked: 2026-11-16
 description: Is there a GTA 6 PS5 bundle? What Sony and Microsoft actually released, the retailer bundles we found, and how to tell if one is a good deal.
 keyword: gta 6 ps5 bundle
@@ -10,13 +11,13 @@ source: EE: GTA VI console bundles (UK retailer) | https://ee.co.uk/gta6
 source: Rockstar Games: Grand Theft Auto VI official page | https://www.rockstargames.com/VI
 source: TweakTown: Rockstar confirms 30 fps target and PS5 Pro features | https://www.tweaktown.com/news/114598/rockstar-confirms-gta-6-targets-30-fps-on-ps5-pro-with-pssr-and-ray-traced-shadows/index.html
 ---
-Is there an official GTA 6 PS5 bundle? Not that we could find. As of November 16, 2026, neither Sony nor Microsoft had announced a console bundle with Grand Theft Auto VI in the box, and Rockstar's own page didn't list one. What Sony did release was a pair of limited-edition GTA VI DualSense controllers. Separately, some retailers put together their own console-plus-game packages. Those are real, but they're shop deals, not official bundles.
+Is there an official GTA 6 PS5 bundle? Not that we could find. As of November 16, 2026, neither Sony nor Microsoft has announced a console bundle with Grand Theft Auto VI in the box, and Rockstar's own page doesn't list one. What Sony has announced is a pair of limited-edition GTA VI DualSense controllers. Separately, some retailers have put together their own console-plus-game packages. Those are real, but they're shop deals, not official bundles.
 
-If something has changed since then, Sony's PlayStation Blog and Xbox Wire are where an official bundle would be announced. Here's what existed when we checked.
+If something changes after that, Sony's PlayStation Blog and Xbox Wire are where an official bundle would be announced. Here's what exists as of that check.
 
 ## No official GTA 6 PS5 bundle or Xbox bundle
 
-Plenty of people expected one for a game this size. It didn't happen at launch. We found no Sony announcement of a PS5 or PS5 Pro console bundled with GTA 6, and no Microsoft announcement of a GTA 6 Xbox bundle either.
+Plenty of people expected one for a game this size. None has been announced for launch. We found no Sony announcement of a PS5 or PS5 Pro console bundled with GTA 6, and no Microsoft announcement of a GTA 6 Xbox bundle either.
 
 That also means there's no official GTA 6 PS5 Pro bundle. If you see a listing calling itself the "official" one, check whether it's actually a retailer package, and be very careful with third-party sellers asking for more than the parts are worth.
 
@@ -27,13 +28,13 @@ Sony announced two limited-edition DualSense controllers in September 2026:
 - **White Limited Edition,** inspired by Vice City at daybreak.
 - **Black Limited Edition,** inspired by the city's nightlife.
 
-Both have a color-shifting finish, palm tree details molded into the shell and official GTA VI branding. The recommended price was $84.99 in the US (£74.99 in the UK, €84.99 in Europe), and they launched starting November 19 alongside the game. Quantities were limited. The White one was sold through PlayStation Direct and participating retailers. The Black one was a PlayStation Direct exclusive in the US and several European countries, and sold through select retailers elsewhere.
+Both have a color-shifting finish, palm tree details molded into the shell and official GTA VI branding. The recommended price is $84.99 in the US (£74.99 in the UK, €84.99 in Europe), and they launch starting November 19 alongside the game. Quantities are limited. The White one is sold through PlayStation Direct and participating retailers. The Black one is a PlayStation Direct exclusive in the US and several European countries, and sold through select retailers elsewhere.
 
 They work like any other DualSense, and they're PS5 only. There's no collector's edition of the game either. Rockstar sells a separate merch box, The Goodtime State: Vice City Collection, but it doesn't include the game and it isn't console hardware.
 
 ## Retailer bundles: the GTA 6 console bundle you can actually buy
 
-Some shops packaged a console with a copy of the game. UK carrier EE is a good example. When we checked on November 16, 2026, its GTA VI page listed packages including:
+Some shops package a console with a copy of the game. UK carrier EE is a good example. When we checked on November 16, 2026, its GTA VI page listed packages including:
 
 - PS5 Slim Digital with GTA VI: £553.99
 - PS5 Slim Disc with GTA VI: £603.99
@@ -41,7 +42,7 @@ Some shops packaged a console with a copy of the game. UK carrier EE is a good e
 - Xbox Series S Digital 512 GB with GTA VI: £463.99
 - Xbox Series X 1 TB with GTA VI: £703.99
 
-Prices change, so treat those as a snapshot. EE's listings didn't say whether the game was a boxed code or a digital download, so ask before you buy. Other retailers in other countries ran similar offers.
+Prices change, so treat those as a snapshot. EE's listings don't say whether the game is a boxed code or a digital download, so ask before you buy. Other retailers in other countries run similar offers.
 
 ## Is a bundle a good buy?
 
@@ -63,4 +64,4 @@ If you're buying a console just for GTA 6, both work, and Rockstar's target is 3
 
 ## A warning about "exclusive bundles"
 
-Around big launches, listings appear for "exclusive early access bundles" or "limited GTA 6 consoles" from sellers you've never heard of. There was no early access, and we found no official GTA 6 console. If the price looks too good or the seller wants payment off-platform, walk away. Our [rumors page](https://callunc.com/rumors/) tracks the claims that didn't hold up.
+Around big launches, listings appear for "exclusive early access bundles" or "limited GTA 6 consoles" from sellers you've never heard of. There is no early access, and we found no official GTA 6 console. If the price looks too good or the seller wants payment off-platform, walk away. Our [rumors page](https://callunc.com/rumors/) tracks the claims that didn't hold up.

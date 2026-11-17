@@ -1,6 +1,7 @@
 ---
 title: GTA 6 Launch Night Checklist: What to Do Before Midnight
-date: 2026-11-16
+date: 2026-11-10
+time: 14:00
 checked: 2026-11-16
 description: A GTA 6 midnight release checklist: pre-load, storage, console updates, sign-in, unlock times by zone, and what to try if it won't start.
 keyword: gta 6 midnight release

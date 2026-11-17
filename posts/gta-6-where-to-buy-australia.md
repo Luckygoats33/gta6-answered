@@ -1,6 +1,7 @@
 ---
 title: Where to Buy GTA 6 in Australia: JB Hi-Fi, Big W and More
-date: 2027-01-21
+date: 2026-11-15
+time: 10:46
 checked: 2026-11-16
 description: Buying GTA 6 at JB Hi-Fi, Big W, EB Games or the digital stores in Australia: AUD prices, the code-in-a-box copy, controllers, and the local unlock time.
 keyword: gta 6 jb hi fi
@@ -10,7 +11,7 @@ source: The Sixth Axis: editions, bonus and code in a box | https://www.thesixth
 source: VGC: the GTA 6 DualSense controllers | https://www.videogameschronicle.com/news/gta-6-is-getting-two-custom-ps5-dualsense-controllers/
 source: VGC: boxed copies from November 12 | https://www.videogameschronicle.com/news/rockstar-details-grand-theft-auto-6-pre-load-date-and-time-and-file-size/
 ---
-If you're in Australia, GTA 6 at JB Hi-Fi is one of the easiest options: the boxed Standard Edition for PS5 and Xbox Series X|S, which holds a download code rather than a disc. You can also buy it from Big W, EB Games, Amazon Australia, or straight from the PlayStation Store or Microsoft Store. The game came out on November 19, 2026. Here's how the options compare and what the Australian prices looked like.
+If you're in Australia, GTA 6 at JB Hi-Fi is one of the easiest options: the boxed Standard Edition for PS5 and Xbox Series X|S, which holds a download code rather than a disc. You can also buy it from Big W, EB Games, Amazon Australia, or straight from the PlayStation Store or Microsoft Store. The game comes out on November 19, 2026, and pre-orders are open until launch. Here's how the options compare and what the Australian prices look like.
 
 ## Australian prices
 
@@ -65,9 +66,9 @@ What that means:
 
 The [disc page](https://callunc.com/disc/) explains more.
 
-## When it unlocked in Australia
+## When it unlocks in Australia
 
-Each region unlocked at its own midnight on November 19. In Sydney, on daylight saving time, that was 13:00 UTC on November 18, so Australia was among the first in the world, behind New Zealand. Other states unlocked at their own local midnight. The full table is on the [launch times page](https://callunc.com/launch-times/).
+Each region unlocks at its own midnight on November 19. In Sydney, on daylight saving time, that is 13:00 UTC on November 18, so Australia is among the first in the world, behind New Zealand. Other states unlock at their own local midnight. The full table is on the [launch times page](https://callunc.com/launch-times/).
 
 ## A word on bargain sellers
 

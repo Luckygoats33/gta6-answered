@@ -1,6 +1,7 @@
 ---
 title: Leonida Explained: GTA 6's State, Regions and Real Florida Roots
-date: 2026-12-20
+date: 2026-11-13
+time: 02:10
 checked: 2026-11-16
 description: The GTA 6 Leonida map explained: what Leonida is, its six regions from Vice City to Mount Kalaga, and the real Florida places Rockstar drew on.
 keyword: gta 6 leonida map
@@ -12,7 +13,7 @@ source: Xbox Store: Grand Theft Auto VI description | https://www.xbox.com/en-us
 ---
 Leonida is the fictional state GTA 6 takes place in, and the GTA 6 Leonida map is Rockstar's version of Florida. Vice City is its big city, but it's only one of six regions, with islands, wetlands, a struggling coastal town, industrial country and a national park spread across the rest of the state. Rockstar's own tagline calls it "the darkest side of the sunniest place in America," which is about as Florida as a sentence gets.
 
-GTA 6 came out on November 19, 2026, so you can explore it yourself now. This guide sticks to what Rockstar said and showed before launch, so you know which parts came from the source and which came from fan maps.
+GTA 6 comes out on November 19, 2026, so you'll be able to explore it yourself soon. This guide sticks to what Rockstar has said and shown before launch, so you know which parts come from the source and which come from fan maps.
 
 ## What Leonida is
 
@@ -54,6 +55,6 @@ Rockstar also told Game Informer, per VGC, that the weather system is more local
 
 Rockstar never names Florida on its own pages, but it doesn't need to. VGC's write-up of the Game Informer preview ties each region to a real counterpart: Vice City to Miami, the Keys to the Florida Keys, Grassrivers to the Everglades, Port Gellhorn to Florida's fading tourist towns, Ambrosia to the state's industrial areas, and Mount Kalaga to the natural landscapes near the Florida-Georgia border.
 
-A word on the extras people search for, like a Leonida flag, state seal or license plate: plenty of designs float around online, and most are fan-made. If you want the real thing, check Rockstar's official Media & Artwork section on the GTA VI site, or look closely in the game itself.
+A word on the extras people search for, like a Leonida flag, state seal or license plate: plenty of designs float around online, and most are fan-made. If you want the real thing, check Rockstar's official Media & Artwork section on the GTA VI site, or look closely in the game itself once it's out.
 
 For more on what's confirmed, see our [facts page](https://callunc.com/facts/), and our earlier post on [what the Extended Look showed](https://callunc.com/blog/gta-6-extended-look/).

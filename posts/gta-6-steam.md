@@ -1,6 +1,7 @@
 ---
 title: Is GTA 6 on Steam? The PC Situation Explained
-date: 2027-01-09
+date: 2026-11-14
+time: 12:52
 checked: 2026-11-16
 description: Is GTA 6 on Steam? No PC version is announced. How long GTA V and RDR2 took to reach PC, what that means for Steam Deck, and how to spot fake listings.
 keyword: gta 6 steam
@@ -12,7 +13,7 @@ source: GamingBolt: physics built for current consoles | https://gamingbolt.com/
 source: TweakTown: Rockstar confirms 30 fps target and PS5 Pro features | https://www.tweaktown.com/news/114598/rockstar-confirms-gta-6-targets-30-fps-on-ps5-pro-with-pssr-and-ray-traced-shadows/index.html
 source: Windows Central: GTA 6 on Xbox Cloud Gaming | https://www.windowscentral.com/gaming/xbox/grand-theft-auto-6-will-be-playable-on-xbox-cloud-gaming-but-there-are-a-few-catches
 ---
-GTA 6 is not on Steam. Rockstar released it on November 19, 2026, for PS5 and Xbox Series X|S only, and as of November 16, 2026, it hadn't announced a PC version at all. No PC version means no Steam page, no Epic Games Store listing and no Steam Deck support. If you see any of those, it's fake. Here's what's actually known, and what Rockstar's history suggests about the wait.
+GTA 6 is not on Steam. Rockstar is releasing it on November 19, 2026, for PS5 and Xbox Series X|S only, and as of November 16, 2026, it hasn't announced a PC version at all. No PC version means no Steam page, no Epic Games Store listing and no Steam Deck support. If you see any of those, it's fake. Here's what's actually known, and what Rockstar's history suggests about the wait.
 
 ## Why GTA 6 isn't on PC yet
 
@@ -32,7 +33,7 @@ So the pattern says a PC version is likely at some point, and the gap has been a
 
 ## GTA 6 on Steam Deck
 
-Not possible. The Steam Deck plays PC games, and there's no PC version of GTA 6. When one does come, whether it runs well on handheld PC hardware is a separate question. Rob Nelson of Rockstar North said before launch that the team rebuilt the vehicle physics from scratch for current consoles, and Rockstar's target is 30 fps on every console, PS5 Pro included. That gives you a sense of how demanding it is.
+Not possible. The Steam Deck plays PC games, and there's no PC version of GTA 6. When one does come, whether it runs well on handheld PC hardware is a separate question. Rob Nelson of Rockstar North has said that the team rebuilt the vehicle physics from scratch for current consoles, and Rockstar's target is 30 fps on every console, PS5 Pro included. That gives you a sense of how demanding it is.
 
 If you want to play GTA 6 on a handheld, there is no official route yet. PlayStation's Remote Play can stream from a PS5 you own to other devices, but that's streaming your console, not running the game on the device. Xbox Cloud Gaming doesn't help here either: owners can stream GTA 6 to Xbox One and Xbox Series X|S, but it does not stream to PC at launch.
 

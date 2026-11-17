@@ -1,6 +1,7 @@
 ---
 title: Is There a GTA 6 Collector's Edition?
-date: 2027-02-05
+date: 2026-11-16
+time: 12:41
 checked: 2026-11-16
 description: Is there a GTA 6 collector's edition? Not of the game. Here is what Rockstar sells instead, the $399.99 merch box, steelbook facts and fake listings.
 keyword: gta 6 collector's edition
@@ -10,7 +11,7 @@ source: Insider Gaming: GTA 6 collector's edition status and Rockstar's history 
 source: Shacknews: GTA 6 editions and the code in a box | https://www.shacknews.com/article/149778/grand-theft-auto-6-price-standard-ultimate-gta-6
 source: VGC: release day map download and Rockstar Store poster | https://www.videogameschronicle.com/news/rockstar-details-grand-theft-auto-6-pre-load-date-and-time-and-file-size/
 ---
-There is no GTA 6 collector's edition of the game itself. Rockstar sells two editions, Standard and Ultimate, and neither comes in a fancy box. What Rockstar did sell is a $399.99 merchandise box called the Goodtime State, Vice City Collection, and the catch is in the fine print: as Push Square reported, it doesn't include the game. GTA 6 came out on November 19, 2026, and as of November 16, 2026, Rockstar hadn't announced any other edition.
+There is no GTA 6 collector's edition of the game itself. Rockstar sells two editions, Standard and Ultimate, and neither comes in a fancy box. What Rockstar does sell is a $399.99 merchandise box called the Goodtime State, Vice City Collection, and the catch is in the fine print: as Push Square reported, it doesn't include the game. GTA 6 comes out on November 19, 2026, and as of November 16, 2026, Rockstar hasn't announced any other edition.
 
 If you've seen "GTA 6 Collector's Edition" listings, here's how to make sense of them.
 
@@ -37,7 +38,7 @@ Rockstar unveiled the Goodtime State, Vice City Collection in September 2026, pr
 10. A pack of nine vinyl stickers
 11. A double-sided poster with Macca art on one side and a Leonida map on the other
 
-No game, no code, no in-game items mentioned. If you want the game, you buy it separately. That's why so many people searched "GTA 6 collector's edition" and came away confused: the product exists, but it's merch, not an edition.
+No game, no code, no in-game items mentioned. If you want the game, you buy it separately. That's why so many people search "GTA 6 collector's edition" and come away confused: the product exists, but it's merch, not an edition.
 
 ## Is this normal for Rockstar?
 
@@ -53,11 +54,11 @@ Whether a boxed premium edition ever appears for GTA 6 is anyone's guess. Rockst
 
 ## Fake listings and how to spot them
 
-Big launches attract fake "collector's editions," and GTA 6 had them before launch. Before buying:
+Big launches attract fake "collector's editions," and GTA 6 already has them. Before buying:
 
-1. **Check the seller.** The collector's box was sold through the Rockstar Store. A third-party listing at a markup may be a resale, and a listing far below $399.99 is a red flag.
+1. **Check the seller.** The collector's box is sold through the Rockstar Store. A third-party listing at a markup may be a resale, and a listing far below $399.99 is a red flag.
 2. **Read what's included.** A real GTA 6 edition names the platform (PS5 or Xbox Series X|S). A box that says "PC" or "Switch" is fake.
-3. **Ignore placeholder prices.** Before launch, a European retailer listing reportedly showed a GTA 6 Collector's Edition at €199.99. Rockstar never announced it. Placeholder listings aren't products.
+3. **Ignore placeholder prices.** A European retailer listing reportedly showed a GTA 6 Collector's Edition at €199.99. Rockstar never announced it. Placeholder listings aren't products.
 4. **Watch for "bundles" from marketplaces.** A boxed Standard copy plus some unofficial merch isn't a collector's edition, however it's labeled.
 
 If you want the game plus extras, the real options are the Ultimate Edition, the Ultimate upgrade, or a Standard copy plus Rockstar's merch, bought separately. For console-and-game deals, see our [console bundles post](https://callunc.com/blog/gta-6-console-bundles/).

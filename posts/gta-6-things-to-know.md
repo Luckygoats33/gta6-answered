@@ -1,6 +1,7 @@
 ---
 title: 15 Things to Know Before You Play GTA 6
-date: 2027-02-11
+date: 2026-11-16
+time: 23:30
 checked: 2026-11-16
 description: GTA 6 things to know before you start: platforms, the 212 GB download, editions, what single-player needs, Leonida and what Rockstar still hasn't confirmed.
 keyword: gta 6 things to know
@@ -12,13 +13,13 @@ source: VGC: everything shown at the GTA 6 Netflix special | https://www.videoga
 source: Windows Central: GTA 6 on Xbox Cloud Gaming | https://www.windowscentral.com/gaming/xbox/grand-theft-auto-6-will-be-playable-on-xbox-cloud-gaming-but-there-are-a-few-catches
 source: TweakTown: Rockstar confirms 30 fps target and PS5 Pro features | https://www.tweaktown.com/news/114598/rockstar-confirms-gta-6-targets-30-fps-on-ps5-pro-with-pssr-and-ray-traced-shadows/index.html
 ---
-If you're only now getting around to GTA 6, the things to know fit on one page. It came out on November 19, 2026, on PS5 and Xbox Series X|S only. It's a big download, it's single-player at launch, and there are two editions that differ by $20. Everything else is detail, and some of it is still unannounced.
+If you're only now getting around to GTA 6, the things to know fit on one page. It comes out on November 19, 2026, on PS5 and Xbox Series X|S only. It's a big download, it's single-player at launch, and there are two editions that differ by $20. Everything else is detail, and some of it is still unannounced.
 
 Here are the fifteen that matter, roughly in the order you'll run into them.
 
 ## Before you buy
 
-**1. It's on two platforms.** PlayStation 5 (including the PS5 Pro) and Xbox Series X|S. Not PS4 or Switch. There's no Xbox One version, but if you own it you can stream it to an Xbox One through Xbox Cloud Gaming.
+**1. It's on two platforms.** PlayStation 5 (including the PS5 Pro) and Xbox Series X|S. Not PS4 or Switch. There's no Xbox One version, but if you own it you can stream it to an Xbox One through Xbox Cloud Gaming once it launches.
 
 **2. There's no PC version.** Rockstar hasn't announced one. Any "GTA 6 PC download" is fake, and so is any mobile version. Our [PC answer](https://callunc.com/pc/) has the details.
 
@@ -28,7 +29,7 @@ Here are the fifteen that matter, roughly in the order you'll run into them.
 
 **5. You can upgrade later.** Buy Standard now and add Ultimate later if you want it. Nothing is locked out by starting cheap.
 
-**6. The pre-order bonus window has passed.** The Vintage Vice City Pack went to digital orders placed before launch. Check the store listing before assuming it's still offered.
+**6. The pre-order bonus window is still open.** The Vintage Vice City Pack goes to digital orders placed before launch. Check the store listing to confirm it's offered before you buy.
 
 **7. The box doesn't have a disc.** The boxed Standard Edition holds a download code. Ultimate is digital only.
 
@@ -38,11 +39,11 @@ Here are the fifteen that matter, roughly in the order you'll run into them.
 
 **9. The Series S is the tight one.** The standard Series S was widely reported to have about 364 GB of usable space, so GTA 6 alone takes well over half of it.
 
-**10. There was never early access.** The game unlocked at midnight local time in every region on November 19. Pre-ordering let digital buyers pre-load from November 10, but it never let anyone play sooner. If you're buying now, all of that is history: you buy, download and play.
+**10. There is no early access.** The game unlocks at midnight local time in every region on November 19. Pre-ordering has let digital buyers pre-load since November 10, but it doesn't let anyone play sooner. If you're buying now, you can still pre-order, download and be ready for midnight.
 
 ## Single-player only at launch
 
-**11. You don't need a subscription for the story.** No PS Plus or Game Pass is required to play single-player. GTA 6 also wasn't on Game Pass or the PS Plus catalog at launch.
+**11. You don't need a subscription for the story.** No PS Plus or Game Pass is required to play single-player. GTA 6 also isn't on Game Pass or the PS Plus catalog at launch.
 
 **12. GTA 6 Online has no date.** Rockstar described the launch game as a single-player experience and hasn't announced when online arrives. A Bloomberg report pointed to 2027, but that's a report, not Rockstar. Our [online answer](https://callunc.com/online/) tracks it.
 
@@ -56,7 +57,7 @@ Here are the fifteen that matter, roughly in the order you'll run into them.
 
 ## What isn't confirmed
 
-As of November 16, 2026, Rockstar hadn't announced:
+As of November 16, 2026, Rockstar hasn't announced:
 
 - A PC version or date
 - A date for GTA 6 Online
@@ -65,8 +66,8 @@ As of November 16, 2026, Rockstar hadn't announced:
 - Any story expansion or DLC beyond the Ultimate Edition's content
 - Any official mod support for GTA 6
 
-Anything you read about those that doesn't come from Rockstar is a report or a rumor. That includes a lot of confident-sounding videos. For what changed after launch, Rockstar's own patch notes and support pages are the place to look, not a thumbnail with a red arrow.
+Anything you read about those that doesn't come from Rockstar is a report or a rumor. That includes a lot of confident-sounding videos. For anything that changes after launch on November 19, Rockstar's own patch notes and support pages are the place to look, not a thumbnail with a red arrow.
 
 ## The short version
 
-Make sure you're on a PS5 or Xbox Series console, clear about 212 GB, pick Standard unless you love side content, and don't pay for a subscription just for this game. Then play it. The rest of the questions, like where to find things and how to make money, are better answered in the game than in a list.
+Make sure you're on a PS5 or Xbox Series console, clear about 212 GB, pick Standard unless you love side content, and don't pay for a subscription just for this game. Then play it when it unlocks on November 19. The rest of the questions, like where to find things and how to make money, are better answered in the game than in a list.

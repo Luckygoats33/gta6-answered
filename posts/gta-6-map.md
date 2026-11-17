@@ -1,8 +1,9 @@
 ---
 title: GTA 6 Map: Leonida's Regions, Cities and What We Know
-date: 2026-12-19
+date: 2026-11-12
+time: 23:49
 checked: 2026-11-16
-description: The GTA 6 map explained: the state of Leonida, its six regions, how big Rockstar says it is, and where to find a real map now the game is out.
+description: The GTA 6 map explained: the state of Leonida, its six regions, how big Rockstar says it is, and where to find a real map once the game is out.
 keyword: gta 6 map
 category: map-locations
 source: Game Informer: Rockstar shows off six major areas | https://gameinformer.com/2025/05/06/rockstar-shows-off-six-major-areas-of-vice-city-in-grand-theft-auto-vi
@@ -10,9 +11,9 @@ source: IBTimes UK: Rockstar confirms map is roughly twice GTA 5 | https://www.i
 source: Dexerto: Rockstar on exploring the map | https://www.dexerto.com/gta/rockstar-says-gta-6s-map-is-so-big-you-wont-see-it-all-just-by-playing-story-missions-3414118/
 source: VGC: pre-load details and the free map download | https://www.videogameschronicle.com/news/rockstar-details-grand-theft-auto-6-pre-load-date-and-time-and-file-size/
 ---
-The GTA 6 map is the state of Leonida, Rockstar's fictional take on Florida, with Vice City as its big city. Rockstar has named six regions and says the whole thing is roughly twice the size of GTA V's map. GTA 6 came out on November 19, 2026, and Rockstar said it would post a free digital map of Leonida on release day, so you don't have to rely on fan sketches.
+The GTA 6 map is the state of Leonida, Rockstar's fictional take on Florida, with Vice City as its big city. Rockstar has named six regions and says the whole thing is roughly twice the size of GTA V's map. GTA 6 comes out on November 19, 2026, and Rockstar said it would post a free digital map of Leonida on release day, so you won't have to rely on fan sketches.
 
-Here's what Rockstar actually told us about the place, before and around launch.
+Here's what Rockstar has actually told us about the place ahead of launch.
 
 ## The state of Leonida
 
@@ -44,17 +45,17 @@ Two cautions:
 
 ## What Rockstar hasn't shown
 
-Before launch, Rockstar didn't publish a labeled map of its own or detail every town and interior. Some questions it left open:
+So far, Rockstar hasn't published a labeled map of its own or detailed every town and interior. Some questions it has left open:
 
 - Exactly where each region's borders sit
 - How many interiors you can enter
 - Whether the map grows later with updates or [GTA 6 Online](https://callunc.com/online/), which Rockstar hasn't dated
 
-If you see a "full leaked GTA 6 map" from before launch, treat it as fan work or worse. The 2022 leak happened, but this site doesn't use leaked material, and old leak-based maps were drawn years before the game was finished.
+If you see a "full leaked GTA 6 map" before launch, treat it as fan work or worse. The 2022 leak happened, but this site doesn't use leaked material, and old leak-based maps were drawn years before the game was finished.
 
 ## GTA 6 map layout: where to get a real one
 
-Now that the game is out, you have three honest options.
+Once the game is out, you'll have three honest options.
 
 - **The in-game map.** It's the source of truth, and it fills in as you explore.
 - **Rockstar's free digital map.** Rockstar said it would offer a printable cover art poster and a Leonida map as free downloads from its website on release day, plus a double-sided physical poster from the Rockstar Store shortly after launch.

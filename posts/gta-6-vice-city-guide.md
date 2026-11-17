@@ -1,6 +1,7 @@
 ---
 title: Welcome to Vice City: GTA 6's Districts and What's Changed
-date: 2026-12-21
+date: 2026-11-13
+time: 04:10
 checked: 2026-11-16
 description: Welcome to Vice City in GTA 6. Where it sits in Leonida, the neighborhoods Rockstar named, how it compares to 2002's Vice City, and where to start.
 keyword: gta 6 welcome to vice city
@@ -11,7 +12,7 @@ source: Gematsu: Ultimate Edition and pre-order bonus locations | https://www.ge
 source: Engadget: things you may have missed in the Extended Look | https://engadget.com/2246846/things-you-may-have-missed-gta-6-extended-look/
 source: PC Gamer: details from Rockstar's Dazed interview | https://pcgamer.com/games/grand-theft-auto/big-new-gta-6-gameplay-details-revealed-including-specifics-about-jason-and-lucia-character-swapping-play-as-a-couple-or-go-off-and-cause-chaos-independently
 ---
-Welcome to Vice City, take two. In GTA 6, Vice City is the big metropolis of the state of Leonida, Rockstar's version of Miami, and the first place most players will spend serious time. It's one of six regions Rockstar named before the game came out on November 19, 2026, alongside the Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia and Mount Kalaga National Park.
+Welcome to Vice City, take two. In GTA 6, Vice City is the big metropolis of the state of Leonida, Rockstar's version of Miami, and the first place most players will spend serious time. It's one of six regions Rockstar has named ahead of the game's launch on November 19, 2026, alongside the Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia and Mount Kalaga National Park.
 
 If you played the 2002 original, the names will ring a bell. The city around them is a very different place.
 
@@ -25,11 +26,11 @@ Leonida is a fictional Florida, and Vice City is its Miami. The rest of the stat
 - **Ambrosia**, an industrial region with a sugar refinery and a biker gang in charge.
 - **Mount Kalaga National Park**, the wilderness at the northern edge.
 
-Rockstar is reported to have said the whole state is roughly twice the size of GTA V's map, but it didn't publish a full map before launch. Our [map size page](https://callunc.com/map-size/) has the details, and the [Leonida guide](https://callunc.com/blog/gta-6-leonida-guide/) covers the other five regions.
+Rockstar is reported to have said the whole state is roughly twice the size of GTA V's map, but it hasn't published a full map yet. Our [map size page](https://callunc.com/map-size/) has the details, and the [Leonida guide](https://callunc.com/blog/gta-6-leonida-guide/) covers the other five regions.
 
 ## Districts and places seen so far
 
-Rockstar's own descriptions, plus the edition and pre-order announcements and the Extended Look, give us a decent list of named places in and around the city. This is what was public before release, not a complete list:
+Rockstar's own descriptions, plus the edition and pre-order announcements and the Extended Look, give us a decent list of named places in and around the city. This is what's public before release, not a complete list:
 
 - **Ocean Beach:** white sand and pastel art deco hotels. The postcard part of town.
 - **Little Cuba:** a compact, busy neighborhood that Rockstar called out by name.
@@ -55,7 +56,7 @@ The original GTA Vice City came out in 2002 on PS2 and was set in 1986, with Tom
 
 GTA 6's Vice City is set in the present day, and Rockstar described it as a return to modern Vice City. Some neighborhood names carry over, like Ocean Beach and Little Cuba (and Washington Beach is a familiar one too). The city's scale and detail are in another league, and the satire has moved from cocaine-era excess to social media, influencers and the Florida Man headline.
 
-Rockstar did nod to the old game. The Vintage Vice City Pack pre-order bonus included a weapon pattern based on Tommy's famous shirt. Our [GTA 6 map post](https://callunc.com/blog/gta-6-map/) covers how the city fits the wider state.
+Rockstar did nod to the old game. The Vintage Vice City Pack pre-order bonus includes a weapon pattern based on Tommy's famous shirt. Our [GTA 6 map post](https://callunc.com/blog/gta-6-map/) covers how the city fits the wider state.
 
 ## What to explore first
 

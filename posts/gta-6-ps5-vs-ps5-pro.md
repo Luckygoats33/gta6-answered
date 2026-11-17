@@ -1,6 +1,7 @@
 ---
 title: GTA 6 on PS5 vs PS5 Pro: What the Enhanced Label Means
-date: 2026-11-29
+date: 2026-11-11
+time: 13:11
 checked: 2026-11-16
 description: GTA 6 on PS5 vs PS5 Pro and Xbox: what Rockstar confirmed about 30 fps, PSSR and ray-traced shadows, plus whether the Pro is worth buying for it.
 keyword: gta 6 xbox vs ps5 pro
@@ -10,7 +11,7 @@ source: VGC: PlayStation trailer shows PS5 DualSense features | https://www.vide
 source: VGC: pre-load date, time and file size | https://www.videogameschronicle.com/news/rockstar-details-grand-theft-auto-6-pre-load-date-and-time-and-file-size/
 source: Engadget: breaking down the Extended Look | https://engadget.com/2245942/guns-cars-and-chihuahuas-breaking-down-the-gta-6-extended-look/
 ---
-On GTA 6, Xbox vs PS5 Pro vs base PS5 comes down to image quality, not speed. Rockstar said before launch that every console targets 30 frames per second, and the PS5 Pro's "Enhanced" extras are a sharper image through PSSR upscaling plus ray-traced shadows that no other console gets. So the Pro version should look cleaner. Based on what Rockstar announced, it shouldn't play any faster.
+On GTA 6, Xbox vs PS5 Pro vs base PS5 comes down to image quality, not speed. Rockstar has said that every console targets 30 frames per second, and the PS5 Pro's "Enhanced" extras are a sharper image through PSSR upscaling plus ray-traced shadows that no other console gets. So the Pro version should look cleaner. Based on what Rockstar announced, it shouldn't play any faster.
 
 ## What Rockstar confirmed
 
@@ -36,7 +37,7 @@ What Rockstar didn't promise is a higher frame rate. It didn't announce a 60 fps
 
 Rockstar hasn't given resolution targets for any console. Even the 30 fps figure is a target, which isn't the same as a locked 30 at all times. Analysts like Digital Foundry have pointed out that the PS5 Pro's CPU is close to the base PS5's, and CPU limits are a common reason open-world games stay at 30. That's an outside explanation, not Rockstar's.
 
-For how the finished game actually runs on each console, look for side-by-side tests from outlets that measure performance. Before launch, the best look at the game was the 27-minute Extended Look, which was captured on a standard PS5 and appeared to run at about 30 fps for most of its runtime.
+For how the finished game actually runs on each console, look for side-by-side tests from outlets that measure performance once it's out. Until then, the best look at the game is the 27-minute Extended Look, which was captured on a standard PS5 and appeared to run at about 30 fps for most of its runtime.
 
 ## GTA 6 on Xbox Series X vs PS5 Pro
 
@@ -46,7 +47,7 @@ The other difference is the controller. On PS5, PlayStation's trailer showed wea
 
 ## Storage on each console
 
-The download was up to 212 GB, depending on the console. That's the starting point, and patches tend to add more. How it fits:
+The download is up to 212 GB, depending on the console. That's the starting point, and patches tend to add more. How it fits:
 
 - **PS5 Pro:** ships with a 2 TB drive, so it has the most room of the three.
 - **Base PS5:** fits, but you may have to clear older games.

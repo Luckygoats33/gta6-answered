@@ -1,6 +1,7 @@
 ---
 title: GTA 6 on Xbox Series S: Storage, Performance and What to Expect
-date: 2026-12-01
+date: 2026-11-11
+time: 16:02
 checked: 2026-11-16
 description: GTA 6 Xbox Series S performance and storage explained: what Rockstar has confirmed, how the 212 GB download fits, and when the Series X makes more sense.
 keyword: gta 6 xbox series s performance
@@ -13,7 +14,7 @@ source: Windows Central: GTA 6 on Xbox Cloud Gaming | https://www.windowscentral
 ---
 Yes, GTA 6 runs on the Xbox Series S. Rockstar lists Xbox Series X|S as one of the game's two platforms, and that covers the smaller console. The GTA 6 Xbox Series S performance picture is simple: Rockstar's target is 30 fps on every console, Series S included. It hasn't disclosed resolution, and no 60 fps or performance mode has been announced. The real problem on Series S is storage, not speed.
 
-GTA 6 came out on November 19, 2026. Here's what Series S owners actually need to know.
+GTA 6 comes out on November 19, 2026. Here's what Series S owners actually need to know.
 
 ## Yes, it runs on Series S
 
@@ -35,11 +36,11 @@ Our [file size answer](https://callunc.com/file-size/) walks through the storage
 
 ## GTA 6 gameplay on Xbox Series S: what we know
 
-Before launch, every look Rockstar gave at the game was captured on PS5. Trailer 2 and the Netflix Extended Look both said so. Rockstar never showed footage labeled as Series S.
+So far, every look Rockstar has given at the game was captured on PS5. Trailer 2 and the Netflix Extended Look both said so. Rockstar has never shown footage labeled as Series S.
 
 What it did say, on November 10, 2026, is that the target is 30 fps on PS5, PS5 Pro and Xbox Series X|S. Rendering resolution wasn't disclosed for any of them. A 40 fps mode you may have seen mentioned is only a datamine rumor. Rockstar also said Xbox Cloud Gaming streams the game at Series S graphics settings, so cloud players get the Series S version of the game.
 
-For anything beyond that, check Rockstar's support pages and patch notes, and look for side-by-side testing from reputable tech outlets, which compare the consoles directly. Our [performance mode post](https://callunc.com/blog/gta-6-performance-mode/) covers what to look for.
+For anything beyond that, check Rockstar's support pages and patch notes once the game is out on November 19, and look for side-by-side testing from reputable tech outlets, which compare the consoles directly. Our [performance mode post](https://callunc.com/blog/gta-6-performance-mode/) covers what to look for.
 
 ## Making room on the drive
 
@@ -56,4 +57,4 @@ If you already own a Series S, GTA 6 runs on it. Don't buy a new console just be
 
 If you're buying a console for GTA 6, the Series X is the safer pick. It has more power, a bigger drive and a disc drive (though GTA 6 doesn't come on disc anyway; the boxed copy has a download code). The Series S makes sense mainly when budget is the deciding factor and you're fine managing storage. For the PlayStation side of the same question, see our [PS5 vs PS5 Pro post](https://callunc.com/blog/gta-6-ps5-vs-ps5-pro/), and for the full platform list, our [consoles page](https://callunc.com/consoles/).
 
-One last thing: GTA 6 has no Xbox One version, but if you own it you can stream it to an Xbox One through Xbox Cloud Gaming. If a store or a video offers an Xbox One download, it's wrong.
+One last thing: GTA 6 has no Xbox One version, but if you own it you can stream it to an Xbox One through Xbox Cloud Gaming once it launches. If a store or a video offers an Xbox One download, it's wrong.

@@ -1,6 +1,7 @@
 ---
 title: Every GTA 6 Trailer So Far, Explained
-date: 2026-12-11
+date: 2026-11-12
+time: 09:41
 checked: 2026-11-16
 description: Every official GTA 6 trailer in order: Trailer 1, Trailer 2, the Netflix Extended Look, the Launch Trailer, and why there's no Trailer 3.
 keyword: gta 6 trailer
@@ -11,7 +12,7 @@ source: Netflix Tudum: GTA VI An Extended Look | https://www.netflix.com/tudum/a
 source: VGC: PlayStation's DualSense trailer | https://www.videogameschronicle.com/news/new-gta-6-trailer-showcases-ps5-exclusive-dualsense-features/
 source: VGC: GTA 6 delayed to November 19, 2026 | https://www.videogameschronicle.com/news/grand-theft-auto-6-has-been-delayed-again-to-the-end-of-2026/
 ---
-Rockstar put out two numbered trailers for GTA 6 before launch: Trailer 1 in December 2023 and Trailer 2 in May 2025. After that came a 27-minute gameplay video called An Extended Look, which premiered on Netflix in August 2026, and a Launch Trailer in October 2026. There was never an official "GTA 6 Trailer 3." Every one of them is on Rockstar's YouTube channel, which is the only place you need to watch them.
+Rockstar has put out two numbered trailers for GTA 6 ahead of launch: Trailer 1 in December 2023 and Trailer 2 in May 2025. After that came a 27-minute gameplay video called An Extended Look, which premiered on Netflix in August 2026, and a Launch Trailer in October 2026. There has never been an official "GTA 6 Trailer 3." Every one of them is on Rockstar's YouTube channel, which is the only place you need to watch them.
 
 ## Trailer 1: December 2023
 
@@ -51,7 +52,7 @@ If you're looking for a "GTA 6 release video," the Launch Trailer is the closest
 
 ## Is there a Trailer 3?
 
-No. Rockstar never released anything labeled Trailer 3. For most of 2026 fans counted down to one, and plenty of fake countdown sites and fan-made "Trailer 3" uploads filled the gap. The Extended Look and the Launch Trailer took its place.
+No. Rockstar has never released anything labeled Trailer 3. For most of 2026 fans counted down to one, and plenty of fake countdown sites and fan-made "Trailer 3" uploads filled the gap. The Extended Look and the Launch Trailer took its place.
 
 If you see a "new GTA 6 trailer" now, check that it comes from Rockstar's own YouTube channel or the Rockstar Newswire. Fan edits and AI-made "leaks" pick up millions of views on the strength of a thumbnail.
 
@@ -64,4 +65,4 @@ A quick recap, in order:
 3. **An Extended Look (August 27, 2026):** about 27 minutes of in-game footage on PS5, the first real look at gameplay.
 4. **Launch Trailer (October 15, 2026):** the final pre-release trailer, with the November 19 date.
 
-The game came out on November 19, 2026. For the full list of what Rockstar confirmed before launch, see [what to expect in GTA 6](https://callunc.com/blog/what-to-expect-gta-6/) and our [facts page](https://callunc.com/facts/).
+The game comes out on November 19, 2026. For the full list of what Rockstar has confirmed ahead of launch, see [what to expect in GTA 6](https://callunc.com/blog/what-to-expect-gta-6/) and our [facts page](https://callunc.com/facts/).

@@ -1,27 +1,28 @@
 ---
 title: GTA 6 in the UK: Price, Release Time and Where to Buy
-date: 2027-01-20
+date: 2026-11-15
+time: 08:54
 checked: 2026-11-16
-description: Where to pre-order GTA 6 in the UK, and where to buy it now: UK prices, the midnight GMT release, boxed copies in UK shops and which store suits you.
+description: Where to pre-order GTA 6 in the UK before launch: UK prices, the midnight GMT release, boxed copies in UK shops and which store suits you.
 keyword: gta 6 where to pre order uk
 category: editions-price
 source: TechRadar: GTA 6 UK pre-orders, price and retailers | https://techradar.com/gaming/ps5/gta-6-uk-pre-orders-are-live-and-we-finally-have-a-price-heres-where-you-can-order-it-and-what-it-costs
 source: Rockstar Support: regional pre-load and release times | https://support.rockstargames.com/articles/29jV3Cv2cCgvwM1XgtMO5o/grand-theft-auto-vi-regional-pre-load-and-release-times-on-playstation-5-and-xbox-series-x-or-s
 source: Rockstar Support: platforms, editions and versions | https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions
 ---
-If you searched for where to pre-order GTA 6 in the UK, the pre-order window is over: the game came out on November 19, 2026. The good news is that the same places that took pre-orders now sell it outright, at launch UK prices of £69.99 for the Standard Edition and £89.99 for the Ultimate Edition, as reported by TechRadar when UK pre-orders opened.
+If you searched for where to pre-order GTA 6 in the UK, the pre-order window is still open: the game comes out on November 19, 2026, and pre-orders run until launch. The stores below are taking them now, at UK prices of £69.99 for the Standard Edition and £89.99 for the Ultimate Edition, as reported by TechRadar when UK pre-orders opened.
 
-Here's the UK picture in one place: when it unlocked, what it costs, where to buy, and what's actually in the box.
+Here's the UK picture in one place: when it unlocks, what it costs, where to buy, and what's actually in the box.
 
 ## Release time in the UK
 
-GTA 6 unlocked at midnight local time in every region, on both PS5 and Xbox Series X|S. In the UK that meant midnight GMT, the very start of Thursday, November 19, 2026.
+GTA 6 unlocks at midnight local time in every region, on both PS5 and Xbox Series X|S. In the UK that means midnight GMT, the very start of Thursday, November 19, 2026.
 
-For context, that put UK players:
+For context, that puts UK players:
 
-- an hour behind Paris, Berlin and Madrid, which opened at midnight CET (11pm UK time on November 18),
+- an hour behind Paris, Berlin and Madrid, which open at midnight CET (11pm UK time on November 18),
 - five hours ahead of New York,
-- and well behind New Zealand, which opened first at 11am UK time on November 18.
+- and well behind New Zealand, which opens first at 11am UK time on November 18.
 
 Pre-load opened on November 10. On PS5 that was midnight local time, and on Xbox it was midnight GMT, so UK Xbox players got the pre-load at the same moment as their PS5 friends. The full world table is on our [launch times page](https://callunc.com/launch-times/).
 
@@ -65,7 +66,7 @@ More on why there's no disc is on our [disc page](https://callunc.com/disc/).
 
 ## What about the pre-order bonus?
 
-Rockstar's bonus, the Vintage Vice City Pack, came with digital pre-orders and purchases of either edition made before launch (around November 19 to 20, depending on the store), and physical pre-orders included a code for it. If you're buying now, you won't get it. Be careful with listings that promise "pre-order bonus included" after launch, especially on marketplace sites.
+Rockstar's bonus, the Vintage Vice City Pack, comes with digital pre-orders and purchases of either edition made before launch (around November 19 to 20, depending on the store), and physical pre-orders include a code for it. If you order before launch, you should get it, but check the store listing to be sure. Be careful with listings that promise "pre-order bonus included" after launch, especially on marketplace sites.
 
 ## Avoid dodgy UK deals
 

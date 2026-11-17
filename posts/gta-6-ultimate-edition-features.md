@@ -1,6 +1,7 @@
 ---
 title: GTA 6 Ultimate Edition Content: All 16 Extras, Listed
-date: 2027-01-14
+date: 2026-11-14
+time: 21:53
 checked: 2026-11-16
 description: Every item of GTA 6 Ultimate Edition content, grouped by type: vehicles, weapons, clothing, shops, locations and activities, plus what Ultimate doesn't include.
 keyword: gta 6 ultimate edition content
@@ -31,7 +32,7 @@ Two items:
 - **Hawk and Little Morgan Revolvers:** a matched pair of his and hers revolvers with Vice City styling, including palm tree grips, engraving and a scope.
 - **Personalized Variants:** engraved versions of Jason's Girardi ES9 and Lucia's Klose K17 pistols.
 
-These are cosmetic and personal more than a different class of weapon, going by Rockstar's descriptions. Rockstar didn't publish stats for them.
+These are cosmetic and personal more than a different class of weapon, going by Rockstar's descriptions. Rockstar hasn't published stats for them.
 
 ## Clothing and looks
 
@@ -69,12 +70,12 @@ Count it all up and you get the 16: four vehicle items, the modkit, two weapon i
 
 Just as important as the list:
 
-- **No early access.** Ultimate players started at the same local midnight on November 19, 2026 as everyone else.
-- **No disc or boxed version.** Ultimate was digital only. The boxed Standard copy holds a download code, and Standard owners can buy the Ultimate upgrade digitally.
-- **No online content.** Rockstar hasn't announced a GTA 6 online mode, so none of this was sold as online gear.
+- **No early access.** Ultimate players start at the same local midnight on November 19, 2026 as everyone else.
+- **No disc or boxed version.** Ultimate is digital only. The boxed Standard copy holds a download code, and Standard owners can buy the Ultimate upgrade digitally.
+- **No online content.** Rockstar hasn't announced a GTA 6 online mode, so none of this is sold as online gear.
 - **No extra story missions** in Rockstar's list. The Classic Car Collection is a side commission, and the rest are items, shops and places.
-- **Not the pre-order bonus.** The Vintage Vice City Pack ('55 Vapid Stanier and garage, outfits and a weapon pattern) came with digital purchases of either edition made before launch (around November 19 to 20, depending on the store). It was never Ultimate-only.
-- **Not the GTA+ month.** That was a pre-order perk on the PlayStation and Microsoft stores, and it applied to GTA Online, not GTA 6.
+- **Not the pre-order bonus.** The Vintage Vice City Pack ('55 Vapid Stanier and garage, outfits and a weapon pattern) comes with digital purchases of either edition made before launch (around November 19 to 20, depending on the store). It isn't Ultimate-only.
+- **Not the GTA+ month.** That is a pre-order perk on the PlayStation and Microsoft stores, and it applies to GTA Online, not GTA 6.
 
 ## Is the content worth $20?
 

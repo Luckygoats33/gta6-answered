@@ -1,6 +1,7 @@
 ---
 title: GTA 6 Price by Country: UK, Canada, Australia, India and More
-date: 2027-01-23
+date: 2026-11-15
+time: 14:14
 checked: 2026-11-16
 description: A GTA 6 price comparison by country: Standard and Ultimate prices in the US, UK, Europe, Canada, Australia, India and the UAE, and why they differ.
 keyword: gta 6 price comparison

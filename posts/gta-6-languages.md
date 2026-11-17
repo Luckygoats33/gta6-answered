@@ -1,6 +1,7 @@
 ---
 title: What Languages Is GTA 6 In? Audio and Subtitles Explained
-date: 2027-02-06
+date: 2026-11-16
+time: 14:37
 checked: 2026-11-16
 description: GTA 6 languages explained: English voices only, plus menus and subtitles in 12 more languages. The reported list, what's missing, and how to switch.
 keyword: gta 6 languages
@@ -11,7 +12,7 @@ source: Einerd: GTA 6 gets Brazilian Portuguese subtitles, no dub | https://www.
 source: PPE.pl: Polish localization in GTA 6 | https://www.ppe.pl/news/416059/gta-6-po-polsku-rockstar-games-potwierdza-lokalizacje-dlugo-wyczekiwanej-gry.html
 source: Netflix Tudum: the Extended Look streams with 13 subtitle languages | https://www.netflix.com/tudum/articles/grand-theft-auto-6-extended-first-look
 ---
-GTA 6 languages come down to one rule: the voices are English only, and the text is translated. The Xbox Store lists 13 supported languages for the game, and outlets that checked the store listings in June 2026 reported that every language other than English gets translated menus and subtitles, not dubbed voices. That's how Rockstar has done it for years, and GTA 6, which came out on November 19, 2026, kept the tradition.
+GTA 6 languages come down to one rule: the voices are English only, and the text is translated. The Xbox Store lists 13 supported languages for the game, and outlets that checked the store listings in June 2026 reported that every language other than English gets translated menus and subtitles, not dubbed voices. That's how Rockstar has done it for years, and GTA 6, which comes out on November 19, 2026, keeps the tradition.
 
 So if you were hoping to hear Jason and Lucia in Spanish, Portuguese or Hindi, that's not happening. If you just want to read along in your language, there's a good chance you're covered.
 
@@ -47,7 +48,7 @@ There's good news and bad news for "gta 6 spanish" searches. The good news: both
 
 Hindi isn't on the reported list, as text or audio. Neither are Arabic or Turkish. If you play in one of those languages, expect to play with English menus and subtitles.
 
-Rockstar hadn't announced any language additions for GTA 6 as of November 16, 2026. Don't count on it until Rockstar's patch notes say so. And be wary of downloads promising a "Hindi patch" or fan dub for console. There's no legitimate way to add a fan translation to the console version, and those links are often malware or scams.
+Rockstar hasn't announced any language additions for GTA 6 as of November 16, 2026. Don't count on it until Rockstar's patch notes say so. And be wary of downloads promising a "Hindi patch" or fan dub for console. There's no legitimate way to add a fan translation to the console version, and those links are often malware or scams.
 
 ## GTA 6 subtitles
 
@@ -67,4 +68,4 @@ One source of confusion: Netflix said its stream of the Extended Look gameplay v
 - **Text and subtitles:** 13 languages reported, including two kinds of Spanish, Brazilian Portuguese, Polish, Russian, Japanese, Korean and both forms of Chinese.
 - **Not included:** Hindi, Arabic and Turkish, among others.
 
-For the other basics, like where the game runs and what's confirmed, see our [facts page](https://callunc.com/facts/) and [consoles page](https://callunc.com/consoles/). Our earlier post on [GTA 6 being single player](https://callunc.com/blog/gta-6-single-player/) covers what launched on day one.
+For the other basics, like where the game runs and what's confirmed, see our [facts page](https://callunc.com/facts/) and [consoles page](https://callunc.com/consoles/). Our earlier post on [GTA 6 being single player](https://callunc.com/blog/gta-6-single-player/) covers what launches on day one.

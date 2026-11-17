@@ -1,6 +1,7 @@
 ---
 title: How to Gift GTA 6 Digitally on PlayStation and Xbox
-date: 2026-12-05
+date: 2026-11-11
+time: 23:52
 checked: 2026-11-16
 description: Want to give GTA 6 as a gift? How it works on Xbox and PlayStation, when a gift card or the boxed code copy is the better pick, and scams to avoid.
 keyword: gta 6 gift
@@ -19,8 +20,8 @@ GTA 6 runs on PS5 and Xbox Series X|S. It isn't on PS4, PC, Switch or phones. A 
 
 Two more checks save a lot of grief:
 
-- **Storage.** The download was up to 212 GB. A Series S has about 364 GB of usable space, so the game takes most of it.
-- **Do they already own it?** Plenty of people bought it in November. If they have the Standard Edition, the Ultimate upgrade may be the better gift. More on that below.
+- **Storage.** The download is up to 212 GB. A Series S has about 364 GB of usable space, so the game takes most of it.
+- **Do they already own it?** Plenty of people have pre-ordered it. If they have the Standard Edition, the Ultimate upgrade may be the better gift. More on that below.
 
 ## How to gift GTA 6 on Xbox
 
@@ -32,7 +33,7 @@ The Microsoft Store has a "Buy as gift" option for many digital games. Microsoft
 4. On a console, pick a friend's gamertag. On the web, enter the email address tied to their Microsoft account.
 5. Pay. They get a code by email, and an Xbox notification if you picked a gamertag.
 
-Two rules to know. Microsoft's gifting rules say a gift can only be redeemed in the country or region where you bought it, so don't send a US gift to a friend in the UK. And Microsoft has historically excluded pre-orders from gifting. That no longer matters for GTA 6, since the game is out. If the gift option doesn't appear for an edition, an Xbox gift card for the right amount works too.
+Two rules to know. Microsoft's gifting rules say a gift can only be redeemed in the country or region where you bought it, so don't send a US gift to a friend in the UK. And Microsoft has historically excluded pre-orders from gifting. That matters for GTA 6 until it comes out on November 19, so the gift option may not show up before then. If the gift option doesn't appear for an edition, an Xbox gift card for the right amount works too.
 
 ## How to gift GTA 6 on PS5
 
@@ -52,7 +53,7 @@ The physical Standard Edition, in stores since November 12, comes with a downloa
 
 If they already own Standard, the Ultimate upgrade adds the same 16 extra items as the Ultimate Edition. Xbox listed the upgrade at $20, as reported by Forbes. On PlayStation the price only shows to Standard owners. There's no way to send the upgrade directly on PlayStation, so a gift card covers it.
 
-One thing a December gift won't include: the Vintage Vice City Pack. Rockstar tied it to digital purchases made before launch (around November 19 to 20, depending on the store), so a gift bought now won't come with it. Check the store page for current bonuses before you pay.
+One thing a December gift won't include: the Vintage Vice City Pack. Rockstar has tied it to digital purchases made before launch (around November 19 to 20, depending on the store), so a gift bought after that won't come with it. Check the store page for current bonuses before you pay.
 
 Our [upgrade page](https://callunc.com/upgrade-to-ultimate/) and [price page](https://callunc.com/price/) have the details.
 

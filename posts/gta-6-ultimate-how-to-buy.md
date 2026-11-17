@@ -1,8 +1,9 @@
 ---
 title: How to Buy or Upgrade to the GTA 6 Ultimate Edition
-date: 2027-01-13
+date: 2026-11-14
+time: 20:09
 checked: 2026-11-16
-description: The GTA 6 Ultimate Edition pre-order window is over, but you can still buy it or upgrade from Standard. Prices, steps on PS5 and Xbox, and what's included.
+description: The GTA 6 Ultimate Edition pre-order window is open until launch, and Standard owners can upgrade later. Prices, steps on PS5 and Xbox, and what's included.
 keyword: gta 6 ultimate edition pre order
 category: editions-price
 source: PlayStation Store: Grand Theft Auto VI editions and Ultimate contents | https://www.playstation.com/en-us/games/grand-theft-auto-vi/
@@ -11,7 +12,7 @@ source: Xbox Store: Grand Theft Auto VI and the $20 upgrade add-on | https://www
 source: Rockstar Support: platforms, editions and versions | https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions
 source: Xbox Wire: GTA VI pre-order bonus terms | https://news.xbox.com/en-us/2026/11/13/next-week-on-xbox-new-games-for-november-16-to-20/
 ---
-The GTA 6 Ultimate Edition pre-order window closed when the game came out on November 19, 2026, but Ultimate itself is still easy to get. You can buy the Ultimate Edition outright from the PlayStation Store or the Microsoft Store, or, if you already own the Standard Edition, buy the Ultimate Edition Upgrade as an add-on. Both stores listed Ultimate at $99.99 in the US before launch, and Xbox listed the upgrade at $20. The one thing you can't do is buy Ultimate in a box. It's digital only.
+The GTA 6 Ultimate Edition pre-order window is still open, and it closes when the game comes out on November 19, 2026. Ultimate is easy to get either way. You can pre-order the Ultimate Edition outright from the PlayStation Store or the Microsoft Store, or, if you already own the Standard Edition, buy the Ultimate Edition Upgrade as an add-on. Both stores list Ultimate at $99.99 in the US, and Xbox lists the upgrade at $20. The one thing you can't do is buy Ultimate in a box. It's digital only.
 
 ## Buying the Ultimate Edition outright
 
@@ -37,7 +38,7 @@ The Xbox listing shows the Ultimate Edition as a bundle: the base game, the Ulti
 Already have Standard? You don't need to buy the game again. Rockstar confirmed that Standard owners can buy the upgrade at any time.
 
 - **On Xbox,** the Ultimate Edition Upgrade is listed as a separate add-on for $20.
-- **On PlayStation,** the upgrade is listed as an add-on too. Before launch, its price only showed once you owned the Standard Edition, so check the game's add-ons page from your own account.
+- **On PlayStation,** the upgrade is listed as an add-on too. Its price only shows once you own the Standard Edition, so check the game's add-ons page from your own account.
 - **Find it** on the game's store page, in the add-ons section.
 
 Xbox's listing says the extras unlock across the story, so you're not locked out of them by starting with Standard. The full answer on timing is on our [upgrade page](https://callunc.com/upgrade-to-ultimate/).
@@ -56,11 +57,11 @@ All of it is single-player content. It doesn't give you anything online, since G
 
 ## Price on Xbox vs PlayStation
 
-Before launch, the US prices matched on both stores:
+The US prices match on both stores:
 
 - **Standard Edition:** $79.99
 - **Ultimate Edition:** $99.99
-- **Ultimate Upgrade:** $20 on Xbox. PlayStation's price for the upgrade wasn't public before launch.
+- **Ultimate Upgrade:** $20 on Xbox. PlayStation's price for the upgrade isn't public yet.
 
 Prices differ by country, and store sales can change them. Check the store on your own account before you buy. Our [price page](https://callunc.com/price/) has the main numbers.
 
@@ -70,11 +71,11 @@ The boxed Standard Edition has a download code, not a disc, and there's no boxed
 
 ## Does the pre-order bonus still apply?
 
-The pre-order bonus was time-limited, and the dates are past:
+The pre-order bonus is time-limited, and the cutoffs are close:
 
-- **Xbox** said purchases before 23:59:59 on November 19, 2026 got the Vintage Vice City Pack and one month of GTA+.
-- **PlayStation** said the GTA+ month needed a digital pre-order placed before November 20, 2026, and had to be claimed by March 31, 2027.
+- **Xbox** says purchases before 23:59:59 on November 19, 2026 get the Vintage Vice City Pack and one month of GTA+.
+- **PlayStation** says the GTA+ month needs a digital pre-order placed before November 20, 2026, and has to be claimed by March 31, 2027.
 
-So a purchase in January 2027 won't include the GTA+ month. Whether the Vintage Vice City Pack is still bundled with new purchases is something to check on the current store listing before you buy, not something to assume. If it isn't listed on the edition you're buying, it isn't included.
+So a purchase after those dates won't include the GTA+ month. Whether the Vintage Vice City Pack is still bundled with purchases after launch is something to check on the current store listing before you buy, not something to assume. If it isn't listed on the edition you're buying, it isn't included.
 
 One last tip: buy from the PlayStation Store, Microsoft Store or a real retailer. "Cheap Ultimate upgrade" codes from random sites are a common way to lose $20 or your account.

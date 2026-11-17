@@ -1,6 +1,7 @@
 ---
 title: GTA 6 Age Verification and ID Checks Explained
-date: 2027-01-25
+date: 2026-11-15
+time: 17:11
 checked: 2026-11-16
 description: Will GTA 6 require ID? What the Australian age-check reports say, what Rockstar has said (nothing official), and how PS5 and Xbox age controls already work.
 keyword: gta 6 will require id
@@ -13,7 +14,7 @@ source: PlayStation Store: Grand Theft Auto VI (rating and account notes) | http
 ---
 Will GTA 6 require ID? For most players, nothing Rockstar has announced says so. The ID talk comes from Australia, where outlets reported in July 2026 that new online safety rules would make adult-rated games check that players are over 18, possibly with a driver's license or other ID. Rockstar hasn't made a public statement about age verification for GTA 6 as of November 16, 2026. In the US and most other places, the age gate that actually exists is the one on your console: the game is rated M for Mature, and parental controls do the blocking.
 
-GTA 6 came out on November 19, 2026, on PS5 and Xbox Series X|S. Here's how to sort the real rules from the headlines.
+GTA 6 comes out on November 19, 2026, on PS5 and Xbox Series X|S. Here's how to sort the real rules from the headlines.
 
 ## What's being claimed
 
@@ -22,7 +23,7 @@ The story that spread was "GTA 6 will need ID to play." The actual reporting is 
 - **It's about Australia.** Dexerto and MP1st, both citing News.com.au, reported that Australia's online safety rules, in effect since March 2026, require age checks for adult-rated content, and that GTA 6 would likely fall under them.
 - **ID is one option, not the only one.** MP1st stressed that a driver's license is just one accepted document, not a requirement in itself.
 - **The stakes are on Rockstar, not you.** The reports cite civil penalties of up to A$49.5 million per breach for companies that don't comply.
-- **Scope was unclear.** MP1st said it wasn't clear whether checks would cover the story mode or only online features. Dexerto noted GTA 6 wasn't set to launch with an online mode at all.
+- **Scope is unclear.** MP1st said it wasn't clear whether checks would cover the story mode or only online features. Dexerto noted GTA 6 isn't set to launch with an online mode at all.
 
 There were also reports about the UK's Online Safety Act and GTA Online, mostly based on a leaker's screenshots. Rockstar didn't confirm those either.
 
@@ -46,7 +47,7 @@ The age check most players will ever deal with is built into the console, and it
 
 - Xbox family settings let a parent set the age rating limit for a child's games and apps, using the Xbox Family Settings app or the family page on Microsoft's site.
 - A child who hits a blocked game can ask for an exception, and an adult in the family group approves or denies it.
-- The GTA+ pre-order month wasn't available to child accounts restricted from age-rated content, according to the Xbox listing.
+- The GTA+ pre-order month isn't available to child accounts restricted from age-rated content, according to the Xbox listing.
 
 None of this asks you to upload an ID. It relies on the age set on the account when it was made.
 

@@ -1,8 +1,9 @@
 ---
-title: How to Pre-Order GTA 6 on Xbox Series X|S (and Buy It Now)
-date: 2027-01-16
+title: How to Pre-Order GTA 6 on Xbox Series X|S Before Launch
+date: 2026-11-15
+time: 01:39
 checked: 2026-11-16
-description: The GTA 6 Xbox pre order window closed at launch. How to buy it on Series X|S now, which edition to pick, the Series S space problem, and upgrading later.
+description: The GTA 6 Xbox pre order window closes at launch. How to pre-order it on Series X|S now, which edition to pick, the Series S space problem, and upgrading later.
 keyword: gta 6 xbox pre order
 category: editions-price
 source: VGC: Ultimate Edition contents, pre-order bonus and prices | https://www.videogameschronicle.com/news/rockstar-confirms-grand-theft-auto-6-ultimate-edition-and-pre-order-bonuses-but-still-no-price/
@@ -10,7 +11,7 @@ source: VGC: pre-load date, time and file size | https://www.videogameschronicle
 source: Dexerto: GTA 6 on Xbox Cloud Gaming | https://www.dexerto.com/gta/gta-6-confirms-xbox-cloud-gaming-support-but-pc-players-face-a-catch-3427015/
 source: Game Developer: Take-Two on GTA 6 pre-orders | https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations
 ---
-You can't do a GTA 6 Xbox pre order anymore, because the game is out. It launched on Xbox Series X|S on November 19, 2026, so the Microsoft Store now sells it as a normal purchase that downloads right away. The steps are almost the same as pre-ordering was: open the store, pick Standard or Ultimate, buy, and make room for a download of up to 212 GB.
+You can still do a GTA 6 Xbox pre order, because the game isn't out yet. It launches on Xbox Series X|S on November 19, 2026, and until then the Microsoft Store sells it as a pre-order that you can pre-load right away. The steps are simple: open the store, pick Standard or Ultimate, pre-order, and make room for a download of up to 212 GB.
 
 ## Step 1: Open the Microsoft Store
 
@@ -30,11 +31,11 @@ There are two editions, at these US prices, confirmed by Take-Two:
 
 The story, map and missions are the same in both. Ultimate is digital only. If you're on the fence, buy Standard. You can upgrade later, and our [Standard vs Ultimate page](https://callunc.com/standard-vs-ultimate/) lists every extra.
 
-What you won't get now is the pre-order bonus. The Vintage Vice City Pack came with digital purchases made before launch (around November 19 to 20, depending on the store). If the store page lists any current bonus, it'll say so on the listing.
+What you still get now is the pre-order bonus. The Vintage Vice City Pack comes with digital purchases made before launch (around November 19 to 20, depending on the store). Check the store listing to confirm the bonus before you pay.
 
 ## Step 3: Check your space first
 
-Rockstar said the download was up to 212 GB, depending on the console. Patches tend to grow that over time.
+Rockstar said the download is up to 212 GB, depending on the console. Patches tend to grow that over time.
 
 - **Series X:** fine for most people, though you may need to uninstall a couple of big games.
 - **Series S:** about 364 GB usable, so GTA 6 fills most of the drive. Clear space before you buy, not halfway through the download.
@@ -42,11 +43,11 @@ Rockstar said the download was up to 212 GB, depending on the console. Patches t
 
 Check under Settings, then System, then Storage devices. More detail on our [file size page](https://callunc.com/file-size/).
 
-## How pre-load timing worked on Xbox
+## How pre-load timing works on Xbox
 
-For anyone curious, here's what you missed. Xbox pre-load opened at midnight GMT on November 10, 2026, all at once worldwide, which was 4pm PT and 7pm ET on November 9 in the US. PS5 opened region by region at local midnight instead. Either way, the game unlocked at midnight local time on November 19.
+Pre-load is already open. Xbox pre-load opened at midnight GMT on November 10, 2026, all at once worldwide, which was 4pm PT and 7pm ET on November 9 in the US. PS5 opened region by region at local midnight instead. Either way, the game unlocks at midnight local time on November 19.
 
-Pre-orders did well. Take-Two said before launch that they were tracking far above its expectations, and Xbox claimed a record for its own store, without giving numbers.
+Pre-orders are doing well. Take-Two said they were tracking far above its expectations, and Xbox claimed a record for its own store, without giving numbers.
 
 ## Step 4: Upgrade to Ultimate later if you want
 

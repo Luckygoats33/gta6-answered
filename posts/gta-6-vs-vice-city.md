@@ -1,6 +1,7 @@
 ---
 title: GTA 6 vs GTA Vice City: What Changed in 24 Years
-date: 2026-12-24
+date: 2026-11-13
+time: 08:49
 checked: 2026-11-16
 description: GTA 6 vs Vice City, side by side: the 1986 city of the 2002 game against modern Leonida, two leads instead of one, and the nods that came back.
 keyword: gta 6 vs vice city
@@ -11,7 +12,7 @@ source: VGC: Rockstar on the size of the map | https://www.videogameschronicle.c
 source: Gematsu: Vintage Vice City Pack and Ultimate contents | https://www.gematsu.com/2026/06/grand-theft-auto-vi-pricing-ultimate-edition-and-pre-order-bonuses-announced
 source: Enterprise: revisiting the 2002 Vice City | https://enterpriseam.com/egypt/2026/08/27/revisiting-rockstars-2002-hit-gta-vice-city-ahead-of-the-much-anticipated-gta-vi/
 ---
-GTA 6 vs Vice City is less a rematch than a homecoming. Grand Theft Auto: Vice City came out in October 2002 on the PlayStation 2 and was set in a neon-soaked 1986. GTA 6 came out on November 19, 2026, and brings Vice City back as the biggest city in a whole state, Leonida, set in the present day with two leads instead of one. Same name on the map. Very different place.
+GTA 6 vs Vice City is less a rematch than a homecoming. Grand Theft Auto: Vice City came out in October 2002 on the PlayStation 2 and was set in a neon-soaked 1986. GTA 6 comes out on November 19, 2026, and brings Vice City back as the biggest city in a whole state, Leonida, set in the present day with two leads instead of one. Same name on the map. Very different place.
 
 ## Vice City then and now
 
@@ -43,7 +44,7 @@ The supporting cast reflects the new Vice City too. Instead of 1980s crime lords
 Rockstar leaned into the history, especially in the pre-launch extras:
 
 - **The name and the beach.** Ocean Beach, a district in the 2002 game, shows up again in GTA 6's official material.
-- **A Tommy nod.** The Vintage Vice City Pack, the bonus for digital purchases before launch (around November 19 to 20, depending on the store), included a tropical weapon pattern inspired by Tommy Vercetti's palm tree shirt, plus a '55 Vapid Stanier and a garage in Shore Court near Ocean Beach.
+- **A Tommy nod.** The Vintage Vice City Pack, the bonus for digital purchases before launch (around November 19 to 20, depending on the store), includes a tropical weapon pattern inspired by Tommy Vercetti's palm tree shirt, plus a '55 Vapid Stanier and a garage in Shore Court near Ocean Beach.
 - **The look.** The Ultimate Edition's "Vice City Style" outfits and tattoos lean on the same retro pastel palette.
 - **Boats.** The 2002 game made boats a big deal, and GTA 6 has kayaks, speedboats and a whole Keys region to use them in.
 

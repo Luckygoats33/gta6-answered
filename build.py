@@ -674,6 +674,7 @@ HUBS = {"launch-times": launch_page, "facts": facts_page, "rumors": rumors_page,
 # ---------- Blog: posts/*.md, each published on its own date ----------
 # Front matter (between --- lines): title, date (YYYY-MM-DD, the publish day), checked (YYYY-MM-DD, when facts were
 # last verified), description, keyword, category, and one "source: Name | https://url" line per source.
+# Optional `time: HH:MM` (UTC) orders posts that share a day.
 # A post goes live when its date arrives (UTC); the daily GitHub Action rebuilds the site, so posts drip out by themselves.
 POSTS_DIR = pathlib.Path(__file__).parent / "posts"
 
@@ -717,11 +718,14 @@ def load_posts():
         meta.update(slug=f.stem, body=m.group(2).strip(), sources=sources)
         meta.setdefault("checked", meta["date"])
         posts.append(meta)
-    dates = [p["date"] for p in posts]
-    dupes = {d for d in dates if dates.count(d) > 1}
+    for p in posts:                       # optional "time: HH:MM" (UTC) lets several posts share a day
+        p["stamp"] = p["date"] + " " + p.get("time", "00:00")
+        p["published"] = p["date"] + (f'T{p["time"]}:00Z' if p.get("time") else "")
+    stamps = [p["stamp"] for p in posts]
+    dupes = {d for d in stamps if stamps.count(d) > 1}
     if dupes:
-        raise SystemExit("Two posts share a publish date: " + ", ".join(sorted(dupes)))
-    return sorted(posts, key=lambda p: p["date"], reverse=True)
+        raise SystemExit("Two posts share a publish date and time: " + ", ".join(sorted(dupes)))
+    return sorted(posts, key=lambda p: p["stamp"], reverse=True)
 
 
 ALL_POSTS = load_posts()
@@ -775,7 +779,7 @@ def post_card(p, prefix=""):
 def post_page(p):
     bc_schema, bc_html = crumbs([("Home", ""), ("Blog", "blog/"), (p["title"] if len(p["title"]) <= 50 else p["title"][:47].rsplit(" ", 1)[0] + "…", f'blog/{p["slug"]}/')])
     schema = [{"@context": "https://schema.org", "@type": "BlogPosting", "headline": p["title"], "description": p["description"],
-               "datePublished": p["date"], "dateModified": max(p["date"], p["checked"]), "inLanguage": "en",
+               "datePublished": p["published"], "dateModified": max(p["date"], p["checked"]), "inLanguage": "en",
                "mainEntityOfPage": f'{BASE_URL}blog/{p["slug"]}/', "image": BASE_URL + "img/og.jpg",
                "author": {"@type": "Organization", "name": SITE, "url": BASE_URL},
                "publisher": {"@type": "Organization", "name": SITE, "logo": {"@type": "ImageObject", "url": BASE_URL + "img/og.jpg"}}},
@@ -822,7 +826,7 @@ def post_page(p):
 def blog_index():
     bc_schema, bc_html = crumbs([("Home", ""), ("Blog", "blog/")])
     schema = [{"@context": "https://schema.org", "@type": "Blog", "name": f"{SITE} blog", "url": f"{BASE_URL}blog/", "inLanguage": "en",
-               "blogPost": [{"@type": "BlogPosting", "headline": p["title"], "datePublished": p["date"],
+               "blogPost": [{"@type": "BlogPosting", "headline": p["title"], "datePublished": p["published"],
                              "url": f'{BASE_URL}blog/{p["slug"]}/'} for p in POSTS[:20]]}, bc_schema]
     out = head(f"GTA 6 blog: guides, explainers and buying advice | {SITE}",
                "Longer GTA 6 reads: buying guides, console and storage explainers, the map, the story so far. Every post sourced.",

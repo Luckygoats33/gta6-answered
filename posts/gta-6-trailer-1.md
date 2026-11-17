@@ -1,6 +1,7 @@
 ---
 title: GTA 6 Trailer 1 Explained: What Rockstar Showed in 2023
-date: 2026-12-12
+date: 2026-11-12
+time: 11:47
 checked: 2026-11-16
 description: GTA 6 Trailer 1, explained: why it came out a day early, the view records it set, and what it showed of Lucia, Vice City and Leonida.
 keyword: gta 6 trailer 1
@@ -10,7 +11,7 @@ source: Push Square: 90 million views and three world records | https://www.push
 source: Rockstar Games: Only in Leonida character profiles | https://www.rockstargames.com/VI/only-in-leonida
 source: VGC: the second delay to November 19, 2026 | https://www.videogameschronicle.com/news/grand-theft-auto-6-has-been-delayed-again-to-the-end-of-2026/
 ---
-GTA 6 Trailer 1 came out on December 4, 2023, a day earlier than Rockstar planned, because it leaked. It ran about a minute and a half, introduced Lucia, showed off a modern Vice City, and pointed to a 2025 release on PS5 and Xbox Series X|S. It also broke YouTube records within a day. The game ended up arriving almost three years later, on November 19, 2026, but that first trailer is still where most people's picture of GTA 6 started.
+GTA 6 Trailer 1 came out on December 4, 2023, a day earlier than Rockstar planned, because it leaked. It ran about a minute and a half, introduced Lucia, showed off a modern Vice City, and pointed to a 2025 release on PS5 and Xbox Series X|S. It also broke YouTube records within a day. The game itself arrives almost three years later, on November 19, 2026, but that first trailer is still where most people's picture of GTA 6 started.
 
 ## Why the first trailer dropped a day early
 
@@ -46,8 +47,8 @@ A short trailer, but dense. The main beats:
 
 The 2025 date didn't hold. In May 2025, Rockstar moved the game to May 26, 2026. In November 2025, it moved again, to November 19, 2026, saying the extra months would let the team finish with the polish players expect. Trailer 2 in May 2025 named Jason properly and came with official character profiles. Then came the Extended Look gameplay video on Netflix in August 2026.
 
-The platforms stayed the same the whole time. It was PS5 and Xbox Series X|S on the first end card, and it was still those two at launch. There's no PC version announced; see our [PC answer](https://callunc.com/pc/).
+The platforms stayed the same the whole time. It was PS5 and Xbox Series X|S on the first end card, and it is still those two for launch. There's no PC version announced; see our [PC answer](https://callunc.com/pc/).
 
 ## Is Trailer 1 still worth watching?
 
-Yes, mostly as a time capsule. It sets the tone the final game kept: two partners, a sunny state with a dark side, and an internet-brained version of Florida. If you want the confirmed details that came after it, the [facts page](https://callunc.com/facts/) has the essentials, and the [map size answer](https://callunc.com/map-size/) covers how big Leonida turned out to be. And if you've been told some wild "hidden detail" from the trailer was confirmed, check our [rumors page](https://callunc.com/rumors/) first.
+Yes, mostly as a time capsule. It sets the tone Rockstar's later footage kept: two partners, a sunny state with a dark side, and an internet-brained version of Florida. If you want the confirmed details that came after it, the [facts page](https://callunc.com/facts/) has the essentials, and the [map size answer](https://callunc.com/map-size/) covers how big Rockstar says Leonida is. And if you've been told some wild "hidden detail" from the trailer was confirmed, check our [rumors page](https://callunc.com/rumors/) first.

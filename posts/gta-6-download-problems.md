@@ -1,6 +1,7 @@
 ---
 title: GTA 6 Not Downloading or Won't Start? Fixes for PS5 and Xbox
-date: 2026-11-20
+date: 2026-11-10
+time: 20:56
 checked: 2026-11-16
 description: GTA 6 not downloading, stuck, or won't start? Step-by-step fixes for PS5 and Xbox Series X|S: storage, queues, licenses, codes and restarts.
 keyword: gta 6 not downloading
@@ -10,7 +11,7 @@ source: PlayStation Support: how to restore licenses | https://www.playstation.c
 source: Xbox Support: game or app installation problems | https://support.xbox.com/en-US/help/games-apps/troubleshooting/troubleshoot-game-or-app-installation-problems-on-xbox-one
 source: PlayStation Support: redeem a PlayStation Store code | https://www.playstation.com/en-us/support/store/redeem-ps-store-voucher-code/
 ---
-If GTA 6 is not downloading or won't start, the cause is almost always one of five boring things: not enough free space, a paused or stuck download queue, a license the console can't check, a boxed code that was never redeemed, or a console that just needs a proper restart. GTA 6 came out on November 19, 2026, on PS5 and Xbox Series X|S, and every launch of a game this size produces the same handful of problems. Work through the list below in order. Most people are fixed by step two.
+If GTA 6 is not downloading or won't start, the cause is almost always one of five boring things: not enough free space, a paused or stuck download queue, a license the console can't check, a boxed code that was never redeemed, or a console that just needs a proper restart. GTA 6 comes out on November 19, 2026, on PS5 and Xbox Series X|S, and every launch of a game this size produces the same handful of problems. Work through the list below in order. Most people are fixed by step two.
 
 ## Step 1: check your storage first
 
@@ -38,7 +39,7 @@ If GTA 6 finished downloading but shows a padlock or says you can't play it, the
 - **PS5, part two:** Turn on Console Sharing and Offline Play for your main console. PlayStation's support page suggests this if license problems keep coming back.
 - **Xbox:** Sign in with the account that bought the game and check your Home Xbox setting. Your home Xbox is the console where your digital games can be played without checking your license online each time, so set it to the console you actually use.
 
-If it says the game isn't available yet, check the clock. The game went live at midnight in your own time zone, so if your region hadn't reached midnight, nothing was wrong. Our [launch times page](https://callunc.com/launch-times/) lists when each region unlocked.
+If it says the game isn't available yet, check the clock. The game goes live at midnight in your own time zone on November 19, so if your region hasn't reached midnight, nothing is wrong. Our [launch times page](https://callunc.com/launch-times/) lists when each region unlocks.
 
 ## Step 4: boxed copy owners, redeem the code
 

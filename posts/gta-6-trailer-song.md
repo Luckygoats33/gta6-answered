@@ -1,6 +1,7 @@
 ---
 title: Every Song in the GTA 6 Trailers, From Tom Petty to Justice
-date: 2026-12-10
+date: 2026-11-12
+time: 08:14
 checked: 2026-11-16
 description: Every GTA 6 trailer song named, with artist and context: Tom Petty, The Pointer Sisters, Justice's launch single, and the Extended Look's licensed tracks.
 keyword: gta 6 trailer song
@@ -54,7 +55,7 @@ The mix runs from 1970s soft rock to current Florida rap, which is about as Vice
 
 ## The intro song question
 
-People also search for the "GTA 6 intro song." Rockstar didn't reveal what plays over the game's opening before launch, and we don't describe story content here. If you want the music that plays in game, the official sources are the in-game radio stations and Rockstar's own soundtrack releases.
+People also search for the "GTA 6 intro song." Rockstar hasn't revealed what plays over the game's opening, and we don't describe story content here. Once the game is out on November 19, the official sources for the music that plays in game will be the in-game radio stations and Rockstar's own soundtrack releases.
 
 ## Listening without getting scammed
 

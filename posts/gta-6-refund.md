@@ -1,6 +1,7 @@
 ---
 title: Can You Get a GTA 6 Refund? PlayStation and Xbox Rules Explained
-date: 2026-12-09
+date: 2026-11-12
+time: 06:48
 checked: 2026-11-16
 description: How a GTA 6 refund works on PS5 and Xbox: PlayStation's 14-day rule, why pre-loading counts as downloading, and how Microsoft refund requests work.
 keyword: gta 6 refund
@@ -11,7 +12,7 @@ source: Microsoft Support: cancel an order or pre-order | https://support.micros
 ---
 A GTA 6 refund is possible in some cases, but the rules belong to the store you bought from, not to Rockstar. On PlayStation, the big catch is that once you've started downloading the game, including pre-loading, you generally lose the right to cancel. On Xbox, digital games aren't refundable by default, but you can submit a request and Microsoft decides.
 
-Here's how each store's rules apply to GTA 6, which came out on November 19, 2026.
+Here's how each store's rules apply to GTA 6, which comes out on November 19, 2026.
 
 ## GTA 6 refund on PS5: the PlayStation Store rules
 
@@ -27,9 +28,9 @@ That second point is where most GTA 6 buyers get caught. A 212 GB game is not so
 
 Sony has separate rules for digital pre-orders, and pre-loading is specifically named as downloading:
 
-1. If you paid more than 14 days before release and haven't started downloading (including pre-loading), you could cancel any time before release.
-2. If you paid 14 days or less before release, you could cancel up to 14 days after payment, again only if you hadn't started downloading.
-3. If the download had started, there's no refund unless the game is faulty.
+1. If you paid more than 14 days before release and haven't started downloading (including pre-loading), you can cancel any time before release.
+2. If you paid 14 days or less before release, you can cancel up to 14 days after payment, again only if you haven't started downloading.
+3. If the download has started, there's no refund unless the game is faulty.
 
 Sony also warns that Automatic Downloads can start a download without you doing anything, so a pre-order on a console with auto-download turned on may already count as downloaded. Bonus content tied to a pre-order stops working if you cancel.
 
@@ -51,17 +52,17 @@ Microsoft says a request can take up to 72 hours to process, and approved refund
 
 ### Cancelling an Xbox pre-order
 
-For pre-orders, Microsoft's page says you could cancel from your order history at account.microsoft.com before you were charged. If the Cancel item option doesn't appear, you've already been billed, and for digital goods Microsoft says to contact Microsoft Store support instead. Since GTA 6 is out, any pre-order has now been billed, so this applies to the refund route above.
+For pre-orders, Microsoft's page says you can cancel from your order history at account.microsoft.com before you are charged. If the Cancel item option doesn't appear, you've already been billed, and for digital goods Microsoft says to contact Microsoft Store support instead. In that case, the refund request route above is the one to use.
 
 ## Boxed copies, upgrades and bonuses
 
 - **Boxed copy:** the box holds a download code, not a disc. Refunds are up to the retailer you bought it from, under its own returns policy. Ask before you reveal or redeem the code, since a used code is a hard thing to return.
 - **Ultimate upgrade:** it's add-on content, so on PlayStation the same 14-day, not-downloaded rule applies. On Xbox it's a refund request like any other digital item.
-- **Pre-order bonus:** the Vintage Vice City Pack came with digital purchases made before launch (around November 19 to 20, depending on the store). If you get a refund on the game, expect to lose the bonus with it.
+- **Pre-order bonus:** the Vintage Vice City Pack comes with digital purchases made before launch (around November 19 to 20, depending on the store). If you get a refund on the game, expect to lose the bonus with it.
 
 ## When "faulty" matters
 
-Both stores carve out exceptions for content that doesn't work. If GTA 6 genuinely won't run on your console after the usual fixes (restart, reinstall, check for updates, check Rockstar's support site and patch notes), say so clearly in your request. "I don't like it" and "it crashes on launch every time" are very different requests.
+Both stores carve out exceptions for content that doesn't work. If GTA 6 genuinely won't run on your console at launch after the usual fixes (restart, reinstall, check for updates, check Rockstar's support site and patch notes), say so clearly in your request. "I don't like it" and "it crashes on launch every time" are very different requests.
 
 ## Avoid refund scams
 

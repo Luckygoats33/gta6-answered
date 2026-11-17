@@ -1,6 +1,7 @@
 ---
 title: Is GTA 6 Coming to Nintendo Switch 2?
-date: 2027-01-10
+date: 2026-11-14
+time: 15:14
 checked: 2026-11-16
 description: Is there a GTA 6 Switch 2 version? What Rockstar and Take-Two have said, why cloud play doesn't reach Nintendo, and how to spot fake Switch downloads.
 keyword: gta 6 switch 2
@@ -10,7 +11,7 @@ source: VGC: Rockstar confirms platforms, 30 FPS target and cloud play | https:/
 source: Dexerto: GTA 6 on Xbox Cloud Gaming | https://www.dexerto.com/gta/gta-6-confirms-xbox-cloud-gaming-support-but-pc-players-face-a-catch-3427015/
 source: Netflix Tudum: GTA VI An Extended Look | https://www.netflix.com/tudum/articles/grand-theft-auto-6-extended-first-look
 ---
-No. There's no GTA 6 Switch 2 version, and Rockstar hasn't announced one. GTA 6 came out on November 19, 2026, on PS5 and Xbox Series X|S only, with Xbox One able to stream it through Xbox Cloud Gaming. Nothing Rockstar announced before launch included a Nintendo console, and there's no official way to play it on a Switch or Switch 2.
+No. There's no GTA 6 Switch 2 version, and Rockstar hasn't announced one. GTA 6 comes out on November 19, 2026, on PS5 and Xbox Series X|S only, with Xbox One able to stream it through Xbox Cloud Gaming. Nothing Rockstar has announced includes a Nintendo console, and there's no official way to play it on a Switch or Switch 2.
 
 ## What Rockstar has actually said about GTA 6 on Switch
 
@@ -32,7 +33,7 @@ Nobody outside Rockstar knows what a Switch 2 version would take. But a few publ
 
 - Rockstar's target on PS5 and Xbox Series X is 30 frames per second. It didn't announce a 60 fps mode even on the PS5 Pro.
 - The Xbox Series S, the least powerful console GTA 6 runs on, needed its own settings, and those are the settings used for cloud streaming.
-- The download was up to 212 GB, a big ask for any console's storage.
+- The download is up to 212 GB, a big ask for any console's storage.
 
 None of that rules out a port. Rockstar has brought older games to Nintendo before, including L.A. Noire, the Grand Theft Auto Trilogy Definitive Edition and Red Dead Redemption. But those came years after their original releases, and GTA V itself never reached a Switch.
 

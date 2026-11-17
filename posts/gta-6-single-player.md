@@ -1,8 +1,9 @@
 ---
-title: Is GTA 6 Single-Player Only? What Launched on Day One
-date: 2026-12-26
+title: Is GTA 6 Single-Player Only? What Launches on Day One
+date: 2026-11-13
+time: 12:09
 checked: 2026-11-16
-description: Yes, GTA 6 is single player only for now. What launched on day one, why there's no Online date, and whether you need PS Plus or Game Pass to play.
+description: Yes, GTA 6 is single player only for now. What launches on day one, why there's no Online date, and whether you need PS Plus or Game Pass to play.
 keyword: gta 6 is single player only
 category: online
 source: PlayStation Store: Grand Theft Auto VI (1 player, offline play) | https://www.playstation.com/en-us/games/grand-theft-auto-vi/
@@ -10,7 +11,7 @@ source: Xbox Store: Grand Theft Auto VI (single-player experience) | https://www
 source: Vice: Bloomberg's GTA 6 Online window report | https://www.vice.com/en/article/gta-6-online-release-window-bloomberg/
 source: Xbox Wire: GTA VI pre-order bonus and cloud launch | https://news.xbox.com/en-us/2026/11/13/next-week-on-xbox-new-games-for-november-16-to-20/
 ---
-Yes. GTA 6 is single player only for now. When it came out on November 19, 2026, on PS5 and Xbox Series X|S, it launched as a story game about Jason and Lucia with no online multiplayer mode. The PlayStation Store lists it as one player with no multiplayer modes and offline play enabled, and the Xbox Store calls it a single-player experience. GTA 6 Online wasn't part of the launch, and Rockstar hasn't announced when it will be.
+Yes. GTA 6 is single player only for now. When it comes out on November 19, 2026, on PS5 and Xbox Series X|S, it launches as a story game about Jason and Lucia with no online multiplayer mode. The PlayStation Store lists it as one player with no multiplayer modes and offline play enabled, and the Xbox Store calls it a single-player experience. GTA 6 Online isn't part of the launch, and Rockstar hasn't announced when it will be.
 
 If you came from GTA V, where GTA Online took over everyone's life for a decade, that can feel strange. It shouldn't. GTA V did almost the same thing.
 
@@ -20,7 +21,7 @@ What you get on day one is the full single-player game:
 
 - **Two playable leads,** Jason Duval and Lucia Caminos, with a story that runs across the state of Leonida.
 - **The open world,** from Vice City to the Keys and the wetlands. Our earlier [Leonida guide](https://callunc.com/blog/gta-6-leonida-guide/) walks through the regions.
-- **Edition extras,** if you bought them. The Ultimate Edition's vehicles, weapons, outfits and locations are single-player items, unlocked as you go through the story.
+- **Edition extras,** if you buy them. The Ultimate Edition's vehicles, weapons, outfits and locations are single-player items, unlocked as you go through the story.
 
 There is no lobby, no free mode with strangers and no co-op with a friend. Everything happens on your console, in your save.
 
@@ -32,7 +33,7 @@ Rockstar hasn't announced a date or even a window for GTA 6 Online as of Novembe
 - **Take-Two's CEO, Strauss Zelnick,** said on a May earnings call that it was too early to talk about the online business model.
 - **Rockstar hasn't officially announced** a GTA 6 multiplayer mode at all.
 
-History helps here. GTA V came out in September 2013, and GTA Online followed a couple of weeks later as a separate launch. Red Dead Redemption 2 launched in October 2018, and Red Dead Online arrived as a beta the next month. So a gap between the story and the online mode is normal for Rockstar. A gap this long is new, but nothing about it means Online is cancelled. Our [online page](https://callunc.com/online/) tracks any updates.
+History helps here. GTA V came out in September 2013, and GTA Online followed a couple of weeks later as a separate launch. Red Dead Redemption 2 launched in October 2018, and Red Dead Online arrived as a beta the next month. So a gap between the story and the online mode is normal for Rockstar. A gap this long would be new, but nothing about it means Online is cancelled. Our [online page](https://callunc.com/online/) tracks any updates.
 
 ## What that means for crossplay
 
@@ -45,7 +46,7 @@ You don't need PlayStation Plus or Xbox Game Pass to play the GTA 6 story. Neith
 Two things that confuse people:
 
 - **GTA 6 isn't on Game Pass.** You buy the game outright. See our [Game Pass page](https://callunc.com/game-pass/).
-- **The GTA+ month isn't GTA 6 Online.** Digital pre-orders came with one month of GTA+, Rockstar's paid membership. It's a pre-order perk, not a sign that GTA 6 has an online mode. On PlayStation the month had to be claimed by March 31, 2027, and it renews as a paid subscription unless you cancel.
+- **The GTA+ month isn't GTA 6 Online.** Digital pre-orders come with one month of GTA+, Rockstar's paid membership. It's a pre-order perk, not a sign that GTA 6 has an online mode. On PlayStation the month has to be claimed by March 31, 2027, and it renews as a paid subscription unless you cancel.
 
 ## Is GTA 6 single player worth it on its own?
 

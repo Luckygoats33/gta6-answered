@@ -1,6 +1,7 @@
 ---
 title: Take-Two Earnings Calls and GTA 6: What Each One Told Us
-date: 2027-02-08
+date: 2026-11-16
+time: 17:47
 checked: 2026-11-16
 description: Every Take-Two earnings call that mattered for GTA 6, in order: the delays, the November 19 date, the $8 billion outlook, pre-orders, and what comes next.
 keyword: gta 6 earnings call
@@ -49,11 +50,11 @@ Earnings calls are for investors. They're useful for dates and big-picture numbe
 
 - **No budget.** Take-Two has never disclosed what GTA 6 cost. Our earlier post on the [GTA 6 budget](https://callunc.com/blog/gta-6-budget-explained/) covers where the estimates come from.
 - **No gameplay news.** Trailers, features and the Online date come from Rockstar, not from the call.
-- **No GTA 6 Online date.** As of November 16, 2026, Rockstar hadn't given one. See the [online page](https://callunc.com/online/).
+- **No GTA 6 Online date.** As of November 16, 2026, Rockstar hasn't given one. See the [online page](https://callunc.com/online/).
 - **No PC date.** Zelnick has said Rockstar starts on console. See the [PC page](https://callunc.com/pc/).
 
 ## The next GTA 6 update from a Rockstar earnings call
 
-The next report covers October to December 2026, which means it's the first one that includes GTA 6's launch. Take-Two hadn't announced the date as of November 16, 2026. For reference, the same report a year earlier came on February 3, 2026, and Take-Two usually announces the date about a month ahead on its investor relations site. If it has already happened by the time you read this, that's where the official release and webcast live.
+The next report covers October to December 2026, which means it's the first one that includes GTA 6's launch. Take-Two hasn't announced the date as of November 16, 2026. For reference, the same report a year earlier came on February 3, 2026, and Take-Two usually announces the date about a month ahead on its investor relations site. If it has already happened by the time you read this, that's where the official release and webcast live.
 
 When it comes, the things worth listening for are simple: any sales figure Take-Two chooses to share, whether the full-year outlook changes, and anything about GTA 6 Online or a PC version. Treat everything else as commentary. We'll put the confirmed parts on the [news page](https://callunc.com/news/).

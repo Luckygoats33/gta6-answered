@@ -1,6 +1,7 @@
 ---
 title: GTA 6 Crash Physics and Driving: What the Footage Showed
-date: 2026-12-16
+date: 2026-11-12
+time: 18:36
 checked: 2026-11-16
 description: GTA 6 crash physics and car handling, based only on official footage and Rockstar interviews: weight, rollovers, damage, and what was never shown.
 keyword: gta 6 crash physics
@@ -11,7 +12,7 @@ source: Engadget: details from the Extended Look | https://engadget.com/2246846/
 source: Netflix Tudum: the Extended Look | https://www.netflix.com/tudum/articles/grand-theft-auto-6-extended-first-look
 source: TweakTown: Rockstar confirms 30 fps target and PS5 Pro features | https://www.tweaktown.com/news/114598/rockstar-confirms-gta-6-targets-30-fps-on-ps5-pro-with-pssr-and-ray-traced-shadows/index.html
 ---
-Rockstar's pitch for GTA 6 crash physics and driving was simple: the weight of GTA IV with the friendliness of GTA V. That's how Rob Nelson, co-head of Rockstar North, described it before launch, and the official footage backs up the "weight" part. Cars lean, slide and roll in a way GTA V's rarely did. The game came out on November 19, 2026, so you can feel it for yourself. This post sticks to what Rockstar showed and said before release, so you know which parts were promised and which were just fan hopes.
+Rockstar's pitch for GTA 6 crash physics and driving is simple: the weight of GTA IV with the friendliness of GTA V. That's how Rob Nelson, co-head of Rockstar North, described it, and the official footage backs up the "weight" part. Cars lean, slide and roll in a way GTA V's rarely did. The game comes out on November 19, 2026, so you'll soon be able to feel it for yourself. This post sticks to what Rockstar has shown and said before release, so you know which parts are promised and which are just fan hopes.
 
 ## What Rockstar said about the driving
 
@@ -37,13 +38,13 @@ The Extended Look, which Netflix lists at 27 minutes and which Rockstar captured
 
 ## What wasn't shown or confirmed
 
-This is where a lot of videos get ahead of themselves. Before launch, Rockstar didn't confirm:
+This is where a lot of videos get ahead of themselves. Rockstar hasn't confirmed:
 
-- **Soft-body deformation** in the style of BeamNG, where the car's frame crumples realistically. The footage shows cars taking damage, but Rockstar never described a full soft-body system.
+- **Soft-body deformation** in the style of BeamNG, where the car's frame crumples realistically. The footage shows cars taking damage, but Rockstar has never described a full soft-body system.
 - **Detailed injury from crashes** for the player characters.
-- **Specific features** like detachable parts, glass shattering patterns, or fuel leaks. You may see some of this in the game. It wasn't announced.
+- **Specific features** like detachable parts, glass shattering patterns, or fuel leaks. You may see some of this in the game. It hasn't been announced.
 
-If a clip claims "GTA 6 has the most realistic crash physics ever," check whether it's official footage, someone's gameplay, or a fan-made render. A lot of what circulated before launch was the last one.
+If a clip claims "GTA 6 has the most realistic crash physics ever," check whether it's official footage, someone's gameplay, or a fan-made render. A lot of what's circulating before launch is the last one.
 
 ## GTA 6 car physics beyond the crashes
 
@@ -57,8 +58,8 @@ For the cars themselves, the official list is still short. We keep what's actual
 
 ## How to judge it yourself
 
-Now that the game is out, the fair test is simple. Take a heavy car and a light one down the same road, brake hard into a corner, and hit something at speed. You'll know within ten minutes whether it feels like GTA IV, GTA V, or something new.
+Once the game is out on November 19, the fair test is simple. Take a heavy car and a light one down the same road, brake hard into a corner, and hit something at speed. You'll know within ten minutes whether it feels like GTA IV, GTA V, or something new.
 
 And if you're new to the series, don't fight it. Weighty handling rewards braking before the turn instead of during it. It's the oldest driving advice there is, and it works in Leonida too.
 
-The game's frame rate affects how the driving feels as well. Rockstar confirmed before launch that its target is 30 fps on every console, PS5 Pro included. If that changes, it'll be in Rockstar's patch notes. Our earlier post on the [GTA 6 day one patch and updates](https://callunc.com/blog/gta-6-day-one-patch/) covers where to find those.
+The game's frame rate affects how the driving feels as well. Rockstar has confirmed that its target is 30 fps on every console, PS5 Pro included. If that changes, it'll be in Rockstar's patch notes. Our earlier post on the [GTA 6 day one patch and updates](https://callunc.com/blog/gta-6-day-one-patch/) covers where to find those.

@@ -1,6 +1,7 @@
 ---
 title: GTA 6 Sales: Predictions, Records and What Take-Two Expects
-date: 2027-01-26
+date: 2026-11-15
+time: 19:29
 checked: 2026-11-16
 description: GTA 6 sales, sorted by what's real: Take-Two's guidance, named analyst predictions, GTA V's records, and where official numbers will come from.
 keyword: gta 6 sales
@@ -10,9 +11,9 @@ source: GamesRadar+: analysts on GTA 6 launch sales | https://www.gamesradar.com
 source: Shacknews: Take-Two Q2 FY27 earnings | https://shacknews.com/article/151309/take-two-interactive-ttwo-q2-2027-earnings-results
 source: Vice: Bloomberg on GTA Online and GTA V sales | https://www.vice.com/en/article/gta-6-online-release-window-bloomberg/
 ---
-GTA 6 sales will be enormous by any measure, but the only numbers that count are the ones Take-Two publishes, and when we checked on November 16, 2026 the game hadn't launched yet. Everything before that is guidance, pre-order commentary and analyst predictions. Here's what each one said, clearly labeled, so you can tell an estimate from a result.
+GTA 6 sales will be enormous by any measure, but the only numbers that count are the ones Take-Two publishes, and as of November 16, 2026 the game hasn't launched yet. Everything so far is guidance, pre-order commentary and analyst predictions. Here's what each one says, clearly labeled, so you can tell an estimate from a result.
 
-GTA 6 came out on November 19, 2026. If Take-Two has announced sales figures since our check, those beat every prediction below.
+GTA 6 comes out on November 19, 2026. Once Take-Two announces sales figures, those will beat every prediction below.
 
 ## What Take-Two expects
 
@@ -35,7 +36,7 @@ These are estimates, made before launch. None is a sales figure. GamesRadar+ col
 - **Serkan Toto, Kantan Games:** thought 30 million units at launch was possible.
 - **Joost van Dreunen, NYU Stern:** at least 38 million copies and just over $3 billion in sales in the first 12 months.
 
-Two of them also sounded a note of caution. Cole thinks GTA 6 will be stronger up front but isn't sure it can match GTA V's long lifespan, partly because it launched on only two console families. Van Dreunen expects lower long-term unit sales than GTA V, but higher spending per player.
+Two of them also sounded a note of caution. Cole thinks GTA 6 will be stronger up front but isn't sure it can match GTA V's long lifespan, partly because it's launching on only two console families. Van Dreunen expects lower long-term unit sales than GTA V, but higher spending per player.
 
 Other estimates float around online with bigger numbers. Unless a named analyst or firm stands behind them, we leave them out.
 
@@ -54,7 +55,7 @@ So GTA 6 sales in 24 hours can plausibly beat GTA V's day one, since the predict
 When you see a "GTA 6 sold X million" headline, check where it came from. In order of trust:
 
 1. **Take-Two or Rockstar announcements.** A press release or a statement on an earnings call. This is the real number.
-2. **Take-Two's quarterly results.** The report covering October to December 2026 is the first one that includes the launch. It shows money and sometimes units.
+2. **Take-Two's quarterly results.** The report covering October to December 2026 will be the first one that includes the launch. These reports show money and sometimes units.
 3. **Market trackers** like Circana in the US. Useful for rankings, but they cover specific markets and channels, not worldwide totals.
 4. **Third-party estimates** from app and store trackers. Estimates, often from partial data.
 5. **Social media posts with no source.** Ignore them.

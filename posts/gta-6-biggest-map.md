@@ -1,6 +1,7 @@
 ---
 title: Is GTA 6 the Biggest Rockstar Map Ever?
-date: 2026-12-23
+date: 2026-11-13
+time: 07:37
 checked: 2026-11-16
 description: Is GTA 6 huge? What Rockstar said about the map compared with GTA V and Red Dead 2, why density matters as much as size, and what's still unmeasured.
 keyword: gta 6 is huge
@@ -45,8 +46,8 @@ The fair comparison is with other hand-built open worlds, and there Rockstar is 
 
 ## How to see the whole map
 
-Rockstar said before launch that it would post a printable map of Leonida on its website on release day as a free download, alongside a printable cover poster. A double-sided physical poster was also slated for the Rockstar Store at $0.99, or free with any order.
+Rockstar has said it will post a printable map of Leonida on its website on release day, November 19, 2026, as a free download, alongside a printable cover poster. A double-sided physical poster is also slated for the Rockstar Store at $0.99, or free with any order.
 
-That's the official route. Fan-made interactive maps are fine for planning a route, but check them against the game, since early ones were often built from trailer screenshots.
+That's the official route. Fan-made interactive maps are fine for planning a route, but check them against the game once you can, since early ones are often built from trailer screenshots.
 
 If you're new to the setting, our [what to expect in GTA 6](https://callunc.com/blog/what-to-expect-gta-6/) post covers the regions and the story setup, and the [facts page](https://callunc.com/facts/) lists what Rockstar has confirmed about the map so far.

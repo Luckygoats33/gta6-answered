@@ -1,6 +1,7 @@
 ---
 title: Can You Switch Characters in GTA 6? How Jason and Lucia Work
-date: 2027-02-07
+date: 2026-11-16
+time: 16:17
 checked: 2026-11-16
 description: Can you switch characters in GTA 6? Yes, between Jason and Lucia, but missions control when. Here's what Rockstar said and how it compares to GTA V.
 keyword: gta 6 switch characters
@@ -11,7 +12,7 @@ source: Engadget: things you may have missed in the Extended Look | https://enga
 ---
 Yes, you can switch characters in GTA 6 between its two protagonists, Jason Duval and Lucia Caminos. But it isn't a free button you can press any time you like. Rockstar has said switching depends on the mission: some let you swap freely, some swap for you at set moments, and some keep you locked to one character.
 
-GTA 6 came out on November 19, 2026. Everything below is what Rockstar and reputable outlets described before launch. How it feels in the game is something you'll find out with a controller in hand.
+GTA 6 comes out on November 19, 2026. Everything below is what Rockstar and reputable outlets have described ahead of launch. How it feels in the game is something you'll find out with a controller in hand.
 
 ## GTA 6 two protagonists: the basics
 
@@ -53,7 +54,7 @@ GTA 6 keeps the spirit, with some changes:
 Keep these in the "not announced" pile:
 
 - **Co-op.** Two protagonists doesn't mean two players. Rockstar described GTA 6 as a single-player experience. Our [co-op post](https://callunc.com/blog/gta-6-co-op/) explains.
-- **Exact switch controls.** Rockstar didn't publish the button layout before launch.
+- **Exact switch controls.** Rockstar hasn't published the button layout.
 - **A third playable character.** None has been announced.
 - **Online characters.** There's no GTA 6 online mode announced yet. See the [online page](https://callunc.com/online/).
 

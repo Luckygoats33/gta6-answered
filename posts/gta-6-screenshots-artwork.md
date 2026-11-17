@@ -1,6 +1,7 @@
 ---
 title: GTA 6 Screenshots and Artwork: The Official Gallery
-date: 2027-01-01
+date: 2026-11-13
+time: 23:33
 checked: 2026-11-16
 description: Where to find official GTA 6 screenshots, cover art and character artwork in full quality, what each Rockstar gallery release showed, and fakes to avoid.
 keyword: gta 6 screenshots
@@ -11,7 +12,7 @@ source: VGC: over 70 GTA 6 screenshots after Trailer 2 | https://www.videogamesc
 source: Push Square: new GTA 6 screenshots after the Extended Look | https://www.pushsquare.com/news/2026/09/30-new-gta-6-ps5-screenshots-to-blow-you-away-after-extended-look
 source: Shacknews: GTA 6 cover art and pre-order date | https://www.shacknews.com/article/149711/gta-6-pre-order-date-cover-reveal
 ---
-The best place for official GTA 6 screenshots is Rockstar's own GTA VI site, in two spots: the Launch Gallery, posted two weeks before release, and the Media & Artwork section, where Rockstar lets you download official screenshots, videos and other artwork. Everything else you find online is either a copy of those, a compressed repost, or something that isn't from Rockstar at all. GTA 6 came out on November 19, 2026, so there's also a flood of player screenshots now. This post is about the official set.
+The best place for official GTA 6 screenshots is Rockstar's own GTA VI site, in two spots: the Launch Gallery, posted two weeks before release, and the Media & Artwork section, where Rockstar lets you download official screenshots, videos and other artwork. Everything else you find online is either a copy of those, a compressed repost, or something that isn't from Rockstar at all. GTA 6 comes out on November 19, 2026, so expect a flood of player screenshots after that. This post is about the official set.
 
 ## Official GTA 6 screenshots, release by release
 
@@ -57,4 +58,4 @@ Setting an official screenshot as your phone or desktop wallpaper is what Rockst
 
 ## Your own screenshots
 
-Now that the game is out, you can take your own with your console's capture button: the Create button on a PS5 controller or the Share button on an Xbox Series controller. Whether GTA 6 has its own photo mode or in-game camera features, and how they work, is something to check in the game and in Rockstar's patch notes rather than in pre-launch guesses. If you want a refresher on what the gameplay showcase looked like, our post on [the Extended Look](https://callunc.com/blog/gta-6-extended-look/) covers it.
+Once the game unlocks on November 19, you can take your own with your console's capture button: the Create button on a PS5 controller or the Share button on an Xbox Series controller. Whether GTA 6 has its own photo mode or in-game camera features, and how they work, is something to check in the game and in Rockstar's patch notes rather than in pre-launch guesses. If you want a refresher on what the gameplay showcase looked like, our post on [the Extended Look](https://callunc.com/blog/gta-6-extended-look/) covers it.

@@ -1,6 +1,7 @@
 ---
 title: Is the GTA 6 Ultimate Edition Worth $20 More?
-date: 2026-12-06
+date: 2026-11-12
+time: 01:06
 checked: 2026-11-16
 description: Is the GTA 6 Ultimate Edition worth it? What the extra $20 buys, what it doesn't, and why you can safely start with Standard and upgrade later.
 keyword: gta 6 is ultimate edition worth it
@@ -29,7 +30,7 @@ MP1st reported that this content unlocks across the story rather than all at onc
 
 This is where people get tripped up, so it's worth being blunt:
 
-- **No early access.** Ultimate unlocked at the same midnight as Standard.
+- **No early access.** Ultimate unlocks at the same midnight as Standard.
 - **No disc.** Ultimate is digital only. The boxed Standard copy has a download code, not a disc, either.
 - **No extra story missions** announced. The main story is the same game.
 - **Nothing for GTA 6 Online.** Rockstar hasn't announced Online yet, and the Ultimate list is all single-player content.
@@ -40,7 +41,7 @@ Standard owners can buy the Ultimate upgrade any time. It's listed at $20 on Xbo
 
 That one fact does most of the work. You can play 20 hours of Standard, decide you want Rideout Customs, and pay the difference then. You lose nothing by waiting except whatever sale might come along.
 
-One thing that didn't carry over: the pre-order bonus. The Vintage Vice City Pack ('55 Vapid Stanier, a Shore Court garage, outfits and a tropical weapon pattern) was for digital orders placed before launch (around November 19 to 20, depending on the store). If you buy now, Standard or Ultimate, that window has closed.
+One thing that won't wait: the pre-order bonus. The Vintage Vice City Pack ('55 Vapid Stanier, a Shore Court garage, outfits and a tropical weapon pattern) is for digital orders placed before launch (around November 19 to 20, depending on the store). If you buy before then, Standard or Ultimate, you're inside that window. After that, it closes.
 
 ## Who should buy Ultimate
 

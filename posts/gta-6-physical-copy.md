@@ -1,6 +1,7 @@
 ---
 title: GTA 6 Physical Copy Explained: Why the Box Has No Disc
-date: 2026-12-08
+date: 2026-11-12
+time: 04:50
 checked: 2026-11-16
 description: Will there be a physical disc for GTA 6? No. Here's what's in the box, how to redeem the code, resale limits, and why Ultimate is digital only.
 keyword: gta 6 will there be a physical disc
@@ -10,7 +11,7 @@ source: PlayStation Support: redeem a PlayStation Store code | https://www.plays
 source: Rockstar Games: Grand Theft Auto VI official site | https://www.rockstargames.com/VI
 source: Notebookcheck: physical vs digital GTA 6 pricing | https://www.notebookcheck.net/EUR20-discount-on-GTA-6-pre-order-price-shows-why-end-of-physical-games-means-less-deals.1342769.0.html
 ---
-Will there be a physical disc for GTA 6? Not so far. The boxed copy you can buy in a store is a case with a download code inside, not a disc. It went on sale November 12, 2026, a week before the game came out on November 19, and it only exists for the Standard Edition. The Ultimate Edition is digital only. So a "gta 6 hard copy" is real in the sense that you can hold the box, but the game itself always comes down over the internet.
+Will there be a physical disc for GTA 6? Not so far. The boxed copy you can buy in a store is a case with a download code inside, not a disc. It went on sale November 12, 2026, a week before the game comes out on November 19, and it only exists for the Standard Edition. The Ultimate Edition is digital only. So a "gta 6 hard copy" is real in the sense that you can hold the box, but the game itself always comes down over the internet.
 
 If you were hoping for a disc to keep on the shelf or trade in later, this is the part where the older cousin shrugs. Here's what you actually get and what it means.
 
@@ -58,4 +59,4 @@ The boxed Standard Edition is sold by the usual big retailers that carry PS5 and
 
 ## Will a disc version come later?
 
-Nobody has announced one. Rockstar hadn't said anything about a disc edition as of November 16, 2026, and the store listings only ever described the code-in-box version. If a disc edition ever appears, it'll be on Rockstar's Newswire first. Until then, the answer to "gta 6 ps5 disc" is the same as on Xbox: the box is a code, and the code is the game.
+Nobody has announced one. Rockstar hasn't said anything about a disc edition as of November 16, 2026, and the store listings only describe the code-in-box version. If a disc edition ever appears, it'll be on Rockstar's Newswire first. Until then, the answer to "gta 6 ps5 disc" is the same as on Xbox: the box is a code, and the code is the game.

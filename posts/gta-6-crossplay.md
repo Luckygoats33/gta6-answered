@@ -1,6 +1,7 @@
 ---
 title: Does GTA 6 Have Crossplay? PS5 and Xbox Explained
-date: 2026-11-26
+date: 2026-11-11
+time: 08:03
 checked: 2026-11-16
 description: Does GTA 6 have crossplay between PS5 and Xbox? Why the question doesn't apply yet, what GTA Online did before, and what to watch for next.
 keyword: gta 6 crossplay
@@ -11,7 +12,7 @@ source: Vice: Bloomberg's GTA 6 Online window report | https://www.vice.com/en/a
 source: Xbox Wire: GTA VI on Xbox Cloud Gaming at launch | https://news.xbox.com/en-us/2026/11/13/next-week-on-xbox-new-games-for-november-16-to-20/
 source: GTABase: crossplay history in GTA 5 and GTA Online | https://gtabase.com/grand-theft-auto-v/guides/is-gta-5-crossplay-cross-platform-support-for-pc-xbox-ps5
 ---
-No, GTA 6 crossplay isn't a thing, and at launch it couldn't be. GTA 6 came out on November 19, 2026, as a single-player game on PS5 and Xbox Series X|S, so there is no online mode for PlayStation and Xbox players to share. The PlayStation Store lists it as one player with no multiplayer modes, and the Xbox Store calls it "a single-player experience." Crossplay only matters when people play together, and right now nobody in GTA 6 is playing together.
+No, GTA 6 crossplay isn't a thing, and at launch it can't be. GTA 6 comes out on November 19, 2026, as a single-player game on PS5 and Xbox Series X|S, so there will be no online mode for PlayStation and Xbox players to share. The PlayStation Store lists it as one player with no multiplayer modes, and the Xbox Store calls it "a single-player experience." Crossplay only matters when people play together, and at launch nobody in GTA 6 will be playing together.
 
 That answers today's question. The better question is what happens when GTA 6 Online shows up, and for that the series' history is the best guide we have.
 
@@ -24,7 +25,7 @@ Not in any way that connects the two consoles. Here's how the pieces fit:
 - **No announced cross-save.** Rockstar hasn't said your PS5 story save can move to Xbox or the other way around. Treat your purchase and your progress as tied to one platform.
 - **No PC version.** Rockstar hasn't announced one, so there's no PC side to connect to either. See our [PC page](https://callunc.com/pc/).
 
-One small wrinkle: Microsoft said people who own GTA 6 on Xbox could play it through Xbox Cloud Gaming at launch, including streaming it to an Xbox One. That's the same Xbox version running on Microsoft's servers, not crossplay with PlayStation.
+One small wrinkle: Microsoft said people who own GTA 6 on Xbox can play it through Xbox Cloud Gaming at launch, including streaming it to an Xbox One. That's the same Xbox version running on Microsoft's servers, not crossplay with PlayStation.
 
 ## What GTA Online did: no crossplay between PlayStation and Xbox
 

@@ -1,6 +1,7 @@
 ---
 title: Where to Buy GTA 6: Digital Stores, Boxed Copies and Deals
-date: 2027-01-15
+date: 2026-11-14
+time: 23:48
 checked: 2026-11-16
 description: GTA 6 where to buy: PlayStation Store vs Microsoft Store vs boxed copies, why the box has a code instead of a disc, prices, bonuses, and sellers to avoid.
 keyword: gta 6 where to buy
@@ -11,7 +12,7 @@ source: VGC: boxed copies in stores from November 12 | https://www.videogameschr
 source: Rockstar Games: Grand Theft Auto VI | https://www.rockstargames.com/VI
 source: MP1st: pre-load, bonuses and the $79.99 Standard price | https://mp1st.com/news/gta-6-pre-load-pre-order-bonuses-new-screenshots-revealed-standard-edition-costs-80
 ---
-GTA 6 where to buy comes down to two choices: buy it digitally from the PlayStation Store or the Microsoft Store on your console, or buy the boxed Standard Edition from a retailer, which contains a download code instead of a disc. Both get you the same game on the same account. The difference is price, convenience, and whether you want the Ultimate Edition, which is digital only. GTA 6 came out on November 19, 2026, on PS5 and Xbox Series X|S, so every option below is a "buy and play" option now.
+GTA 6 where to buy comes down to two choices: buy it digitally from the PlayStation Store or the Microsoft Store on your console, or buy the boxed Standard Edition from a retailer, which contains a download code instead of a disc. Both get you the same game on the same account. The difference is price, convenience, and whether you want the Ultimate Edition, which is digital only. GTA 6 comes out on November 19, 2026, on PS5 and Xbox Series X|S, so until then every option below is a pre-order, and pre-load is already open.
 
 ## Digital: PlayStation Store and Microsoft Store
 
@@ -58,7 +59,7 @@ A tip: if a deal looks too good, check who's selling. A third-party seller on a 
 
 ## The pre-order bonus
 
-Rockstar's pre-order bonus was the Vintage Vice City Pack: a '55 Vapid Stanier with a Shore Court garage, outfits and hairstyles for Jason and Lucia, and a weapon pattern. Digital buyers got it if they purchased before launch (around November 19 to 20, depending on the store), and according to The Sixth Axis, physical pre-orders included it while stocks lasted. That window has closed for digital. If you're buying a box now, check the listing or the box itself before you assume it's included.
+Rockstar's pre-order bonus is the Vintage Vice City Pack: a '55 Vapid Stanier with a Shore Court garage, outfits and hairstyles for Jason and Lucia, and a weapon pattern. Digital buyers get it if they purchase before launch (around November 19 to 20, depending on the store), and according to The Sixth Axis, physical pre-orders included it while stocks lasted. That window is open for digital until launch. If you're buying a box now, check the listing or the box itself before you assume it's included.
 
 ## Where not to buy
 

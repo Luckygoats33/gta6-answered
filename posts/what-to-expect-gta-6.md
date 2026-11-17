@@ -1,6 +1,7 @@
 ---
 title: What to Expect in GTA 6: Everything Confirmed Before Launch
-date: 2026-11-17
+date: 2026-11-10
+time: 15:55
 checked: 2026-11-16
 description: What to expect in GTA 6 on November 19: unlock time, consoles, prices, the 212 GB download, the map, and what Rockstar still hasn't announced.
 keyword: what to expect in gta 6
@@ -12,7 +13,7 @@ source: Dexerto: Rockstar on the size of the map | https://www.dexerto.com/gta/r
 source: Vice: GTA 6 Online release window report | https://www.vice.com/en/article/gta-6-online-release-window-bloomberg/
 source: Windows Central: GTA 6 on Xbox Cloud Gaming | https://www.windowscentral.com/gaming/xbox/grand-theft-auto-6-will-be-playable-on-xbox-cloud-gaming-but-there-are-a-few-catches
 ---
-Here is what to expect in GTA 6: it comes out November 19 at midnight your local time, on PS5 and Xbox Series X|S, as a single-player game starring Jason and Lucia. It costs $79.99 for Standard or $99.99 for Ultimate in the US, the download is up to 212 GB, and the setting is Leonida, Rockstar's version of Florida. That covers most of the GTA 6 questions people are asking two days out. The rest of this post fills in the details and flags what still isn't known.
+Here is what to expect in GTA 6: it comes out November 19 at midnight your local time, on PS5 and Xbox Series X|S, as a single-player game starring Jason and Lucia. It costs $79.99 for Standard or $99.99 for Ultimate in the US, the download is up to 212 GB, and the setting is Leonida, Rockstar's version of Florida. That covers most of the GTA 6 questions people are asking in the last days before launch. The rest of this post fills in the details and flags what still isn't known.
 
 ## When can you play GTA 6
 

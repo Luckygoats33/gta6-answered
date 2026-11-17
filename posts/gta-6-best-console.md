@@ -1,6 +1,7 @@
 ---
 title: Best Console for GTA 6: PS5, PS5 Pro, Series X or Series S?
-date: 2027-01-06
+date: 2026-11-14
+time: 08:09
 checked: 2026-11-16
 description: The GTA 6 best console question answered: every console that runs it, storage on each, what the PS5 Pro Enhanced label means and our pick by budget.
 keyword: gta 6 best console
@@ -14,7 +15,7 @@ source: Windows Central: GTA 6 on Xbox Cloud Gaming | https://www.windowscentral
 ---
 There's no single GTA 6 best console, because the gap between them is smaller than the arguments suggest. Rockstar's target is 30 fps on every console, PS5 Pro included. The Pro adds PSSR upscaling and ray-traced shadows, and storage is the other real difference. If you already own one of these, play on it. If you're buying, pick by budget and drive size, not by internet arguments about frame rates.
 
-GTA 6 came out on November 19, 2026. Here's how the four options line up.
+GTA 6 comes out on November 19, 2026. Here's how the four options line up.
 
 ## Every console that runs it
 
@@ -50,7 +51,7 @@ Rockstar's own PS5 notes, from a PlayStation Blog post at pre-order time, covere
 
 On November 10, 2026, Rockstar confirmed a 30 fps target on PS5, PS5 Pro and Xbox Series X|S. Rendering resolution wasn't disclosed for any of them. No 60 fps or performance mode has been announced, and the 40 fps mode you may have seen mentioned is only a datamine rumor.
 
-So the choice between consoles is about image quality and storage, not smoothness. For anything past Rockstar's own numbers, the best evidence is Rockstar's support pages and patch notes, and side-by-side testing from reputable tech outlets. If you're reading this to decide whether to spend extra on a Pro or a Series X, look at that testing before you buy. Our [PS5 vs Xbox post](https://callunc.com/blog/gta-6-ps5-vs-xbox/) covers the platform choice from the store and controller side.
+So the choice between consoles is about image quality and storage, not smoothness. For anything past Rockstar's own numbers, the best evidence will be Rockstar's support pages and patch notes, and side-by-side testing from reputable tech outlets once they have the game. If you're reading this to decide whether to spend extra on a Pro or a Series X, wait for that testing before you buy. Our [PS5 vs Xbox post](https://callunc.com/blog/gta-6-ps5-vs-xbox/) covers the platform choice from the store and controller side.
 
 ## Our pick by budget
 
@@ -59,7 +60,7 @@ Prices change too often to print here, so this is by tier rather than dollars.
 1. **You already own any PS5 or Series console.** Keep it. GTA 6 runs on it. Spend the money on storage if you need space, not on a new box.
 2. **Tight budget, buying new.** A standard PS5 is the safer value pick than a Series S, mostly because of storage. The Series S works, but you'll be managing space from day one.
 3. **Middle budget.** PS5 or Series X are both solid. Pick the one your friends play on. Rockstar hasn't said anything about crossplay for a future GTA 6 Online, so being on the same console is the safe bet.
-4. **Big budget, want the best-looking version.** The PS5 Pro is the only console with announced extras: PSSR upscaling and ray-traced shadows. It still targets 30 fps like the rest, so you're paying for a sharper, nicer-looking picture, not a smoother one. Check the independent testing first.
+4. **Big budget, want the best-looking version.** The PS5 Pro is the only console with announced extras: PSSR upscaling and ray-traced shadows. It still targets 30 fps like the rest, so you're paying for a sharper, nicer-looking picture, not a smoother one. Wait for the independent testing first.
 
 ## GTA 6 best console to play on: the short answer
 

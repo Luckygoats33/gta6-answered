@@ -1,6 +1,7 @@
 ---
 title: GTA 6 Gameplay: What the 27-Minute Extended Look Shows
-date: 2026-12-14
+date: 2026-11-12
+time: 15:18
 checked: 2026-11-16
 description: The GTA 6 gameplay trailer you want is the Extended Look: where to watch it, what it showed of Jason, Lucia and Leonida, and what it left out.
 keyword: gta 6 gameplay trailer
@@ -13,7 +14,7 @@ source: TweakTown: Rockstar confirms 30 fps target and PS5 Pro features | https:
 ---
 If you're looking for the GTA 6 gameplay trailer, the one you want is "Grand Theft Auto VI: An Extended Look." It's the long gameplay video Rockstar released on August 27, 2026, premiering on Netflix before it went up on Rockstar's YouTube channel later the same day. Netflix lists it at 27 minutes and says it was made entirely of in-game footage captured on PS5. Trailers 1 and 2 were mostly story and mood. The Extended Look is the one that actually shows you how the game plays.
 
-GTA 6 came out on November 19, 2026, so you can now compare the video with the real thing. It's still worth watching if you haven't, because it's the clearest official walkthrough of the game's systems.
+GTA 6 comes out on November 19, 2026, so you'll soon be able to compare the video with the real thing. Until then it's worth watching if you haven't, because it's the clearest official walkthrough of the game's systems.
 
 ## What the Extended Look is
 
@@ -21,7 +22,7 @@ Think of it as a guided demo rather than a trailer. Instead of quick cuts set to
 
 A few details people get wrong:
 
-- **It's a video, not a playable game.** You couldn't play GTA 6 on Netflix. The game is on PS5 and Xbox Series X|S only. Our [Netflix page](https://callunc.com/netflix/) explains the confusion.
+- **It's a video, not a playable game.** You can't play GTA 6 on Netflix. The game is coming to PS5 and Xbox Series X|S only. Our [Netflix page](https://callunc.com/netflix/) explains the confusion.
 - **It was captured on PS5.** VGC reported the footage came from a base PS5, not a PS5 Pro or a PC.
 - **Netflix added subtitles.** Tudum said the video streamed with subtitles in 13 languages.
 
@@ -65,8 +66,8 @@ Just as useful is what wasn't in it:
 - **No frame rates or graphics modes.** Nothing in the video tells you how the game runs on each console. Rockstar covered that separately on November 10: its target is 30 fps on every console, PS5 Pro included, and the Pro adds PSSR upscaling and ray-traced shadows.
 - **No full map.** You see slices of Leonida, not a map screen of the whole state.
 
-Treat anything claiming to be "the full gameplay list" from the video with some suspicion. Fan breakdowns often mix in guesses and leaks. Stick to what's on screen, and now that the game is out, to what you see in your own playthrough.
+Treat anything claiming to be "the full gameplay list" from the video with some suspicion. Fan breakdowns often mix in guesses and leaks. Stick to what's on screen, and from November 19, to what you see in your own playthrough.
 
 ## Why it mattered
 
-Take-Two pointed ahead to the Extended Look in its August 7, 2026 earnings report, the same report where it reconfirmed the November 19 date. It was Rockstar's main pre-launch showcase, and for many players it settled the question of whether the game would play as well as the trailers looked. If you only watch one official GTA 6 video, make it this one.
+Take-Two pointed ahead to the Extended Look in its August 7, 2026 earnings report, the same report where it reconfirmed the November 19 date. It is Rockstar's main pre-launch showcase, and for many players it went a long way toward answering whether the game will play as well as the trailers look. If you only watch one official GTA 6 video, make it this one.

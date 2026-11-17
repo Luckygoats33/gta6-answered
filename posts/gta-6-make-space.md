@@ -1,6 +1,7 @@
 ---
 title: How to Make Room for GTA 6 on PS5, Xbox Series X and Series S
-date: 2026-12-04
+date: 2026-11-11
+time: 21:34
 checked: 2026-11-16
 description: GTA 6 how much storage needed, answered: up to 212 GB. How to check free space and clear room on PS5, Xbox Series X and Series S, plus room for updates.
 keyword: gta 6 how much storage needed
@@ -59,6 +60,6 @@ If you're still weighing which console to play on, the [consoles page](https://c
 
 ## Leave room for updates
 
-This is the step people skip. GTA 6 came out on November 19, 2026, and Rockstar will publish its own patch notes for any updates. You won't always know the size in advance, and a full drive means the update sits in your queue and the game may not launch until it's installed. Keeping a margin free saves you a late-night scramble. Our earlier post on the [GTA 6 day one patch and updates](https://callunc.com/blog/gta-6-day-one-patch/) covers turning on auto-updates on both consoles.
+This is the step people skip. GTA 6 comes out on November 19, 2026, and Rockstar will publish its own patch notes for any updates. You won't always know the size in advance, and a full drive means the update sits in your queue and the game may not launch until it's installed. Keeping a margin free saves you a late-night scramble. Our earlier post on the [GTA 6 day one patch and updates](https://callunc.com/blog/gta-6-day-one-patch/) covers turning on auto-updates on both consoles.
 
 One warning while you're cleaning house: if you see "GTA 6 storage booster" apps or websites promising to shrink the game, ignore them. There's no such thing. The size is the size.

@@ -1,6 +1,7 @@
 ---
 title: GTA 6 Black Friday Deals: What to Expect and What to Skip
-date: 2026-11-25
+date: 2026-11-11
+time: 05:49
 checked: 2026-11-16
 description: GTA 6 Black Friday guide: what a real deal looks like, why big discounts are unlikely a week after launch, and the key-reseller scams to avoid.
 keyword: gta 6 black friday
@@ -9,7 +10,7 @@ source: Shacknews: GTA 6 price starts at $80, no physical disc | https://www.sha
 source: IBTimes UK: Best Buy's $50 GTA 6 certificate offer | https://www.ibtimes.co.uk/best-buy-gta-6-preorder-50-certificate-1830818
 source: MP1st: pre-load, bonuses and the $79.99 Standard price | https://mp1st.com/news/gta-6-pre-load-pre-order-bonuses-new-screenshots-revealed-standard-edition-costs-80
 ---
-Don't expect a big GTA 6 Black Friday discount. The game came out on November 19, 2026, and Black Friday lands on November 27, eight days later. Brand-new games of this size almost never get real price cuts in their first weeks, and as of November 16 no major US retailer had announced a Black Friday price on the game itself. What you can find are side deals: rewards, gift card bonuses and console promotions.
+Don't expect a big GTA 6 Black Friday discount. The game comes out on November 19, 2026, and Black Friday lands on November 27, eight days later. Brand-new games of this size almost never get real price cuts in their first weeks, and as of November 16 no major US retailer has announced a Black Friday price on the game itself. What you can find are side deals: rewards, gift card bonuses and console promotions.
 
 So the useful question isn't "where is the cheapest GTA 6," it's "what counts as a good deal, and what's a trap." Here's how to tell.
 
@@ -27,7 +28,7 @@ A few things worth knowing before you shop:
 
 The realistic deals this year fall into a few buckets.
 
-- **Retailer rewards instead of discounts.** Before launch, IBTimes UK reported a Best Buy offer that gave a $50 certificate to members who pre-ordered GTA 6 and bought an eligible console during its Black Friday sale. The certificate came after both purchases and didn't lower the checkout price. That offer was tied to pre-orders, so it's a good example of the shape of these deals rather than one you can still use.
+- **Retailer rewards instead of discounts.** IBTimes UK reported a Best Buy offer that gives a $50 certificate to members who pre-order GTA 6 and buy an eligible console during its Black Friday sale. The certificate comes after both purchases and doesn't lower the checkout price. That offer is tied to pre-orders, which close at launch, so treat it as a good example of the shape of these deals and check the terms before you count on it.
 - **Console bundles and console discounts.** If you need hardware anyway, the console is where Black Friday money usually is. Compare the bundle price to the console's sale price plus $79.99 for the game. Sometimes the bundle wins, sometimes it's just packaging.
 - **Discounted store gift cards.** Some retailers sell PlayStation Store or Xbox gift cards at a small discount or with a bonus around Black Friday. Buying one from a real retailer and using it on the digital game is a legitimate way to shave a few dollars.
 - **Membership coupons.** Store memberships, student and military programs sometimes take a percentage off games. Read the exclusions, because new releases are often left out.

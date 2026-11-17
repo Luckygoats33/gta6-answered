@@ -1,6 +1,7 @@
 ---
 title: Every GTA 6 Weapon Rockstar Confirmed Before Launch
-date: 2026-12-30
+date: 2026-11-13
+time: 19:24
 checked: 2026-11-16
 description: The GTA 6 new guns Rockstar named or showed before launch: Ultimate Edition revolvers and pistols, the Extended Look, and what is still unconfirmed.
 keyword: gta 6 new guns
@@ -9,7 +10,7 @@ source: Gematsu: the Ultimate Edition and pre-order item lists | https://www.gem
 source: Engadget: guns, cars and the Extended Look | https://www.engadget.com/2245942/guns-cars-and-chihuahuas-breaking-down-the-gta-6-extended-look/
 source: Dexerto: Ultimate Edition contents | https://www.dexerto.com/gta/gta-6-price-ultimate-edition-pre-orders-live-3378744/
 ---
-The GTA 6 new guns Rockstar actually named before launch are a short list: the Hawk & Little Morgan revolvers, an engraved Girardi ES9 pistol for Jason and an engraved Klose K17 pistol for Lucia, all from the Ultimate Edition. Beyond that, Rockstar showed plenty of shooting in trailers and the Extended Look, but it never published a full weapon list. Now that the game is out, the full arsenal is in the game, not in a press release, so this page sticks to what was official before November 19, 2026.
+The GTA 6 new guns Rockstar has actually named before launch are a short list: the Hawk & Little Morgan revolvers, an engraved Girardi ES9 pistol for Jason and an engraved Klose K17 pistol for Lucia, all from the Ultimate Edition. Beyond that, Rockstar has shown plenty of shooting in trailers and the Extended Look, but it has never published a full weapon list. The full arsenal will only be known once the game is out on November 19, 2026, so this page sticks to what is official before then.
 
 ## GTA 6 weapons confirmed by name
 
@@ -21,7 +22,7 @@ These are the only guns Rockstar listed by name in its pre-launch edition detail
 
 Gun names in Rockstar games are usually fictional brands with real-world inspirations, the way "Vapid" stands in for a real carmaker. Don't expect a Glock to be called a Glock.
 
-There's one more pre-launch weapon item, though it's cosmetic: the Vintage Vice City Pack, the pre-order bonus for digital purchases before launch (around November 19 to 20, depending on the store), included a tropical weapon pattern inspired by Tommy Vercetti's palm tree shirt. The same pack's Shore Court garage came with a weapon locker.
+There's one more pre-launch weapon item, though it's cosmetic: the Vintage Vice City Pack, the pre-order bonus for digital purchases before launch (around November 19 to 20, depending on the store), includes a tropical weapon pattern inspired by Tommy Vercetti's palm tree shirt. The same pack's Shore Court garage comes with a weapon locker.
 
 ## Weapons seen in the trailers
 
@@ -46,14 +47,14 @@ If you're buying Ultimate mainly for guns, know what you're getting: one pair of
 
 ## What's still unconfirmed
 
-Rockstar didn't say any of the following before launch, so we're not claiming it:
+Rockstar hasn't said any of the following ahead of launch, so we're not claiming it:
 
 - **A full GTA 6 weapons list.** No official count or roster.
 - **Weapon wheel details.** Some outlets described a redesigned wheel from the Extended Look. Rockstar didn't explain it.
 - **Carry limits.** Fans guessed at how many guns you can hold at once from the footage. Not official.
 - **Weapon customization.** Attachments, paint and tints were common in GTA V. Rockstar hasn't detailed GTA 6's system beyond the weapon pattern and the engraved pistols.
-- **Online weapons.** GTA 6 launched single-player, and Rockstar hasn't announced Online; see our [online answer](https://callunc.com/online/).
+- **Online weapons.** GTA 6 launches single-player, and Rockstar hasn't announced Online; see our [online answer](https://callunc.com/online/).
 
 ## Where to find the rest
 
-Now that people are playing, the real list is being written by players. If a site claims to have the "complete" list, check when it was written: anything from before November 19 was a guess. For official changes after launch, Rockstar's patch notes and Newswire are the places to watch. And for everything confirmed beyond weapons, the [facts page](https://callunc.com/facts/) is the short version.
+Once people are playing on November 19, the real list will be written by players. If a site claims to have the "complete" list, check when it was written: anything from before November 19 is a guess. For official changes after launch, Rockstar's patch notes and Newswire are the places to watch. And for everything confirmed beyond weapons, the [facts page](https://callunc.com/facts/) is the short version.

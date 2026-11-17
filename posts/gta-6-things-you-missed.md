@@ -1,6 +1,7 @@
 ---
 title: Things You Missed in the GTA 6 Extended Look
-date: 2026-12-31
+date: 2026-11-13
+time: 21:22
 checked: 2026-11-16
 description: GTA 6 things you missed in the Netflix Extended Look: background details, character moments, map hints and systems Rockstar showed without explaining.
 keyword: gta 6 things you missed
@@ -9,7 +10,7 @@ source: Netflix Tudum: Grand Theft Auto VI, An Extended Look | https://www.netfl
 source: VGC: everything shown at the GTA 6 Netflix special | https://www.videogameschronicle.com/news/everything-shown-at-the-grand-theft-auto-6-netflix-special/
 source: Dexerto: everything revealed in the Extended Look | https://www.dexerto.com/gta/everything-revealed-in-gta-6-netflix-extended-look-3403132/
 ---
-Most of the GTA 6 things you missed in the Extended Look aren't hidden easter eggs. They're small systems Rockstar showed for a second and never explained: a police search circle, a stream chat, a gym membership. "Grand Theft Auto VI: An Extended Look" premiered on Netflix on August 27, 2026, as 27 minutes of in-game footage captured on PS5. The game came out on November 19, 2026, but the video is still the best map of what Rockstar chose to show before launch.
+Most of the GTA 6 things you missed in the Extended Look aren't hidden easter eggs. They're small systems Rockstar showed for a second and never explained: a police search circle, a stream chat, a gym membership. "Grand Theft Auto VI: An Extended Look" premiered on Netflix on August 27, 2026, as 27 minutes of in-game footage captured on PS5. The game comes out on November 19, 2026, and the video is still the best map of what Rockstar has chosen to show before launch.
 
 If you want the full walkthrough of the video itself, start with our [Extended Look post](https://callunc.com/blog/gta-6-extended-look/). This one is the second pass: the stuff in the corners.
 
@@ -49,7 +50,7 @@ These are the bits that matter most once you're playing, and the ones Rockstar e
 1. **The wanted system works on description.** VGC noticed the map shows a circle where police are searching instead of individual police icons. Changing masks, hats or other clothes before a crime lowers your wanted level. Dexerto adds that you can stash clothing and weapons in cars to change your look mid-search.
 2. **Witnesses and cameras.** Characters are identified by their clothing, including on security cameras, and shop owners fight back during robberies.
 3. **Two-person crimes.** One shot has one character in a store while the other waits as getaway driver. VGC reports that missions can be played as Jason or Lucia, together or separately.
-4. **Character switching.** It's in the footage. VGC said it looks similar to GTA V's; other outlets weren't sure. Play it and judge for yourself.
+4. **Character switching.** It's in the footage. VGC said it looks similar to GTA V's; other outlets weren't sure. Judge for yourself when you play it on November 19.
 5. **Tire shots.** Jason disables a police car by shooting its tires. Classic, but nice to see it confirmed.
 
 What the video didn't show is just as telling. There was nothing about GTA 6 Online, which Rockstar still hasn't dated. Our [online answer](https://callunc.com/online/) tracks that.

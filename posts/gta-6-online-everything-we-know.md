@@ -1,6 +1,7 @@
 ---
 title: GTA 6 Online News: Everything We Know So Far
-date: 2026-12-27
+date: 2026-11-13
+time: 14:32
 checked: 2026-11-16
 description: GTA 6 online news, sorted: what Rockstar has and hasn't announced, the Bloomberg late 2027 report, crossplay and PC, and what GTA Online's history suggests.
 keyword: gta 6 online news
@@ -9,7 +10,7 @@ source: Vice: GTA 6 Online release window report | https://www.vice.com/en/artic
 source: Gematsu: Rockstar's single-player description and GTA+ details | https://www.gematsu.com/2026/06/grand-theft-auto-vi-pricing-ultimate-edition-and-pre-order-bonuses-announced
 source: GamesBeat: Take-Two fiscal Q2 2027 results | https://gamesbeat.com/?p=338567
 ---
-The honest GTA 6 online news is short: Rockstar hasn't announced a GTA 6 online mode, and there's no release date for one. GTA 6 came out on November 19, 2026 as a single-player game. The only timing anyone has is a Bloomberg report pointing to late 2027, which is a report, not a promise.
+The honest GTA 6 online news is short: Rockstar hasn't announced a GTA 6 online mode, and there's no release date for one. GTA 6 comes out on November 19, 2026 as a single-player game. The only timing anyone has is a Bloomberg report pointing to late 2027, which is a report, not a promise.
 
 Everything else you'll read about "GTA 6 Online" is either Rockstar's silence, a press report, or a wishlist. Here's how to tell them apart.
 
@@ -17,7 +18,7 @@ Everything else you'll read about "GTA 6 Online" is either Rockstar's silence, a
 
 When Rockstar announced pricing and editions in June 2026, it described GTA 6 as a single-player experience. Vice's November 13, 2026 roundup put it plainly: Rockstar had not officially announced multiplayer for GTA 6 at all.
 
-That matters because "GTA 6 Online is delayed" is a headline you'll see. It can't be delayed if it was never dated. As of our check on November 16, 2026, the status was "not announced". Our [online page](https://callunc.com/online/) keeps that current.
+That matters because "GTA 6 Online is delayed" is a headline you'll see. It can't be delayed if it was never dated. As of our check on November 16, 2026, the status is "not announced". Our [online page](https://callunc.com/online/) keeps that current.
 
 ## Release window reports
 
@@ -33,9 +34,9 @@ Bloomberg has a strong record on Rockstar reporting, so it's worth taking seriou
 
 Short list:
 
-1. GTA 6 launched as a single-player game on PS5 and Xbox Series X|S.
+1. GTA 6 launches as a single-player game on PS5 and Xbox Series X|S.
 2. GTA Online, the GTA V multiplayer mode, is still running. Take-Two's November 2026 results said Rockstar will continue supporting it with new content and events, after a recent update called The Kortz Center Heist.
-3. Digital pre-orders of GTA 6 included a free month of GTA+, the GTA Online membership. That perk was for the existing GTA Online, not a GTA 6 mode.
+3. Digital pre-orders of GTA 6 include a free month of GTA+, the GTA Online membership. That perk is for the existing GTA Online, not a GTA 6 mode.
 
 That's it. Nothing about GTA 6 multiplayer modes, characters, heists or money has come from Rockstar.
 

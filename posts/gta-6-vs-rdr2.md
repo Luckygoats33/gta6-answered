@@ -1,6 +1,7 @@
 ---
 title: GTA 6 vs Red Dead Redemption 2: Map, Detail and Story Compared
-date: 2026-12-25
+date: 2026-11-13
+time: 10:35
 checked: 2026-11-16
 description: GTA 6 vs RDR2 compared on map size, world detail, protagonists and activities, using what Rockstar said, plus which of the two to play first.
 keyword: gta 6 vs rdr2
@@ -11,7 +12,7 @@ source: VGC: everything shown in the Netflix special | https://www.videogameschr
 source: Wikipedia: Red Dead Redemption 2 | https://en.wikipedia.org/wiki/Red_Dead_Redemption_2
 source: Windows Central: GTA 6 on Xbox Cloud Gaming | https://www.windowscentral.com/gaming/xbox/grand-theft-auto-6-will-be-playable-on-xbox-cloud-gaming-but-there-are-a-few-catches
 ---
-The short version of GTA 6 vs RDR2: GTA 6 has the bigger map and the modern, faster world, while Red Dead Redemption 2 remains Rockstar's slow, heavy, one-man story. They come from the same studio and share a lot of DNA, but they want different things from you. GTA 6 came out on November 19, 2026, so this compares Rockstar's own statements about it with a game that has been out since 2018.
+The short version of GTA 6 vs RDR2: GTA 6 has the bigger map and the modern, faster world, while Red Dead Redemption 2 remains Rockstar's slow, heavy, one-man story. They come from the same studio and share a lot of DNA, but they want different things from you. GTA 6 comes out on November 19, 2026, so this compares Rockstar's own statements about it with a game that has been out since 2018.
 
 ## Map size compared
 
@@ -25,7 +26,7 @@ The feel of the space is different too. RDR2's map is wilderness with a handful 
 
 RDR2 earned its reputation on small details, from the gang's camp life to the way the world reacts to how you behave. Rockstar's pitch for GTA 6 is the same obsession, applied to a modern state. Garbut said the team obsessed over every part of the world.
 
-From what Rockstar showed before launch, the detail shows up in new places:
+From what Rockstar has shown before launch, the detail shows up in new places:
 
 - **Police that track you by look, not just location.** The Netflix Extended Look showed a search area on the map and showed that changing masks, hats or clothes can bring the heat down.
 - **Social media inside the world.** The footage showed an influencer livestreaming from Lucia's car with a chat on screen.
@@ -54,8 +55,8 @@ GTA 6 doesn't advertise an honor system like RDR2's. Rockstar hasn't described o
 
 ## Which to play first
 
-If you haven't played either and you own a PS5 or Xbox Series X|S, I'd play GTA 6 first. It's the new one, it's the one everyone is talking about, and its faster pace is easier to fall into. RDR2 asks for patience, and it rewards it best when you're in the mood for a slow story.
+If you haven't played either and you own a PS5 or Xbox Series X|S, I'd play GTA 6 first when it arrives on November 19. It's the new one, it's the one everyone is talking about, and its faster pace is easier to fall into. RDR2 asks for patience, and it rewards it best when you're in the mood for a slow story.
 
 If you've already finished RDR2, go in expecting a different kind of game. GTA has always been louder and funnier, and Rockstar's own description of Leonida leans into satire.
 
-If you're on PS4, the choice is made for you: RDR2 plays there, GTA 6 doesn't. Xbox One is a half exception. GTA 6 has no Xbox One version, but if you own it you can stream it to an Xbox One through Xbox Cloud Gaming. Our [consoles page](https://callunc.com/consoles/) lists what runs GTA 6, and our [map size answer](https://callunc.com/map-size/) has Rockstar's size claims in one place.
+If you're on PS4, the choice is made for you: RDR2 plays there, GTA 6 doesn't. Xbox One is a half exception. GTA 6 has no Xbox One version, but if you own it you can stream it to an Xbox One through Xbox Cloud Gaming once it launches. Our [consoles page](https://callunc.com/consoles/) lists what runs GTA 6, and our [map size answer](https://callunc.com/map-size/) has Rockstar's size claims in one place.

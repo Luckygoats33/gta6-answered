@@ -1,6 +1,7 @@
 ---
 title: GTA 6 Release Date History: Every Date and Delay
-date: 2027-01-30
+date: 2026-11-16
+time: 02:14
 checked: 2026-11-16
 description: GTA 6 first release date to final launch: the 2025 window, both delays, Take-Two's confirmations and the launch-week timeline, all dated and sourced.
 keyword: gta 6 first release date
@@ -12,7 +13,7 @@ source: VGC: GTA 6 delayed again to November 19, 2026 | https://www.videogamesch
 source: Vice: Zelnick reiterates November 19 | https://www.vice.com/en/article/take-two-ceo-confirms-gta-6-wont-be-delayed-again-and-teases-next-trailer-date/
 source: Outlook Respawn: Take-Two Q1 fiscal 2027 results | https://respawn.outlookindia.com/amp/story/gaming/gaming-news/take-two-q1-2027-gta-6-pre-orders-surge-net-revenue-hits-153b
 ---
-The GTA 6 first release date was never a day. It was a window: 2025, announced with the first trailer in December 2023, then narrowed to fall 2025. The first actual date Rockstar gave was May 26, 2026, and that one moved too. The game finally came out on November 19, 2026, the date Rockstar set in November 2025 and held for a full year.
+The GTA 6 first release date was never a day. It was a window: 2025, announced with the first trailer in December 2023, then narrowed to fall 2025. The first actual date Rockstar gave was May 26, 2026, and that one moved too. The game is now set to come out on November 19, 2026, the date Rockstar set in November 2025 and has held for a full year.
 
 So the answer to "how many release dates did GTA 6 have" is two real dates and one window. Here's the whole run, in order.
 
@@ -35,7 +36,7 @@ That's the full list of GTA 6 release dates: fall 2025 (a window), May 26, 2026,
 
 ## GTA 6 release date confirmed, again and again
 
-After November 2025, the date didn't move, and Take-Two kept saying so on its earnings calls.
+Since November 2025, the date hasn't moved, and Take-Two has kept saying so on its earnings calls.
 
 - **May 2026.** On Take-Two's earnings call, Zelnick reiterated November 19. His own short version: "reiterating November 19 as a launch day today is probably a positive."
 - **June 24, 2026.** Pre-orders opened, with prices of $79.99 for Standard and $99.99 for Ultimate.
@@ -50,11 +51,11 @@ The last stretch, as Rockstar laid it out in early November 2026:
 
 1. **November 10.** Digital pre-load opened: midnight local time on PS5, and midnight GMT on Xbox Series X|S (4 p.m. Pacific on November 9).
 2. **November 12.** Boxed Standard copies, with a download code inside, reached stores.
-3. **November 18, 11:00 UTC.** New Zealand hit midnight first and unlocked the game.
-4. **November 19.** Everyone else followed at their own local midnight. Our [release time answer](https://callunc.com/release-time/) shows how that rolled around the world.
+3. **November 18, 11:00 UTC.** New Zealand hits midnight first and unlocks the game.
+4. **November 19.** Everyone else follows at their own local midnight. Our [release time answer](https://callunc.com/release-time/) shows how that rolls around the world.
 
 ## How the delays compare to Rockstar's history
 
-Rockstar delaying a big game isn't new. Red Dead Redemption 2 also slipped from its first announced window before shipping in October 2018. What stood out with GTA 6 was the scale: more than four and a half years from Rockstar's first development confirmation to launch, and almost three years from the first trailer.
+Rockstar delaying a big game isn't new. Red Dead Redemption 2 also slipped from its first announced window before shipping in October 2018. What stands out with GTA 6 is the scale: more than four and a half years from Rockstar's first development confirmation to launch, and almost three years from the first trailer.
 
-If you want the broader story of how the game got made, our [development history post](https://callunc.com/blog/gta-6-development-history/) covers it. For anything that's changed since launch, check our [news page](https://callunc.com/news/).
+If you want the broader story of how the game got made, our [development history post](https://callunc.com/blog/gta-6-development-history/) covers it. For anything that changes before November 19, check our [news page](https://callunc.com/news/).

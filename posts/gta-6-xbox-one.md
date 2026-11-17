@@ -1,6 +1,7 @@
 ---
 title: GTA 6 on Xbox One: Cloud Streaming and Your Upgrade Options
-date: 2027-01-02
+date: 2026-11-14
+time: 01:19
 checked: 2026-11-16
 description: Is GTA 6 on Xbox One? Not natively, but owners can stream it through Xbox Cloud Gaming. What that needs, how it plays, and when upgrading makes more sense.
 keyword: gta 6 xbox one
@@ -12,9 +13,9 @@ source: TweakTown: Rockstar confirms 30 fps target and PS5 Pro features | https:
 source: Xbox Wire: Series X and Series S storage primer | https://news.xbox.com/en-us/2020/09/24/xbox-series-x-and-xbox-series-s-custom-storage-solution-primer/
 source: VGC: Rockstar's GTA 6 file size | https://www.videogameschronicle.com/news/rockstar-details-grand-theft-auto-6-pre-load-date-and-time-and-file-size/
 ---
-GTA 6 has no Xbox One version, but if you own it you can stream it to an Xbox One through Xbox Cloud Gaming. Rockstar said so on November 10, 2026, and Xbox Wire repeated it on November 13. The game runs on Microsoft's servers at Xbox Series S graphics settings and gets sent to your console over the internet. Nothing installs on the Xbox One itself.
+GTA 6 has no Xbox One version, but if you own it you can stream it to an Xbox One through Xbox Cloud Gaming once it launches. Rockstar said so on November 10, 2026, and Xbox Wire repeated it on November 13. The game runs on Microsoft's servers at Xbox Series S graphics settings and gets sent to your console over the internet. Nothing installs on the Xbox One itself.
 
-So the old answer, "you can't play GTA 6 on Xbox One," is out of date. The better answer is "you can, as a stream, with some catches." GTA 6 came out on November 19, 2026, and here's how the Xbox One route works, where it falls short, and when an upgrade is the smarter buy.
+So the old answer, "you can't play GTA 6 on Xbox One," is out of date. The better answer is "you can, as a stream, with some catches." GTA 6 comes out on November 19, 2026, and here's how the Xbox One route works, where it falls short, and when an upgrade is the smarter buy.
 
 ## Why there's no native GTA 6 Xbox One version
 

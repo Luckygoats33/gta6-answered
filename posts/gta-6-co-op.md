@@ -1,6 +1,7 @@
 ---
 title: Is There Co-op in GTA 6 Story Mode? What Rockstar Has Said
-date: 2026-11-27
+date: 2026-11-11
+time: 09:02
 checked: 2026-11-16
 description: Is there GTA 6 co op? Rockstar calls the launch game a single-player experience. Here's what that means for split screen, friends and Online.
 keyword: gta 6 co op
@@ -9,7 +10,7 @@ source: Gematsu: Rockstar's pricing, editions and single-player description | ht
 source: Vice: GTA 6 Online release window report | https://www.vice.com/en/article/gta-6-online-release-window-bloomberg/
 source: PC Gamer: Rob Nelson on when you can switch characters | https://www.pcgamer.com/games/grand-theft-auto/gta-6s-story-is-too-important-for-rockstar-to-let-you-swap-between-lucia-and-jason-whenever-you-want/
 ---
-There's no GTA 6 co op in the story, at least not in anything Rockstar has announced. The game that came out on November 19, 2026 is a single-player experience, and the two protagonists, Jason and Lucia, are both played by you, not by you and a friend.
+There's no GTA 6 co op in the story, at least not in anything Rockstar has announced. The game that comes out on November 19, 2026 is a single-player experience, and the two protagonists, Jason and Lucia, are both played by you, not by you and a friend.
 
 That's a letdown for anyone who saw two leads in the trailers and pictured a couch co-op crime spree. It's also very much in line with how Rockstar has made its story games for the last twenty years.
 

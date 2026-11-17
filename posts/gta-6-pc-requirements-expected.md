@@ -1,6 +1,7 @@
 ---
 title: Expected GTA 6 PC Settings Requirements: What We Can and Can't Say
-date: 2027-01-08
+date: 2026-11-14
+time: 11:41
 checked: 2026-11-16
 description: There are no official GTA 6 settings requirements for PC yet. Here's what GTA V and RDR2 needed on PC, why storage will matter, and when to upgrade.
 keyword: gta 6 settings requirements
@@ -9,7 +10,7 @@ source: Rockstar Support: platforms, editions and versions | https://support.roc
 source: PC Gamer: Red Dead Redemption 2 PC system requirements | https://www.pcgamer.com/red-dead-redemption-2-system-requirements/
 source: GTABase: GTA V PC requirements, Legacy and Enhanced | https://www.gtabase.com/articles/grand-theft-auto-v/news/grand-theft-auto-v-pc-system-requirements
 ---
-There are no official GTA 6 settings requirements for PC, because Rockstar hasn't announced a PC version. GTA 6 came out on November 19, 2026 on PS5 and Xbox Series X|S only. Any chart showing "GTA 6 minimum, high and ultra specs" is a guess dressed up as a fact.
+There are no official GTA 6 settings requirements for PC, because Rockstar hasn't announced a PC version. GTA 6 comes out on November 19, 2026 on PS5 and Xbox Series X|S only. Any chart showing "GTA 6 minimum, high and ultra specs" is a guess dressed up as a fact.
 
 What we can do is look at how Rockstar handled its last two PC releases, and what that suggests about the hardware a PC version would eventually ask for.
 
@@ -72,7 +73,7 @@ Buying a graphics card "for GTA 6 on PC" now means guessing at a release that ha
 3. **Wait for independent testing.** Outlets like PC Gamer benchmark big ports at release, and the real performance story often differs from the spec sheet.
 4. **Then buy for the resolution you actually play at.** A 1080p player and a 4K player need very different cards.
 
-If you want to play GTA 6 now, the answer is a PS5 or an Xbox Series console. If you're set on PC, the cheapest upgrade is patience. Hardware gets better and cheaper while you wait, and the spec sheet will tell you exactly what to buy.
+If you want to play GTA 6 at launch, the answer is a PS5 or an Xbox Series console. If you're set on PC, the cheapest upgrade is patience. Hardware gets better and cheaper while you wait, and the spec sheet will tell you exactly what to buy.
 
 ## Watch for fake PC downloads
 

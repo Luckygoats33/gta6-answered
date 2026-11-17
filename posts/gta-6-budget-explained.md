@@ -1,6 +1,7 @@
 ---
 title: GTA 6 Budget: What It Cost to Make, and Why Nobody Knows
-date: 2027-01-27
+date: 2026-11-15
+time: 20:58
 checked: 2026-11-16
 description: How much money was spent on GTA 6 development? What Take-Two has said, where the $1 billion and $2 billion figures come from, and how GTA V compares.
 keyword: gta 6 money spent on development
@@ -39,7 +40,7 @@ You don't need a leaked spreadsheet to see why the cost is big. A few things Roc
 - **The studio grew.** Rob Nelson, Rockstar's head of development, told Dazed that Rockstar has more than doubled in size since Red Dead Redemption 2.
 - **The research was deep.** The team spent years in Miami and the surrounding area, meeting all kinds of real-life figures for reference.
 - **The detail is enormous.** More than 50 street artists designed murals, and Rockstar built new tools to create its most varied population of characters yet.
-- **It took a long time.** GTA V came out in 2013. GTA 6 came out on November 19, 2026, after two delays, the last of them announced in November 2025.
+- **It took a long time.** GTA V came out in 2013. GTA 6 comes out on November 19, 2026, after two delays, the last of them announced in November 2025.
 
 Payroll for a very large team over many years, plus licensed music, motion capture and a global marketing push, gets expensive fast. The exact number is unknown. The scale isn't.
 

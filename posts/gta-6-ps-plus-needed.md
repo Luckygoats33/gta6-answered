@@ -1,6 +1,7 @@
 ---
 title: Do You Need PS Plus or an Xbox Subscription to Play GTA 6?
-date: 2027-01-24
+date: 2026-11-15
+time: 15:42
 checked: 2026-11-16
 description: GTA 6 PS Plus and Xbox subscription questions answered: what single-player needs, what online play usually requires, and which current plans include it.
 keyword: gta 6 ps plus
@@ -10,7 +11,7 @@ source: Xbox: Game Pass plans | https://www.xbox.com/en-US/xbox-game-pass
 source: Vice: GTA 6 Online release window report | https://www.vice.com/en/article/gta-6-online-release-window-bloomberg/
 source: Gfinity: Is GTA 6 on Game Pass? | https://www.gfinityesports.com/article/gta-6-game-pass
 ---
-No, you don't need GTA 6 PS Plus or an Xbox subscription to play the game. GTA 6 came out on November 19, 2026, as a single-player game, and the story mode doesn't sit behind a membership. You buy the game, you play it. Where a subscription usually comes in is online multiplayer, and Rockstar hasn't announced a date for GTA 6 Online.
+No, you don't need GTA 6 PS Plus or an Xbox subscription to play the game. GTA 6 comes out on November 19, 2026, as a single-player game, and the story mode doesn't sit behind a membership. You buy the game, you play it. Where a subscription usually comes in is online multiplayer, and Rockstar hasn't announced a date for GTA 6 Online.
 
 Here's the longer version, with the current plan names so you don't buy the wrong thing.
 
@@ -34,7 +35,7 @@ As with PlayStation, none of this is needed for GTA 6's single-player story on X
 
 ## Is GTA 6 on Game Pass or PS Plus?
 
-Not at launch. Reports before release said GTA 6 wasn't coming to Game Pass on day one, and Rockstar never announced otherwise. It isn't in the PlayStation Plus catalog either. Having Game Pass Ultimate or PS Plus Premium doesn't get you the game for free. Our [Game Pass answer](https://callunc.com/game-pass/) stays current if that changes.
+Not at launch. Reports say GTA 6 isn't coming to Game Pass on day one, and Rockstar hasn't announced otherwise. It isn't in the PlayStation Plus catalog either. Having Game Pass Ultimate or PS Plus Premium doesn't get you the game for free. Our [Game Pass answer](https://callunc.com/game-pass/) stays current if that changes.
 
 So subscriptions don't save you money on GTA 6 itself. You pay $79.99 for Standard or $99.99 for Ultimate (US prices), with or without a membership.
 
