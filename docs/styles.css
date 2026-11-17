@@ -181,6 +181,10 @@ h2 { font-size: clamp(2.2rem, 3vw + 1rem, 3.6rem); }
 .footer { padding-block: 64px 40px; margin-top: 40px; border-top: 4px solid var(--bone); display: grid; gap: 12px; }
 .statement { font: 400 clamp(2.6rem, 5vw, 4.8rem)/0.95 var(--font-display); text-transform: uppercase; }
 .foot-note { color: var(--bone-2); max-width: 60ch; }
+.social { display: flex; flex-wrap: wrap; gap: 12px; margin-block: 8px 4px; }
+.social a { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 18px; border: 2px solid var(--bone); border-radius: 999px; color: var(--bone); font-weight: 800; text-decoration: none; transition: background-color .15s ease, color .15s ease; }
+.social a:hover { background: var(--yellow); border-color: var(--yellow); color: var(--ink); }
+.social a:focus-visible { outline: 3px solid var(--cyan); outline-offset: 3px; }
 
 @media (max-width: 60rem) {
   .stage-inner { grid-template-columns: minmax(0, 1fr); padding-block: 220px 32px; }
