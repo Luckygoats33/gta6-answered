@@ -2,8 +2,8 @@
 title: Every GTA 6 Trailer So Far, Explained
 date: 2026-11-12
 time: 09:41
-checked: 2026-11-16
-description: Every official GTA 6 trailer in order: Trailer 1, Trailer 2, the Netflix Extended Look, the Launch Trailer, and why there's no Trailer 3.
+checked: 2026-11-17
+description: Every official GTA 6 trailer in order: Trailer 1, Trailer 2, the Netflix Extended Look, the Launch Trailer, and what took the place of Trailer 3.
 keyword: gta 6 trailer
 category: rumors-news
 source: VGC: Rockstar releases the first trailer early after a leak | https://www.videogameschronicle.com/news/the-gta-6-trailer-has-allegedly-leaked-online/
@@ -52,7 +52,9 @@ If you're looking for a "GTA 6 release video," the Launch Trailer is the closest
 
 ## Is there a Trailer 3?
 
-No. Rockstar has never released anything labeled Trailer 3. For most of 2026 fans counted down to one, and plenty of fake countdown sites and fan-made "Trailer 3" uploads filled the gap. The Extended Look and the Launch Trailer took its place.
+Not under that name. Rockstar's third official video is "Grand Theft Auto VI: An Extended Look", released on August 27, 2026. It did the job a Trailer 3 would have done, with about 27 minutes of gameplay in place of a two-minute cut, and the Launch Trailer followed in October.
+
+Rockstar has never released anything labeled Trailer 3. For most of 2026 fans counted down to one, and plenty of fake countdown sites and fan-made "Trailer 3" uploads filled the gap. Anything actually titled "Trailer 3" is fan-made.
 
 If you see a "new GTA 6 trailer" now, check that it comes from Rockstar's own YouTube channel or the Rockstar Newswire. Fan edits and AI-made "leaks" pick up millions of views on the strength of a thumbnail.
 
