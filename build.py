@@ -1,4 +1,5 @@
 """Build calluncgta: static pages from ANSWERS below. Run: py -3 build.py"""
+import urllib.parse
 import json, html, pathlib, re
 
 ROOT = pathlib.Path(__file__).parent / "docs"
@@ -315,6 +316,10 @@ def head(title, desc, path, prefix, schema):
     <a href="{prefix}rumors/">Rumors</a>
     <a href="{prefix}news/">News</a>
     <a href="{prefix}blog/">Blog</a>
+    <form class="sitesearch" action="{prefix}search/" method="get" role="search">
+      <input type="search" name="q" placeholder="Search" aria-label="Search calluncgta" autocomplete="off" enterkeyhint="search">
+      <button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg></button>
+    </form>
   </nav>
 </header>
 <script>
@@ -902,6 +907,59 @@ def ask_tag():
     return NL + f'<script src="/ask.js" data-api="{e(ASK_API)}" defer></script>'
 
 
+def plain_md(body, limit=1800):
+    t = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", body)
+    t = re.sub(r"[#*_`>|]", " ", t)
+    return re.sub(r"\s+", " ", t).strip()[:limit]
+
+
+def search_index():
+    """Everything the site search can find: answers, hub pages, facts, rumor checks, blog posts, headlines."""
+    out = []
+    for a in ANSWERS:
+        out.append({"k": "Answer", "t": a["q"], "d": a["a"], "u": a["slug"] + "/", "s": a["slug"].replace("-", " "), "x": " ".join(a["detail"]), "w": 12})
+    out.append({"k": "Page", "t": "GTA 6 launch times by region", "d": "Every region’s unlock time, converted to yours.", "u": "launch-times/", "s": "release time unlock",
+                "x": "release time unlock midnight countdown time zone " + " ".join(f"{p} {z}" for p, z, *_ in LAUNCH), "w": 8})
+    out.append({"k": "Page", "t": "GTA 6 facts", "d": "What Rockstar has confirmed, with sources.", "u": "facts/", "x": "confirmed price editions platforms", "w": 3})
+    out.append({"k": "Page", "t": "GTA 6 rumors, checked", "d": "Popular claims and whether they hold up.", "u": "rumors/", "x": "rumor leak fake true false", "w": 3})
+    out.append({"k": "Page", "t": "Latest GTA 6 news", "d": "Headlines from Rockstar and the gaming press, with dates and times.", "u": "news/", "x": "headlines today update", "w": 3})
+    for group, rows in FACTS:
+        for label, value, status, src in rows:
+            out.append({"k": "Fact", "t": f"{label}: {value}", "d": f"{group}. {status}.", "u": "facts/", "x": "", "w": 2})
+    for claim, verdict, know, src in RUMORS:
+        out.append({"k": "Rumor check", "t": f"“{claim}”: {verdict}", "d": know, "u": "rumors/", "x": "", "w": 2})
+    for p in POSTS:
+        out.append({"k": "Blog", "t": p["title"], "d": p["description"], "u": f'blog/{p["slug"]}/',
+                    "x": p.get("keyword", "") + " " + plain_md(p["body"]), "w": 1})
+    for o in NEWS["items"]:
+        out.append({"k": "News", "t": o["title"], "d": f'{news_source(o["source"])}, {news_when(o["date"])}. Opens the story at its source.', "u": o["url"], "x": o["source"]})
+    return out
+
+
+SEARCH_TRY = ["release time", "pre-load", "file size", "price", "PC", "PS5 Pro", "disc", "update", "early access", "map"]
+
+
+def search_page():
+    out = hub_head("search", "Search calluncgta", "Search every GTA 6 answer, fact, rumor check, blog post and headline on calluncgta.",
+                   "Search", "Type a question or a word. Results cover every answer, fact, rumor check, blog post and headline on the site.")
+    out = out.replace('content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"', 'content="noindex, follow"')
+    chips = "".join(f'<a href="?q={urllib.parse.quote(t)}">{e(t)}</a>' for t in SEARCH_TRY)
+    out += f"""  <section class="container search-wrap">
+    <form id="search-form" class="searchbox" role="search" action="./" method="get">
+      <input id="q" type="search" name="q" placeholder="What time does GTA 6 unlock?" aria-label="Search calluncgta" autocomplete="off" enterkeyhint="search">
+      <button class="btn btn--primary" type="submit">Search</button>
+    </form>
+    <p id="search-try" class="search-try"><span>Try</span> {chips}</p>
+    <p id="search-status" class="search-status" role="status" aria-live="polite"></p>
+    <ol id="results" class="post-list search-results"></ol>
+    <noscript><p>Search needs JavaScript. You can browse <a href="../#questions">all answers</a> or <a href="../blog/">the blog</a> instead.</p></noscript>
+  </section>
+</main>
+<script src="../search.js" defer></script>
+"""
+    return out + foot()
+
+
 def src_text(s):
     return f"{s[0]} ({s[1]})"
 
@@ -956,6 +1014,9 @@ def main():
         d = blog / p["slug"]
         d.mkdir()
         (d / "index.html").write_text(post_page(p), encoding="utf-8")
+    (ROOT / "search").mkdir(exist_ok=True)
+    (ROOT / "search" / "index.html").write_text(search_page(), encoding="utf-8")
+    (ROOT / "search.json").write_text(json.dumps(search_index(), ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     newest = POSTS[0]["date"] if POSTS else ISO_DATE
     dated = ([(BASE_URL, max(ISO_DATE, newest))] + [(f'{BASE_URL}{o["slug"]}/', ISO_DATE) for o in ANSWERS]
              + [(f"{BASE_URL}{s}/", ISO_DATE) for s in HUBS] + [(f"{BASE_URL}blog/", newest)]
@@ -973,7 +1034,7 @@ def main():
     worker_src = ROOT.parent / "worker" / "src"
     if worker_src.exists():
         (worker_src / "kb.ts").write_text("// Generated by build.py from the site data. Do not edit." + NL + "export const KB = " + json.dumps(kb_text(), ensure_ascii=False) + ";" + NL, encoding="utf-8")
-    for f in ("tokens.css", "base.css", "ask.js"):
+    for f in ("tokens.css", "base.css", "ask.js", "search.js"):
         (ROOT / f).write_text((ROOT.parent / f).read_text(encoding="utf-8"), encoding="utf-8")
     print("built", len(ANSWERS) + 1 + len(HUBS), "pages,", len(POSTS), "of", len(ALL_POSTS), "posts live (next:",
           min((p["date"] for p in ALL_POSTS if p["date"] > today_iso()), default="none") + ")")

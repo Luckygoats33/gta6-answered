@@ -311,3 +311,29 @@ h2 { font-size: clamp(2.2rem, 3vw + 1rem, 3.6rem); }
 .news-updated { margin: 0 0 12px; font-size: 0.875rem; color: var(--muted); }
 .news-updated time { color: var(--yellow); font-weight: 700; }
 .news-date, .post-date { font-variant-numeric: tabular-nums; }
+
+/* Site search */
+.topnav { align-items: center; }
+.sitesearch { display: inline-flex; align-items: stretch; margin-left: 8px; border: 2px solid var(--rule); background: var(--ink); }
+.sitesearch:focus-within { border-color: var(--cyan); }
+.sitesearch input { width: 8.5rem; min-width: 0; padding: 8px 10px; background: transparent; border: 0; color: var(--bone); font: 600 0.9rem/1.2 var(--font-body); }
+.sitesearch input::placeholder { color: var(--muted); }
+.sitesearch input:focus-visible { outline: none; }
+.sitesearch button { display: inline-flex; align-items: center; justify-content: center; width: 40px; background: transparent; border: 0; color: var(--bone); cursor: pointer; }
+.sitesearch button:hover { color: var(--cyan); }
+.sitesearch button:focus-visible { outline: 3px solid var(--cyan); outline-offset: -3px; }
+.search-wrap { padding-block: 0 64px; display: grid; gap: 18px; }
+.searchbox { display: flex; gap: 12px; flex-wrap: wrap; }
+.searchbox input { flex: 1 1 16rem; min-width: 0; padding: 16px 18px; background: var(--ink); border: 2px solid var(--bone); color: var(--bone); font: 600 1.15rem/1.3 var(--font-body); }
+.searchbox input::placeholder { color: var(--muted); }
+.searchbox input:focus-visible { outline: 3px solid var(--cyan); outline-offset: 2px; }
+.search-try { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 0; font-size: 0.95rem; color: var(--muted); }
+.search-try a { padding: 6px 12px; border: 2px solid var(--rule); text-decoration: none; color: var(--bone); }
+.search-try a:hover, .search-try a:focus-visible { border-color: var(--pink); color: var(--pink); }
+.search-status { margin: 0; color: var(--muted); min-height: 1.5em; }
+@media (max-width: 40rem) {
+  .js .topnav { align-items: stretch; }
+  .js .topnav .sitesearch { order: -1; display: flex; width: 100%; margin: 8px 0 4px; }
+  .sitesearch input { flex: 1; width: auto; padding: 12px; font-size: 1rem; }
+  .sitesearch button { width: 48px; }
+}
